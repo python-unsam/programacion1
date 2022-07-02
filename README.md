@@ -13,7 +13,7 @@ desarrollados por otres. Está orientado a preparar a le estudiante para
 profundizar en temas de **análisis y visualización de datos, aprendizaje automático, modelado matemático y desarrollo de scripts**.
 
 El curso ocupa un cuatrimestre y se dicta semanalmente en el laboratorio de informática
-El material de las clases teóricas, tanto escrito como videos, está disponible [en este repositorio](https://github.com/python-unsam/programacion1/blob/master/Notas/Contenidos.md).
+El material de las clases teóricas, tanto escrito como videos, está disponible [en este repositorio](https://github.com/python-unsam/programacion1/blob/master/Notas/index.md).
 
 
 ## Audiencia. ¿Para quién está pensado?
