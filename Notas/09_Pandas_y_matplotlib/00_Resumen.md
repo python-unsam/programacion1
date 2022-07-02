@@ -1,6 +1,8 @@
 [Contenidos](../Contenidos.md) \| [Anterior (8 Diseño, especificación, documentación y estilo.)](../08_Diseño_y_Especificacion/00_Resumen.md) \| [Próximo (10 Fechas y Carpetas)](../10_Fechas_y_Carpetas/00_Resumen.md)
 
-# 9. Damos un poco más sistemáticamente algunos conceptos de la biblioteca `matplotlib`, incluyendo el manejo de figuras y subplots.
+# 9. Pandas y matplotlib
+Damos un poco más sistemáticamente algunos conceptos de la biblioteca `matplotlib`, incluyendo el manejo de figuras y subplots.
+
 En la segunda mitad introducimos el módulo `pandas` y el tipo `DataFrame` así como algunos de sus métodos elementales. Usamos pandas para analizar dos datasets de Arbolado Porteño graficando algunos de sus datos. En esta parte tenés que comparar características de  árboles que crecen en los parques con otros que crecen en las veredas.
 
 
