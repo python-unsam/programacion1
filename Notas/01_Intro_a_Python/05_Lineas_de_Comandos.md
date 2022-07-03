@@ -6,6 +6,8 @@ En esta sección comenzamos a hablar de la terminal, o la linea de comandos del 
 
 ### La linea de comandos:
 
+Se relaciona con la Sección ?
+
 Listar un directorio, moverse entre carpetas, borrar un archivo, correr un programa.
 
 
