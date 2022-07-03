@@ -6,7 +6,7 @@ En esta sección comenzamos a hablar de la terminal, o la linea de comandos del 
 
 ### La linea de comandos:
 
-Se relaciona con la Sección ?
+Se relaciona con la [Sección 3.4](../03_Contenedores_y_Errores/04_Llamados_desde_cmd.md#llamados-desde-consola)
 
 Listar un directorio, moverse entre carpetas, borrar un archivo, correr un programa.
 
