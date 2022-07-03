@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (3 Errores)](03_Bugs.md) \| [Próximo (5 Cierre de la clase)](05_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 Errores)](03_Bugs.md) \| [Próximo (5 Cierre de la clase [falta])](05_Cierre.md)
 
 # 3.4 Llamados desde consola [falta]
 
@@ -18,5 +18,5 @@ El pedido para su entrega es
 3. El archivo `camion_commandline.py` del [Ejercicio 2.10](../02_Estructuras_y_Funciones/04_Funciones.md#ejercicio-210-ejecucion-desde-la-linea-de-comandos-con-parametros-sacar-de-aca).
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (3 Errores)](03_Bugs.md) \| [Próximo (5 Cierre de la clase)](05_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 Errores)](03_Bugs.md) \| [Próximo (5 Cierre de la clase [falta])](05_Cierre.md)
 
