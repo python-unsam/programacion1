@@ -6,7 +6,9 @@ Ya vimos que el python se puede correr desde la consola. También podemos correr
 
 ## Llamados desde consola:
 
-Ya vimos que el python se puede correr desde la consola. También podemos correr programas escritos en pythons desde la consola. Esto nos permite usarlos de manera muy práctica
+Se relaciona con \ref{linea_comandos}
+
+Ya vimos en \ref{linea_comandos} que el python se puede correr desde la consola. También podemos correr programas escritos en pythons desde la consola. Esto nos permite usarlos de manera muy práctica
 
 
 
