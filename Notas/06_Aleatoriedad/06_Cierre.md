@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (5 Gráficos del Arbolado porteño)](05_Arboles3_plt.md) \| [Próximo (7 El album de Figuritas)](07_Figuritas.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Gráficos del Arbolado porteño)](05_Arboles3_plt.md) \| [Próximo (7 Integrador: El album de Figuritas)](07_Figuritas.md)
 
 # 6.6 Cierre de la clase
 
@@ -22,5 +22,5 @@ Al terminar envianos tus ejercicios. Podrás participar de la revisión de pares
 Lo que sigue son actividades de integración para hacer en el tiempo que queda antes del parcial.
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (5 Gráficos del Arbolado porteño)](05_Arboles3_plt.md) \| [Próximo (7 El album de Figuritas)](07_Figuritas.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Gráficos del Arbolado porteño)](05_Arboles3_plt.md) \| [Próximo (7 Integrador: El album de Figuritas)](07_Figuritas.md)
 

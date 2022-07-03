@@ -1,8 +1,8 @@
-[Contenidos](../Contenidos.md) \| [Anterior (7 El album de Figuritas)](07_Figuritas.md)
+[Contenidos](../Contenidos.md) \| [Anterior (7 Integrador: El album de Figuritas)](07_Figuritas.md)
 
-# 6.8 Repaso de temas pasados
+# 6.8 Revisitando ejercicios.
 
-A continuación dejamos unos links a unos videos sobre un par de ejercicios de la clase 5:
+A continuación dejamos unos links a unos videos sobre un par de ejercicios de pasados:
 
 1. Ejercicio [Ejercicio 6.2](../06_Aleatoriedad/02_Random.md#ejercicio-62-generala-no-necesariamente-servida) sobre la probabilidad de obtener una generala no servida resuelto por [Matías](https://youtu.be/D_mipwwZjhM) y por [Rafael](https://youtu.be/c2SO3-iSd04).
 2. Ejercicio [Ejercicio 6.18](../06_Aleatoriedad/07_Figuritas.md#ejercicio-618) del [álbum de Figuritas](https://youtu.be/lSVNxPoRLJA).
@@ -136,5 +136,5 @@ o lineal como el [Ejercicio 6.29](../06_Aleatoriedad/08_Repaso.md#ejercicio-629-
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (7 El album de Figuritas)](07_Figuritas.md)
+[Contenidos](../Contenidos.md) \| [Anterior (7 Integrador: El album de Figuritas)](07_Figuritas.md)
 
