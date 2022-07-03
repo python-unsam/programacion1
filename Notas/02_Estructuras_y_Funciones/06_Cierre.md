@@ -9,7 +9,7 @@ Te recordamos que leas el [código de honor](../Codigo.md) del curso en el que h
 * Para cerrar esta clase te pedimos que recopiles las soluciones de los siguientes ejercicios:
     1. El archivo `buscar_precios.py` del [Ejercicio 2.7](../02_Estructuras_y_Funciones/04_Funciones.md#ejercicio-27-buscar-precios).
     2. El archivo `costo_camion.py` del [Ejercicio 2.9](../02_Estructuras_y_Funciones/04_Funciones.md#ejercicio-29-funciones-de-la-biblioteca).
-    3. El archivo `diccionario_geringoso.py` del [Ejercicio 2.14](../02_Estructuras_y_Funciones/05_TiposDatos.md#ejercicio-214-diccionario-geringoso).
+    3. El archivo `diccionario_geringoso.py` del [Ejercicio 2.13](../02_Estructuras_y_Funciones/05_TiposDatos.md#ejercicio-213-diccionario-geringoso).
     
 
 Observación: Si el enunciado de un ejercicio te pide que lo corras con un input particular, por favor poné la salida que obtuviste como comentario en tu código. 

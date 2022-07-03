@@ -109,10 +109,5 @@ Counter({'Caqui': 150, 'Durazno': 220, 'Frambuesa': 250, 'Lima': 150, 'Mandarina
 
 Esto es solo una pequeña muestra de lo que se puede hacer con contadores. El módulo  `collections` es muy poderoso pero meterse a ver sus detalles sería una distracción ahora. Sigamos con nuestro curso...
 
-
-
-
-
-
 [Contenidos](../Contenidos.md) \| [Anterior (2 Secuencias)](02_Secuencias.md) \| [Próximo (4 Impresión con formato)](04_Formato.md)
 
