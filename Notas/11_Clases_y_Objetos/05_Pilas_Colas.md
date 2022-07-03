@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (4 Métodos especiales)](04_Métodos_Especiales.md) \| [Próximo (6 Cierre de la clase [falta])](06_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (4 Métodos especiales)](04_Métodos_Especiales.md) \| [Próximo (6 Cierre de la clase [**falta**])](06_Cierre.md)
 
 # 11.5 Objetos, pilas y colas
 
@@ -257,5 +257,5 @@ Ejecutando g(), x vale 10
 ```
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (4 Métodos especiales)](04_Métodos_Especiales.md) \| [Próximo (6 Cierre de la clase [falta])](06_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (4 Métodos especiales)](04_Métodos_Especiales.md) \| [Próximo (6 Cierre de la clase [**falta**])](06_Cierre.md)
 

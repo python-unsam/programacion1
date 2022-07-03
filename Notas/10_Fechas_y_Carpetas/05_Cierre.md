@@ -9,9 +9,9 @@
     3. El archivo `otro.py` de un *ejercicio a inventar* que use algo de la clase.
     
 
-        Te proponemos además dos optativos:
+Te proponemos además un ejercicio optativo:
 
-        - El archivo  `ordenar_imgs.py` del [Ejercicio 10.6](../10_Fechas_y_Carpetas/04_Ordenando_archivos.md#ejercicio-106-ordenar-el-arbol-de-archivos-optativo).
+    - El archivo  `ordenar_imgs.py` del [Ejercicio 10.6](../10_Fechas_y_Carpetas/04_Ordenando_archivos.md#ejercicio-106-ordenar-el-arbol-de-archivos-optativo).
 
 Al terminar envianos tus ejercicios.
 

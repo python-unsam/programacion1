@@ -12,7 +12,7 @@ También estudiamos diversos estilos de gráficos, como obtener un vistazo rápi
 
 
 * Para cerrar esta clase te pedimos que recopiles las soluciones de los siguientes ejercicios:
-    1. El archivo `argumentos.py` de un *ejercicio a inventar* que use argv.
+    1. El archivo `argumentos.py` de un *ejercicio a inventar* que use argv, en la [Sección 8.3](../08_Diseño_y_Especificacion/03_Modulo_principal.md#modelo-de-script-con-parámetros).
     1. El archivo `fileparse.py` del [Ejercicio 8.6](../08_Diseño_y_Especificacion/04_Flexibilidad.md#ejercicio-86-de-archivos-a-objetos-cual-archivos).
     2. El archivo `informe_final.py` del [Ejercicio 8.7](../08_Diseño_y_Especificacion/04_Flexibilidad.md#ejercicio-87-arreglemos-las-funciones-existentes).
     3. El archivo `documentacion.py` del [Ejercicio 8.10](../08_Diseño_y_Especificacion/05_Especificacion_y_Documentacion.md#ejercicio-810-funciones-y-documentacion).
