@@ -254,7 +254,11 @@ Una cosa buena que tiene el módulo `csv` es que maneja solo una gran variedad d
 
 Modificá tu programa `costo_camion.py` para que use el módulo `csv` para leer los archivos CSV y probalo en un par de los ejemplos anteriores.
 
-### Ejercicio 2.10: Ejecución desde la línea de comandos con parámetros
+Ahora que viste funciones, te dejamos un [video](https://youtu.be/3QNtSWBqQwk) en el que repasamos el [Ejercicio 1.29](../01_Intro_a_Python/07_Listas.md#ejercicio-129-traductor-rustico-al-lenguaje-inclusivo) de lenguaje inclusivo usando una función.
+
+
+### Ejercicio 2.10: Ejecución desde la línea de comandos con parámetros - SACAR DE ACA
+*SACAR DE ACA*
 
 En el programa `costo_camion.py`, el nombre del archivo de entrada `'../Data/camion.csv'` fue escrito en el código.
 
@@ -314,7 +318,7 @@ Si no le pasamos ningún archivo, va a mostrar el resultado para `camion.csv` po
 Guardá tu programa en el archivo `camion_commandline.py` para entregar al final de la clase.
 
 
-Te dejamos un [video](https://youtu.be/D4WI4qsuwrQ) explicando cómo funciona el pasaje de parámetros por linea de comandos en python. Además, ahora que viste funciones, te dejamos un [video](https://youtu.be/3QNtSWBqQwk) en el que repasamos el [Ejercicio 1.29](../01_Intro_a_Python/07_Listas.md#ejercicio-129-traductor-rustico-al-lenguaje-inclusivo) de lenguaje inclusivo usando una función.
+Te dejamos un [video](https://youtu.be/D4WI4qsuwrQ) explicando cómo funciona el pasaje de parámetros por linea de comandos en python. 
 
 
 [Contenidos](../Contenidos.md) \| [Anterior (3 Manejo de archivos)](03_Archivos.md) \| [Próximo (5 Tipos y estructuras de datos)](05_TiposDatos.md)

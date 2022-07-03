@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (1 La biblioteca matplotlib)](01_Matplotlib.md) \| [Próximo (3 Cierre de la clase)](03_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (1 La biblioteca matplotlib)](01_Matplotlib.md) \| [Próximo (3 Cierre de la clase [falta])](03_Cierre.md)
 
 # 9.2 Introducción a Pandas
 
@@ -451,5 +451,5 @@ En este ejercicio te proponemos los siguientes pasos para comparar los diámetro
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (1 La biblioteca matplotlib)](01_Matplotlib.md) \| [Próximo (3 Cierre de la clase)](03_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (1 La biblioteca matplotlib)](01_Matplotlib.md) \| [Próximo (3 Cierre de la clase [falta])](03_Cierre.md)
 

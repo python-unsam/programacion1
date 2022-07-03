@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (7 Complejidad y Organización de programas.)](../07_Organizacion/00_Resumen.md) \| [Próximo (9 Pandas y matplotlib)](../09_Pandas_y_matplotlib/00_Resumen.md)
+[Contenidos](../Contenidos.md) \| [Anterior (7 Complejidad y Organización de programas.)](../07_Organizacion/00_Resumen.md) \| [Próximo (9 Pandas y matplotlib [falta])](../09_Pandas_y_matplotlib/00_Resumen.md)
 
 # 8. Diseño, especificación, documentación y estilo.
 En este curso queremos que aprendas a escribir un script que te resuelva un problema computacional. Pero también queremos que puedas escribir adecuadamente programas más grandes, que los puedas compartir y volver a usar vos misme unos años más tarde.
@@ -14,7 +14,7 @@ Por eso insistimos con algunos temas de estilo, documentación, especificiación
 * [8.4 Cuestiones de diseño](04_Flexibilidad.md)
 * [8.5 Contratos: Especificación y Documentación](05_Especificacion_y_Documentacion.md)
 * [8.6 Estilos de codeo](06_Estilo.md)
-* [8.7 Cierre de la clase](07_Cierre.md)
+* [8.7 Cierre de la clase [falta]](07_Cierre.md)
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (7 Complejidad y Organización de programas.)](../07_Organizacion/00_Resumen.md) \| [Próximo (9 Pandas y matplotlib)](../09_Pandas_y_matplotlib/00_Resumen.md)
+[Contenidos](../Contenidos.md) \| [Anterior (7 Complejidad y Organización de programas.)](../07_Organizacion/00_Resumen.md) \| [Próximo (9 Pandas y matplotlib [falta])](../09_Pandas_y_matplotlib/00_Resumen.md)

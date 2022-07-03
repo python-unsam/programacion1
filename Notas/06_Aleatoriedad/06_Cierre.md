@@ -9,9 +9,7 @@ En esta clase trabajamos con la generación de números (pseudo)aleatorios, el u
     1. El archivo `generala.py` del [Ejercicio 6.2](../06_Aleatoriedad/02_Random.md#ejercicio-62-generala-no-necesariamente-servida).
     2. El archivo `termometro.py` del [Ejercicio 6.8](../06_Aleatoriedad/03_NumPy_Arrays.md#ejercicio-68-guardar-temperaturas).
     3. El archivo `plotear_temperaturas.py` del [Ejercicio 6.9](../06_Aleatoriedad/03_NumPy_Arrays.md#ejercicio-69-empezando-a-plotear).
-    4. El archivo `figuritas.py` abarcando lo hecho con figuritas (al menos) hasta el [Ejercicio 6.18](../06_Aleatoriedad/07_Figuritas.md#ejercicio-618).
     5. El archivo `arboles.py` incluyendo al menos el [Ejercicio 6.11](../06_Aleatoriedad/05_Arboles3_plt.md#ejercicio-611-scatterplot-diametro-vs-alto-de-jacarandas).
-
 
 Al terminar envianos tus ejercicios. Podrás participar de la revisión de pares.
 
@@ -20,6 +18,9 @@ Al terminar envianos tus ejercicios. Podrás participar de la revisión de pares
 ¡Gracias! Nos vemos en la próxima clase.
 
 Lo que sigue son actividades de integración para hacer en el tiempo que queda antes del parcial.
+
+* Para cerrar esa integración te vamos a pedir que hagas los siguientes ejercicios:
+    4. El archivo `figuritas.py` abarcando lo hecho con figuritas, al menos hasta el [Ejercicio 6.18](../06_Aleatoriedad/07_Figuritas.md#ejercicio-618) (mirá la próxima sección para saber de qué hablamos).
 
 
 [Contenidos](../Contenidos.md) \| [Anterior (5 Gráficos del Arbolado porteño)](05_Arboles3_plt.md) \| [Próximo (7 Integrador: El album de Figuritas)](07_Figuritas.md)

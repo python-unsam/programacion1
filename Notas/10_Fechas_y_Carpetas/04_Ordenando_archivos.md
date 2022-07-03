@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (3 Manejo de archivos y carpetas)](03_Archivos_y_Directorios.md) \| [Próximo (5 Cierre de la clase)](05_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 Manejo de archivos y carpetas)](03_Archivos_y_Directorios.md) \| [Próximo (5 Cierre de la clase [falta])](05_Cierre.md)
 
 # 10.4 Ordenar archivos en Python
 
@@ -65,5 +65,5 @@ _Observación:_ Este tipo de tareas se repite con mucha frecuencia. Tener la cap
   * Al terminar de usar el código, comentá todas las instrucciones salvo los imports y las definiciones de funciones, para poder entregarlo al cierre de la clase.
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (3 Manejo de archivos y carpetas)](03_Archivos_y_Directorios.md) \| [Próximo (5 Cierre de la clase)](05_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 Manejo de archivos y carpetas)](03_Archivos_y_Directorios.md) \| [Próximo (5 Cierre de la clase [falta])](05_Cierre.md)
 

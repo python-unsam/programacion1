@@ -1,6 +1,6 @@
 [Contenidos](../Contenidos.md) \| [Anterior (5 Objetos, pilas y colas)](05_Pilas_Colas.md) \| [Próximo (7 Integrador y Repaso [falta])](07_Integrador.md)
 
-# 11.6 Cierre de la clase
+# 11.6 Cierre de la clase [falta]
 
 En esta clase vimos las ventajas de estructurar un programa con las ideas de Programación Orientada a Objetos. Vimos cómo podés definir tus propias clases y te mostramos cómo este paradigma puede aportar tanto a la organización de un programa "estático" como también para preparar programas para que sean fácilmente extensibles. 
 
@@ -20,6 +20,8 @@ La experiencia te va a permitir decidir (quizás tardíamente) cuándo es mas co
 Al terminar envianos tus ejercicios.
 
 [Entregar Ejercicios](http://programacionpython.ecyt.unsam.edu.ar/unit/submission/9)
+
+*idealmente quizas agregar un ejercicio integrador*
 
 ¡Nos vemos!
 

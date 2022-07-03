@@ -1,6 +1,6 @@
 [Contenidos](../Contenidos.md) \| [Anterior (6 Estilos de codeo)](06_Estilo.md)
 
-# 8.7 Cierre de la clase
+# 8.7 Cierre de la clase [falta]
 
 En esta clase vimos cómo se hace una administración eficiente de errores, cómo atrapar excepciones, cómo lanzarlas, y cuándo conviene hacer o no hacer estas cosas.
 
@@ -12,10 +12,11 @@ También estudiamos diversos estilos de gráficos, como obtener un vistazo rápi
 
 
 * Para cerrar esta clase te pedimos que recopiles las soluciones de los siguientes ejercicios:
+    1. El archivo `argumentos.py` de un *ejercicio a inventar* que use argv.
     1. El archivo `fileparse.py` del [Ejercicio 8.6](../08_Diseño_y_Especificacion/04_Flexibilidad.md#ejercicio-86-de-archivos-a-objetos-cual-archivos).
     2. El archivo `informe_final.py` del [Ejercicio 8.7](../08_Diseño_y_Especificacion/04_Flexibilidad.md#ejercicio-87-arreglemos-las-funciones-existentes).
     3. El archivo `documentacion.py` del [Ejercicio 8.10](../08_Diseño_y_Especificacion/05_Especificacion_y_Documentacion.md#ejercicio-810-funciones-y-documentacion).
-    4. El archivo `random_walk.py` del [Ejercicio 9.2](../09_Pandas_y_matplotlib/01_Matplotlib.md#ejercicio-92-caminatas-al-azar).
+    
 
 Al terminar envianos tus ejercicios. Podrás participar de la revisión de pares.
 
