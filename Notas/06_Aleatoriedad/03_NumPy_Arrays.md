@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (2 Random)](02_Random.md) \| [Próximo (4 Introducción a matplotlib)](04_Intro_mpl.md)
+[Contenidos](../Contenidos.md) \| [Anterior (2 Random)](02_Random.md) \| [Próximo (4 Introducción a matplotlib [falta])](04_Intro_mpl.md)
 
 # 6.3 NumPy
 
@@ -853,5 +853,5 @@ plt.show() #el show no hace falta en algunos entornos. A veces lo omitiremos.
 Ajustá la cantidad de _bins_ para que el gráfico se vea lo mejor posible.
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (2 Random)](02_Random.md) \| [Próximo (4 Introducción a matplotlib)](04_Intro_mpl.md)
+[Contenidos](../Contenidos.md) \| [Anterior (2 Random)](02_Random.md) \| [Próximo (4 Introducción a matplotlib [falta])](04_Intro_mpl.md)
 

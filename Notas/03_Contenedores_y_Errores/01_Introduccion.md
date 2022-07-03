@@ -1,6 +1,6 @@
 [Contenidos](../Contenidos.md) \| [Próximo (2 Contenedores)](02_Contenedores.md)
 
-# 3.1 Introducción
+# 3.1 Introducción [falta]
 
 En esta sección introcucimos los temas.
 

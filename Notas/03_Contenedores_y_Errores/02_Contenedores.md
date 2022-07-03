@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción)](01_Introduccion.md) \| [Próximo (3 Errores)](03_Bugs.md)
+[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción [falta])](01_Introduccion.md) \| [Próximo (3 Errores)](03_Bugs.md)
 
 # 3.2 Contenedores
 
@@ -387,5 +387,5 @@ Ahora vamos calcular el balance del negocio: juntá todo el trabajo que hiciste 
 Ayuda: hubo una ganancia de algo más de quince mil pesos.
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción)](01_Introduccion.md) \| [Próximo (3 Errores)](03_Bugs.md)
+[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción [falta])](01_Introduccion.md) \| [Próximo (3 Errores)](03_Bugs.md)
 

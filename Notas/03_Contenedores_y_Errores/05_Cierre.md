@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (4 Llamados desde consola [*falta*])](04_Llamados_desde_cmd.md)
+[Contenidos](../Contenidos.md) \| [Anterior (4 Llamados desde consola [falta])](04_Llamados_desde_cmd.md)
 
 # 3.5 Cierre de la clase
 
@@ -21,5 +21,5 @@ Observación: Si el enunciado de un ejercicio te pide que lo corras con un input
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (4 Llamados desde consola [*falta*])](04_Llamados_desde_cmd.md)
+[Contenidos](../Contenidos.md) \| [Anterior (4 Llamados desde consola [falta])](04_Llamados_desde_cmd.md)
 

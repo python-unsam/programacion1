@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (2 Condicionales, ciclos y variables booleanas)](02_Condicionales_Ciclos.md) \| [Próximo (4 Números)](04_Numeros.md)
+[Contenidos](../Contenidos.md) \| [Anterior (2 Condicionales, ciclos y variables booleanas [falta])](02_Condicionales_Ciclos.md) \| [Próximo (4 Números)](04_Numeros.md)
 
 # 1.3 Un primer programa
 
@@ -448,5 +448,5 @@ Escribí un programa llamado `saludo.py` que pregunte el nombre de le usuarie, i
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (2 Condicionales, ciclos y variables booleanas)](02_Condicionales_Ciclos.md) \| [Próximo (4 Números)](04_Numeros.md)
+[Contenidos](../Contenidos.md) \| [Anterior (2 Condicionales, ciclos y variables booleanas [falta])](02_Condicionales_Ciclos.md) \| [Próximo (4 Números)](04_Numeros.md)
 

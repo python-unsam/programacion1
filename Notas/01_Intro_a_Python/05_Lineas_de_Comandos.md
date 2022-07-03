@@ -1,6 +1,6 @@
 [Contenidos](../Contenidos.md) \| [Anterior (4 Números)](04_Numeros.md) \| [Próximo (6 Cadenas)](06_Strings.md)
 
-# 1.5 Linea de Comandos
+# 1.5 Linea de Comandos [falta]
 
 En esta sección comenzamos a hablar de la terminal, o la linea de comandos del sistema operativo. Es la pantalla negra que nos permite interactuar con la compu de manera muy elemental.
 
