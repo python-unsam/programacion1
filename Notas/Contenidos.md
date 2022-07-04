@@ -15,5 +15,5 @@
 * [11. Clases y objetos](11_Clases_y_Objetos/00_Resumen.md)
 
 
-[Información sobre el curso](index.md) 
+[Inicio](index.md) 
 
