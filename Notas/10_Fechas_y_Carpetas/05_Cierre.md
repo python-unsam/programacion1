@@ -6,7 +6,7 @@
 * Para cerrar esta clase te pedimos que recopiles las soluciones de los siguientes ejercicios:
     1. El archivo `vida.py` del [Ejercicio 10.1](../10_Fechas_y_Carpetas/02_Fechas.md#ejercicio-101-segundos-vividos).
     2. El archivo `listar_imgs.py` del [Ejercicio 10.5](../10_Fechas_y_Carpetas/04_Ordenando_archivos.md#ejercicio-105-recorrer-el-arbol-de-archivos).
-    3. El archivo `otro.py` de un *ejercicio a inventar* que use algo de la clase.
+    3. El archivo `otro.py` de un *ejercicio a inventar* que use algo de la clase. [falta]
     
 
 Te proponemos además un ejercicio optativo:

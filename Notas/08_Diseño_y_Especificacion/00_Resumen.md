@@ -3,7 +3,7 @@
 # 8. Diseño, especificación, documentación y estilo [**falta**]
 En este curso queremos que aprendas a escribir un script que te resuelva un problema computacional. Pero también queremos que puedas escribir adecuadamente programas más grandes, que los puedas compartir y volver a usar vos misme unos años más tarde. Por eso insistimos con algunos temas de estilo, documentación, especificiación y diseño que ya hemos comentado anteriormente y sobre los que volveremos en esta clase. 
 
-Uno de ellos es que es conveniente administrar los errores; seguiremos hablando sobre las formas adecuadas de hacerlo y porqué no conviene hacerlo de más. **pensar si esto no es demasiado para el curso**.
+Uno de ellos es que es conveniente administrar los errores; seguiremos hablando sobre las formas adecuadas de hacerlo y porqué no conviene hacerlo de más. **pensar si esto no es demasiado para el curso**. [falta]
 
 
 También se vuelve indispensable estructurar adecuadamente el código y aprender a definir una función *main*. Vamos a continuar con nuestras discusiones sobre el diseño de algoritmos y sus estructuras de datos asociadas. También queremos que aprendas algunos conceptos elementales sobre especificación de problemas. Son procesos de abstracción que nos ayudan a pensar con mayor claridad. Al especificar un problema con precondiciones y poscondiciones estamos definiendo qué es lo que debe pasar en una función, por ejemplo (aunque en ningún momento decimos cómo debe pasar esto). Una especificación es como un contrato y podemos definir varias funciones que cumplan el contrato, y cada una puede resolverlo a su manera.

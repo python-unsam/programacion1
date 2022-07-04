@@ -17,7 +17,6 @@ El ejercicio para la revisión de pares de esta semana es de programación orien
 * [11.5 Objetos, pilas y colas](05_Pilas_Colas.md)
 * [11.6 Cierre de la clase [**falta**]](06_Cierre.md)
 * [11.7 Integrador y Repaso [falta]](07_Integrador.md)
-* [11.8 Preguntas pendientesIntegrador y Repaso [falta]](08_PreguntasAbiertas.md)
 
 
 [Contenidos](../Contenidos.md) \| [Anterior (10 Fechas y Carpetas)](../10_Fechas_y_Carpetas/00_Resumen.md)
