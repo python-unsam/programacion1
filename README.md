@@ -27,14 +27,15 @@ El objetivo de este curso es enseñar los fundamentos del lenguaje
 Python y algunos conceptos del diseño de algoritmos. El curso está orientado al manejo de datos, a la escritura de scripts y a una organización adecuada de los programas. Estudiaremos un poco de teoría de algoritmos, incluyendo conceptos básicos de la teoría de la complejidad y algunas estructuras de datos no triviales. Introduciremos la programación orientada a objetos. Al final de este curso les estudiantes deberían poder escribir sus propios programas en Python así como entender y modificar programas escritos por otres.
 
 ## Requerimientos
-Para hacer este curso solo hace falta tener instalado el Python 3.6
-(o uno más nuevo), comprometerse a leer las clases y a hacer los 
-ejercicios de las guías semanales, lo que demandará alrededor de 15 horas de
-dedicación semanal (en algunos casos menos, en algunos casos más, dependiendo del estudiante). 
-
 Este es un curso cuatrimestral de grado con guías de ejercicios de entrega semanal 
 obligatoria y encuentros presenciales en el laboratorio donde 
 habrá espacio para consultas. 
+
+Para hacer este curso solo hace falta estar inscriptx, tener instalado el Python 3.6
+(o uno más nuevo), comprometerse a leer las clases y a hacer los 
+ejercicios de las guías semanales. Estimamos que esto te demandará alrededor de 15 horas de
+dedicación semanal (en algunos casos menos, en algunos casos más, dependiendo del estudiante). 
+
 
 ## Docentes
 El curso está a cargo de dos profesores de la ECyT-UNSAM que son también 
