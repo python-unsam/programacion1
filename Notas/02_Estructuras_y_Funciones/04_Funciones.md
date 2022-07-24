@@ -101,7 +101,7 @@ Suele ser difícil saber exactamente qué tipo de errores pueden ocurrir por ade
 
 ### Generar excepciones
 
-Para generar una excepción (también diremos *levantar* una excepción, porque más cercano al término inglés "raise"), se usa el comando `raise`. Por ejemplo, si tenemos el siguiente código en el archivo `foo.py`:
+Para generar una excepción (también diremos *levantar* una excepción, porque es más cercano al término inglés "raise"), se usa el comando `raise`. Por ejemplo, si tenemos el siguiente código en el archivo `foo.py`:
 
 ```python
 raise RuntimeError('¡Qué moco!')

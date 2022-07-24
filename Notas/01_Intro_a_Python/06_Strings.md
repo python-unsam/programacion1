@@ -249,7 +249,7 @@ Ups! No es exactamente lo que queríamos. Reparalo para que quede `'Manzana,Nara
 >>>
 ```
 
-Agregá 'Melón'` al principio de la cadena:
+Agregá 'Melón' al principio de la cadena:
 
 ```python
 >>> frutas = ?
@@ -353,7 +353,7 @@ Para hacer eso, usá una f-string. Por ejemplo:
 >>>
 ```
 
-Modificá el programa `hipoteca.py` del [Ejercicio 1.11](../01_Intro_a_Python/04_Numeros.md#ejercicio-111-bonus) de la sección anterior para que escriba su salida usando f-strings. Tratá de hacer que la salida quede bien alineada.
+Modificá el programa `hipoteca.py` del [Ejercicio 1.11](../01_Intro_a_Python/04_Numeros.md#ejercicio-111-hipoteca-ajustado) de la sección anterior para que escriba su salida usando f-strings. Tratá de hacer que la salida quede bien alineada.
 
 
 ### Ejercicio 1.21: Expresiones regulares
@@ -376,7 +376,7 @@ Para más información sobre el módulo `re`, mirá la [documentación oficial e
 
 ### Comentario
 
-A medida que empezás a usar Python es usual que quieras saber qué otras operaciones admiten los objetos con los que estás trabajando. Por ejemplo. ¿cómo podés averiguar qué operaciones se pueden hacer con una cadena?
+A medida que empezás a usar Python es usual que quieras saber qué otras operaciones admiten los objetos con los que estás trabajando. Por ejemplo ¿cómo podés averiguar qué operaciones se pueden hacer con una cadena?
 
 Dependiendo de tu entorno de Python, podrás ver una lista de métodos disponibles apretando la tecla tab.  Por ejemplo, intentá esto:
 

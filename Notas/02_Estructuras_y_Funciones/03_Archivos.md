@@ -49,7 +49,7 @@ with open(nombre_archivo, 'rt') as file:
 
 Esto cierra automáticamente el archivo cuando se termina de ejecutar el bloque indentado.
 
-_Observación: En algunos sistemas operativos es probable que le tengas que especificar el_ encoding _agregando `encoding='utf8'` como parámetro al comando `open`._
+_Observación: En algunos sistemas operativos es probable que le tengas que especificar el_ encoding _agregando `encoding='utf8'` como parámetro al comando `open`. Algo tipo `open('foo.txt', 'rt', encoding='utf8')`._
 
 ### Comandos usuales para leer un archivo
 
@@ -123,7 +123,7 @@ En el ejemplo de arriba podrás observar que Python tiene dos modos de salida. E
 
 Leer un archivo entero y cargarlo en memoria todo de una vez parece simple, pero sólo tiene ventajas si el archivo es pequeño. Si estás trabajando con archivos enormes es mejor procesar las líneas de tu archivo una a una.
 
-Para leer una archivo línea por línea, usá un ciclo for como éste:
+Para leer un archivo línea por línea, usá un ciclo for como este:
 
 ```python
 >>> with open('../Data/camion.csv', 'rt') as f:

@@ -61,7 +61,7 @@ x ** y     Potencia
 abs(x)     Valor absoluto
 ```
 
-La unidad mínima de almacenamiento de una computadora es un bit, que puede valer 0 o 1. Los números, caracteres e incluso imágenes y sonido son almacenados en la máquina usando bits. Los números enteros positivos, en particular, suelen almacenarse mediante su representación binaria (o en base dos).
+La unidad mínima de almacenamiento de una computadora es un bit, que puede valer 0 o 1. Los números, caracteres e incluso imágenes y sonidos son almacenados en la máquina usando bits. Los números enteros positivos, en particular, suelen almacenarse mediante su representación binaria (o en base dos).
 
 | Número        | Representación binaria       |
 | ------------- |-------------|
@@ -114,7 +114,7 @@ b = 4e5 # 4 x 10**5 o 400,000
 c = -1.345e-10
 ```
 
-Los números de tipo floats son representados en la máquina como números de doble precisión usando la representación nativa del microprocesador que sigue el estándar [IEEE 754](https://es.wikipedia.org/wiki/IEEE_754).
+Los números de tipo float son representados en la máquina como números de doble precisión usando la representación nativa del microprocesador que sigue el estándar [IEEE 754](https://es.wikipedia.org/wiki/IEEE_754).
 Para los que los conozcan: es el mismo tipo que los `double` en el lenguaje C.
 
 > Un `float` almacenan hasta 17 digitos con un
@@ -277,7 +277,7 @@ Total pagado:  880074.1
 Meses:  310
 ```
 
-### Ejercicio 1.11: Bonus
+### Ejercicio 1.11: Hipoteca ajustado
 Ya que estamos, corregí el código anterior de forma que el pago del último mes se ajuste a lo adeudado.
 
 Asegurate de guardar en el archivo  `hipoteca.py` esta última versión en tu directorio `ejercicios_python/Clase01/`. Vamos a volver a trabajar con él.
