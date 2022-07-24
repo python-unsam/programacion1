@@ -32,11 +32,9 @@ Para hacer este curso solo hace falta tener instalado el Python 3.6
 ejercicios de las guías semanales, lo que demandará alrededor de 15 horas de
 dedicación semanal (en algunos casos menos, en algunos casos más, dependiendo del estudiante). 
 
-## Dedicación y duración
 Este es un curso cuatrimestral de grado con guías de ejercicios de entrega semanal 
 obligatoria y encuentros presenciales en el laboratorio donde 
-habrá espacio para consultas. El curso demanda unas quince 
-horas semanales de dedicación, durante cuatro meses.
+habrá espacio para consultas. 
 
 ## Docentes
 El curso está a cargo de dos profesores de la ECyT-UNSAM que son también 
