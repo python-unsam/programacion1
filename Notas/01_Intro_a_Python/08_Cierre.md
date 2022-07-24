@@ -4,7 +4,7 @@
 
 En esta clase aprendimos a correr el intérprete de Python desde la línea de comandos para usarlo como una calculadora. Aprendimos a editar programas con un editor de texto y a correrlos en la terminal. Vimos diferentes tipos de datos: números enteros, números de punto flotante, cadenas y listas.
 
-Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Por favor, usá siempre la misma dirección de mail así podemos llevar registro de tus entregas. Si cambiás de mail, vamos a registrar mal tus entregas. Como *subject* del email deberás poner **[Unidad 1]** así tal cual. La semana próxima será **[Unidad 2]** y así sucesivamente hasta fin de cuatrimestre.
+Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Por favor, usá siempre la misma dirección de mail así podemos llevar registro de tus entregas. Si cambiás de mail, vamos a registrar mal tus entregas. Como *subject* del email deberás poner **[Unidad 1]** así, tal cual, con los corchetes y un solo espacio. La semana próxima será **[Unidad 2]** y así sucesivamente hasta fin de cuatrimestre.
 
 Si estás inscriptx en el turno de los miércoles, mandá tus ejercicios a python@unsam.edu.ar, si estás inscriptx en el turno de los jueves mandalos a pythonunsam@gmail.com.
 
