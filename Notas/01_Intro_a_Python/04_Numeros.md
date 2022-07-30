@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (3 Un primer programa)](03_Hello_world.md) \| [Próximo (5 Linea de Comandos)](05_Lineas_de_Comandos.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 Un primer programa)](03_Hello_world.md) \| [Próximo (5 Linea de comandos)](05_Lineas_de_Comandos.md)
 
 # 1.4 Números
 
@@ -291,5 +291,5 @@ En tu directorio de trabajo de esta clase, escribí un programa llamado `esfera.
 Finalmente, ejecutá el programa desde la línea de comandos para responder ¿cuál es el volumen de una esfera de radio 6? Debería darte `904.7786842338603`.
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (3 Un primer programa)](03_Hello_world.md) \| [Próximo (5 Linea de Comandos)](05_Lineas_de_Comandos.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 Un primer programa)](03_Hello_world.md) \| [Próximo (5 Linea de comandos)](05_Lineas_de_Comandos.md)
 

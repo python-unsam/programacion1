@@ -1,6 +1,6 @@
 [Contenidos](../Contenidos.md) \| [Anterior (4 Números)](04_Numeros.md) \| [Próximo (6 Cadenas)](06_Strings.md)
 
-# 1.5 Linea de Comandos
+# 1.5 Linea de comandos
 
 En esta sección comenzamos a hablar de la terminal, o la linea de comandos del sistema operativo. Es es un programa que podés instalar como cualquier otro, aunque tanto en Windows como en Linux y Mac OS se instala junto con el sistema operativo, y aunque es la forma más primitiva de interactuar con le usuarie, es también en muchos casos la más rápida, la más versátil, y la más segura.
 

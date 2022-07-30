@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Próximo (2 Variables, Condicionales y Ciclos)](02_Condicionales_Ciclos.md)
+[Contenidos](../Contenidos.md) \| [Próximo (2 Variables, condicionales y ciclos)](02_Condicionales_Ciclos.md)
 
 # 1.1 Python
 
@@ -97,5 +97,5 @@ Advertencia: Cuando tenés algo como el código de arriba, no es posible copiar 
 
 
 
-[Contenidos](../Contenidos.md) \| [Próximo (2 Variables, Condicionales y Ciclos)](02_Condicionales_Ciclos.md)
+[Contenidos](../Contenidos.md) \| [Próximo (2 Variables, condicionales y ciclos)](02_Condicionales_Ciclos.md)
 

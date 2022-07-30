@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (5 Linea de Comandos)](05_Lineas_de_Comandos.md) \| [Próximo (7 Listas)](07_Listas.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Linea de comandos)](05_Lineas_de_Comandos.md) \| [Próximo (7 Listas)](07_Listas.md)
 
 # 1.6 Cadenas
 
@@ -416,5 +416,5 @@ upper(...)
 ```
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (5 Linea de Comandos)](05_Lineas_de_Comandos.md) \| [Próximo (7 Listas)](07_Listas.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Linea de comandos)](05_Lineas_de_Comandos.md) \| [Próximo (7 Listas)](07_Listas.md)
 
