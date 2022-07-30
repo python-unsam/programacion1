@@ -87,7 +87,7 @@ Notá que asignamos distintos tipos de valores a la misma variable. Decimos que 
 
 
 ### Booleanos (bool)
-Uno de los tipos de datos mas usados es el booleano.
+Uno de los tipos de datos más importes es el booleano.
 
 Las variables booleanas se llaman así en honor al lógico inglés [George Boole](https://es.wikipedia.org/wiki/George_Boole). Pueden tomar dos valores: `True` o `False` (verdadero o falso).
 
@@ -110,7 +110,7 @@ False
 False
 ```
 
-El operador `==` devuelve True si ambos lados son iguales, devuelve False si no lo son. No confundirlo con `=` usado para asignaciones. 
+El operador `==` devuelve True si ambos lados son iguales, y devuelve False si no lo son. No confundirlo con `=` que es usado para asignaciones. 
 
 Internamente, los booleanos son evaluados como enteros con valores `1`, `0`.
 
@@ -125,7 +125,7 @@ Internamente, los booleanos son evaluados como enteros con valores `1`, `0`.
 
 ### Palabras reservadas
 
-Habrás notado que `True` y `False` se capitalizan. Son _palabras reservadas_ que Python conoce. Ya tienen un significado asignado y por lo tanto no es posible usarlas como variables. Si le pedimos a Python que asigne un valor a una variable llamada `True` nos va a contestar que no puede:
+Habrás notado que `True` y `False` se escriben con mayúscula. Son _palabras reservadas_ que Python conoce. Ya tienen un significado asignado y por lo tanto no es posible usarlas como variables. Si le pedimos a Python que asigne un valor a una variable llamada `True` nos va a contestar que no puede:
 
 ```python
 >>> True = 100
@@ -159,64 +159,51 @@ El parámetro del `print` puede ser una variable. El texto impreso en ese caso s
 >>> print(x) # imprime el texto '100'
 ```
 
-Si le pasás más de un valor al `print`, los separa con espacios.
+Si le pasás más de un valor al `print`, los imprime separándolos con espacios.
 
 ```python
 >>> nombre = 'Juana'
 >>> print('Mi nombre es', nombre) # Imprime el texto 'Mi nombre es Juana'
 ```
 
-`print()` siempre termina la línea impresa pasando a la siguiente.
+`print()` siempre termina la línea impresa pasando a la siguiente (_newline_), salvo que le especifiquemos otra cosa. Probá estos comandos para ver sus diferencias:
 
 ```python
->>> print('Hola')
->>> print('Mi nombre es', 'Juana')
+>>> print('Hola mundo')
+>>> print('Hola mundo', end='')
+>>> print('Hola mundo', end='***')
+>>> print('Hola mundo', end='\n')
+>>> print('Hola mundo', end='\n\n')
+>>> print('Hola mundo', end='\n\n\n')
+>>> print('Hola mundo', end='\t')
+>>> print('Hola mundo', end='\n\t')
 ```
 
-Esto imprime:
-
-```code
-Hola
-Mi nombre es Juana
-```
-
-Este salto de línea entre ambos comandos puede ser suprimido o reemplazado (en este caso por un espacio):
-
-```python
->>> print('Hola', end=' ')
->>> print('Mi nombre es', 'Juana')
-```
-
-Este código va a imprimir:
-
-```code
-Hola Mi nombre es Juana
-```
 
 
 ### Condicionales
 
-El comando `if` permite que ciertas secciones de un programa se ejecuten o no según el resultado de una condición. A esto lo llamamos _ejecución condicional_. 
+El comando `if` permite que ciertos fragmentos de un programa se ejecuten o no según el resultado de una condición. A esto lo llamamos _ejecución condicional_. 
 
 ```python
 >>> una = 3
 >>> otra = 6
 >>> if una < otra:
->>>     print("una es menor que otra")
+...     print("una es menor que otra")
 una es menor que otra
 ```
 
-Examinemos estas dos líneas un momento. La primera línea comienza con un `if` y termina con un `:`. Entre el `if` y el `:` hay una comparación (`una < otra` llamada "condición") que puede cumplirse o no. Sólo si esta condición se cumple Python ejecuta el bloque de código indentado.
+Examinemos estas dos líneas un momento. La primera línea comienza con un `if` y termina con un `:`. Entre el `if` y el `:` hay una comparación, `una < otra`, llamada "condición". Esta condición puede cumplirse o no. Sólo si esta condición se cumple Python ejecuta el bloque de código indentado que sigue.
 
-_Probar:_ Cambiá el operador `<` por `==` ó `>` y los valores de `una` y `otra` y fijate en qué casos se ejecuta el `print()`.
+_Probá:_ Cambiá el operador `<` por `==` ó `>` y los valores de `una` y `otra` y fijate en qué casos se ejecuta el `print()`.
 
-El comando `else` define un bloque que sólo se ejecutará si la condición del `if` precedente _no_ se cumplió.
+El comando `else` define un bloque que sólo se ejecutará si la condición del `if` precedente _no_ se cumplió (_else_ en inglés significa _si no_)
 
 ```python
 >>> if una < otra:
->>>     print('Gana otra')
->>> else:
->>>     print('Gana una')
+...     print('Gana otra')
+... else:
+...     print('Gana una')
 Gana una
 ```
 
@@ -228,11 +215,11 @@ Podés verificar condiciones mutuamente excluyentes agregando condiciones extras
 >>> una = 3
 >>> otra = 6
 >>> if una > otra:
->>>     print('Gana una')
->>> elif una < otra:
->>>     print('Gana otra')
->>> else:
->>>     print('Empate!')
+...     print('Gana una')
+... elif una < otra:
+...     print('Gana otra')
+... else:
+...     print('Empate!')
 ```
 
 El comando `elif` viene de *else, if* y puede traducirse como "sólo si no se cumple la condición del *if* anterior, verificá si se cumple la siguiente".
@@ -242,7 +229,7 @@ Una forma de entender las variables booleanas es pensarlas como el resultado de 
 ```python
 >>> a = False
 >>> if una == otra:
->>>     a = True
+...     a = True
 ```
 
 
@@ -252,8 +239,8 @@ Para ejecutar una porción de código únicamente si ciertas condiciones se cump
 
 ```python
 >>> while una < otra:
->>>     una = una + 1
->>>     print (una)
+...     una = una + 1
+...     print (una)
 >>> print('una:', una, 'otra:', otra)
 ```
 
@@ -267,16 +254,16 @@ Considerá el ejemplo anterior:
 
 ```python
 >>> while una < otra:
->>>     una = una + 1
->>>     print (una)
->>> print ('una:',una,'otra:',otra)
+...     una = una + 1
+...     print (una)
+... print ('una:',una,'otra:',otra)
 ```
 
 La indentación agrupa los comandos siguientes como las operaciones a repetir:
 
 ```python
->>>     una = una + 1
->>>     print (una)
+     una = una + 1
+     print (una)
 ```
 
 Como el comando  `print()` del final no está indentado, no pertenece al ciclo. La línea en blanco que dejamos entre ambos solo está para facilitar la lectura y no afecta la ejecución.
@@ -293,9 +280,9 @@ El único requisito del intérprete de Python es que la indentación dentro de u
 
 ```python
 >>> while num_billetes * grosor_billete <= altura_obelisco:
->>>     print(dia, num_billetes, num_billetes * grosor_billete)
->>>         dia = dia + 1 # ERROR
->>>     num_billetes = num_billetes * 2
+...     print(dia, num_billetes, num_billetes * grosor_billete)
+...         dia = dia + 1 # ERROR
+...     num_billetes = num_billetes * 2
 ```
 
 
