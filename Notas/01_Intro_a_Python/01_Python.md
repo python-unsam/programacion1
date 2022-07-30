@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Próximo (2 Condicionales, ciclos y variables booleanas [falta])](02_Condicionales_Ciclos.md)
+[Contenidos](../Contenidos.md) \| [Próximo (2 # Variables, Condicionales y Ciclos)](02_Condicionales_Ciclos.md)
 
 # 1.1 Python
 
@@ -32,7 +32,7 @@ hello world
 
 Si es la primera vez que ves una consola o terminal, sería conveniente que pares aquí, leas [un tutorial corto](https://tutorial.djangogirls.org/es/intro_to_command_line/) sobre cómo usar la consola de tu sistema operativo y luego vuelvas para seguir leyendo.
 
-Existen diversos entornos fuera de la terminal en los que se puede escribir y ejecutar código Python. Pero para nosotros es importante que primero aprendas a usarlo desde la terminal: si lo sabés usar bien desde la terminal (que es su entorno natural) lo podrás usar en cualquier otro entorno. Ya en la próxima clase usarás Python dentro de un entorno de desarrollo. Por ahora, te recomendamos usarlo de esta manera que  acabamos de explicar.
+Existen diversos entornos fuera de la terminal en los que se puede escribir y ejecutar código Python. Pero para nosotres es importante que primero aprendas a usarlo desde la terminal: si lo sabés usar bien desde la terminal (que es su entorno natural) lo podrás usar en cualquier otro entorno. Ya en la próxima clase usarás Python dentro de un entorno de desarrollo. Por ahora, te recomendamos usarlo de esta manera que  acabamos de explicar.
 
 ## Ejercicios
 
@@ -59,7 +59,6 @@ tip: Usá el guión bajo (underscore, \_) para referirte al resultado del últim
 >>> _/1.75
 18.391650190813372
 ```
-
 
 ### Ejercicio 1.2: Obtener ayuda
 Usá el comando `help()` para obtener ayuda sobre la función  `abs()`. Luego, usá el `help()` para obtener la ayuda sobre la función `round()`. Tipeá `help()` sólo para entrar en la ayuda en modo  interactivo. Con `q` salís del help.
@@ -98,5 +97,5 @@ Advertencia: Cuando tenés algo como el código de arriba, no es posible copiar 
 
 
 
-[Contenidos](../Contenidos.md) \| [Próximo (2 Condicionales, ciclos y variables booleanas [falta])](02_Condicionales_Ciclos.md)
+[Contenidos](../Contenidos.md) \| [Próximo (2 # Variables, Condicionales y Ciclos)](02_Condicionales_Ciclos.md)
 

@@ -4,12 +4,12 @@
 
 En esta clase aprendimos a correr el intérprete de Python desde la línea de comandos para usarlo como una calculadora. Aprendimos a editar programas con un editor de texto y a correrlos en la terminal. Vimos diferentes tipos de datos: números enteros, números de punto flotante, cadenas y listas.
 
-Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Por favor, usá siempre la misma dirección de mail así podemos llevar registro de tus entregas. Si cambiás de mail, vamos a registrar mal tus entregas. Como *subject* del email deberás poner **[Unidad 1]** así, tal cual, con los corchetes y un solo espacio. La semana próxima será **[Unidad 2]** y así sucesivamente hasta fin de cuatrimestre.
+Como todas las semanas, te vamos a pedir que envíes tus ejercicios resueltos por mail. Por favor, usá siempre la misma dirección de mail así podemos llevar registro de tus entregas. Si cambiás de mail, vamos a registrar mal tus entregas. Como *asunto/subject* del email deberás poner **[Unidad 1]** así, tal cual, con los corchetes y un solo espacio. La semana próxima será **[Unidad 2]** y así sucesivamente hasta fin de cuatrimestre.
 
 Si estás inscriptx en el turno de los miércoles, mandá tus ejercicios a python@unsam.edu.ar, si estás inscriptx en el turno de los jueves mandalos a pythonunsam@gmail.com.
 
 
-Los ejercicios de esta unidad los podés enviar hasta el día viernes 9 de agosto inclusive. La siguiente unidad se entregará hasta el viernes 16/8 y así sucesivamente hasta fin de cuatrimestre. Intentá mandar un solo mail con todos tus ejercicios cada semana. Si corregiste algo y querés volver a entregar (dentro del plazo estipulado para esa unidad) volvé a entregar **todos** los ejercicios de la unidad: miraremos solo tu último correo de cada unidad.
+Los ejercicios de esta unidad los podés enviar **hasta el día viernes 12 de agosto inclusive**. La siguiente unidad se entregará hasta el viernes 19/8 y así sucesivamente hasta fin de cuatrimestre. Intentá mandar un solo mail con todos tus ejercicios cada semana. Si corregiste algo y querés volver a entregar (dentro del plazo estipulado para esa unidad) volvé a entregar **todos** los ejercicios de la unidad: miraremos solo tu último correo de cada unidad.
 
 Por favor, las instrucciones de arriba son cruciales para que podamos registrar tus entregas adecuadamente. Asegurate de respetarlas y no dudes en consultar durante la próxima clase si te queda alguna duda.
 

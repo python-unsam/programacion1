@@ -97,7 +97,7 @@ print(f'Ingresaste {n}.')
 
 Deberías observar una diferencia: al presionar las teclas `Ctrl+C` la excepción `KeyboardInterrupt` sí es atrapada y no se termina el ciclo hasta no ingresar un número entero.
 
-Suele ser difícil saber exactamente qué tipo de errores pueden ocurrir por adelantado. Para bien o para mal, la administración de excepciones suele ir creciendo a medida que un programa va generando errores inesperados (al mejor estilo: "Uh! Me olvidé de que podía pasar esto. Deberíamos preverlo y administrarlo adecuadamente para la próxima").
+En general es difícil saber exactamente qué tipo de errores pueden ocurrir por adelantado. Para bien o para mal, la administración de excepciones suele ir creciendo a medida que un programa va generando errores inesperados (al mejor estilo: "Uh! Me olvidé de que podía pasar esto. Deberíamos preverlo y administrarlo adecuadamente para la próxima").
 
 ### Generar excepciones
 
@@ -186,6 +186,8 @@ Guardá este código en un archivo `buscar_precios.py` para entregar al final de
 Acá te dejamos un [video](https://youtu.be/urLFDsfXsug) en el que resolvemos un ejercicio similar al [Ejercicio 2.7](../02_Estructuras_y_Funciones/04_Funciones.md#ejercicio-27-buscar-precios) de diferentes formas, usando for y usando while.
 
 ### Ejercicio 2.8: Administración de errores
+Este ejercicio introduce el tema de administración de errores. Es un tema un poco avanzado. No te inquietes si no entendés aún en profundidad estos conceptos, los vamos a retomar más adelante y en otras materias. Simplemente nos parece que está bueno empezar desde temprano a hablar de estos temas.
+
 Probá correr la siguiente función ingresando tu edad real, una edad escrita con letras (como "ocho") y una edad negativa (-3):
 
 ```python
@@ -223,7 +225,7 @@ El programa termina con un error. A esta altura tenés que tomar una decisión. 
 
 Modificá el programa `costo_camion.py` para que atrape la excepción con un bloque `try - except`, imprima un mensaje de aviso (warning) y continúe procesando el resto del archivo.
 
-Vamos a profundizar en la administración  de errores en las próximas clases.
+Vamos a retomar el tema de administración de errores en las próximas clases. Es normal que te quede una sensación de que no se entiende del todo. Nos faltan varias piezas para armar el rompecabezas.
 
 ### Ejercicio 2.9: Funciones de la biblioteca
 Python viene con una gran biblioteca estándar de funciones útiles. En este caso el módulo `csv` podría venirnos muy bien. Podés usarlo cada vez que tengas que leer archivos CSV. Acá va un ejemplo de cómo funciona.

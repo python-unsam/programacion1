@@ -12,7 +12,7 @@ Python tiene pocos tipos primitivos de datos.
 * Números de punto flotante
 * Cadenas de texto
 
-Algo ya sabemos sobre estos tipos de datos por el capítulo anterior.
+Algo ya sabemos sobre estos tipos de datos por la clase anterior.
 
 ### Tipo None
 

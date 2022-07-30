@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (5 Linea de Comandos [falta])](05_Lineas_de_Comandos.md) \| [Próximo (7 Listas)](07_Listas.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Linea de Comandos)](05_Lineas_de_Comandos.md) \| [Próximo (7 Listas)](07_Listas.md)
 
 # 1.6 Cadenas
 
@@ -60,7 +60,7 @@ c = a[4]          # 'o'
 d = a[-1]         # 'd' (fin de cadena)
 ```
 
-También se puede *rebanar* (slice) o seleccionar subcadenas especificando un range de índices con `:`.
+También se puede *rebanar* (slice) o seleccionar subcadenas especificando un rango de índices con `:`.
 
 ```python
 d = a[:5]     # 'Hello'
@@ -196,7 +196,7 @@ Recordamos:
 > En los ejercicios donde interactuás con el intérprete, el símbolo `>>>` es el que usa Python para indicarte que espera un nuevo comando. Algunos comandos ocupan más de una línea de código --para que funcionen, vas a tener que apretar 'enter' algunas veces.
 > Acordate de no copiar el `>>>` de los ejemplos.
 
-Comencemos definiendo una cadena que contiene una lista de frutas así::
+Comencemos definiendo una cadena que contiene una lista de frutas así:
 
 ```python
 >>> frutas = 'Manzana,Naranja,Mandarina,Banana,Kiwi'
@@ -229,6 +229,8 @@ Traceback (most recent call last):
 TypeError: 'str' object does not support item assignment
 >>>
 ```
+
+(Error de tipo: un objeto 'str' no permite asignación de ítems.)
 
 ### Ejercicio 1.15: Concatenación de cadenas
 A pesar de ser sólo de lectura, siempre podés reasignar una variable a una cadena nueva. Probá el siguiente comando que concatena la palabra "Pera" al final de `frutas`:
@@ -414,5 +416,5 @@ upper(...)
 ```
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (5 Linea de Comandos [falta])](05_Lineas_de_Comandos.md) \| [Próximo (7 Listas)](07_Listas.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Linea de Comandos)](05_Lineas_de_Comandos.md) \| [Próximo (7 Listas)](07_Listas.md)
 

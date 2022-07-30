@@ -1,12 +1,12 @@
-[Contenidos](../Contenidos.md) \| [Anterior (3 Un primer programa)](03_Hello_world.md) \| [Próximo (5 Linea de Comandos [falta])](05_Lineas_de_Comandos.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 Un primer programa)](03_Hello_world.md) \| [Próximo (5 Linea de Comandos)](05_Lineas_de_Comandos.md)
 
 # 1.4 Números
 
 Esta sección introduce las operaciones matemáticas elementales. Acá te dejamos un breve [video](https://youtu.be/NTWF9KKaCm0) sobre el uso de la variables booleanas.
 
-### Tipos de números
+### Tipos de variables numéricas
 
-Python tiene 4 tipos de números:
+Python tiene 4 tipos de variables numéricas:
 
 * Booleanos
 * Enteros
@@ -15,23 +15,7 @@ Python tiene 4 tipos de números:
 
 ### Booleanos (bool)
 
-Las variables booleanas se llaman así en honor al lógico inglés [George Boole](https://es.wikipedia.org/wiki/George_Boole). Pueden tomar dos valores: `True` y `False` (verdadero y falso).
-
-```python
-a = True
-b = False
-```
-
-Internamente, son evaluados como enteros con valores `1`, `0`.
-
-```python
-c = 4 + True # 5
-d = False
-if d == 0:
-    print('d is False')
-```
-
-*No escribas código basado en esta convención. Sería bastante raro.*
+Sobre las variables booleanas ya hablamos en una sección anterior. Pueden tomar dos valores: `True` y `False` (verdadero y falso). Internamente, son evaluados como enteros con valores `1`, `0`.
 
 ### Enteros (int)
 
@@ -61,7 +45,7 @@ x ** y     Potencia
 abs(x)     Valor absoluto
 ```
 
-La unidad mínima de almacenamiento de una computadora es un bit, que puede valer 0 o 1. Los números, caracteres e incluso imágenes y sonidos son almacenados en la máquina usando bits. Los números enteros positivos, en particular, suelen almacenarse mediante su representación binaria (o en base dos).
+La unidad mínima de almacenamiento de una computadora es un bit, que puede valer 0 ó 1. Los números, caracteres e incluso imágenes y sonidos son almacenados en la máquina usando bits. Los números enteros positivos, en particular, suelen almacenarse mediante su representación binaria (o en base dos).
 
 | Número        | Representación binaria       |
 | ------------- |-------------|
@@ -131,7 +115,7 @@ False
 >>>
 ```
 
-Esto **no es un problema de Python**, si no el resultado de la forma en que el hardware de nuestras computadoras almacena los números de punto flotante.
+Esto **no es un problema de Python**, sino el resultado de la forma en que el hardware de nuestras computadoras almacena los números de punto flotante.
 
 Operaciones usuales:
 
@@ -166,9 +150,9 @@ Las siguientes comparaciones (suelen llamarse *operadores relacionales* ya que e
 
 ```
 x < y      Menor que
-x <= y     Menor o igual que
+x <= y     Menor o igual a
 x > y      Mayor que
-x >= y     Mayor o igual que
+x >= y     Mayor o igual a
 x == y     Igual a
 x != y     No igual a
 ```
@@ -214,7 +198,7 @@ Probalo.
 
 ## Ejercicios
 
-Recordatorio: Asumimos que estás trabajando en el subdirectorio `ejercicios_python/Clase01/`. Buscá el archivo `hipoteca.py` y hacé los ejercicios en ese archivo, usando un editor de texto. Ejecutalo desde la línea de comandos.
+Recordatorio: Asumimos que estás trabajando en el subdirectorio `ejercicios_python/Clase01/`. Buscá el archivo `hipoteca.py` y hacé los ejercicios en ese archivo, usando un editor de texto. El archivo no tiene código, sólo unos comentarios. Para ejecutarlo usá la línea de comandos.
 
 ### Ejercicio 1.7: La hipoteca de David
 David solicitó un crédito a 30 años para comprar una vivienda, con una tasa fija nominal anual del 5%. Pidió $500000 al banco y acordó un pago mensual fijo de $2684,11.
@@ -241,7 +225,7 @@ Copiá este código y correlo. Deberías obtener `966279.6` como respuesta.
 ### Ejercicio 1.8: Adelantos
 Supongamos que David adelanta pagos extra de $1000/mes durante los primeros 12 meses de la hipoteca.
 
-Modificá el programa para incorporar estos pagos extra y que imprima el monto total pagado junto con la cantidad de meses requeridos.
+Modificá el programa para incorporar estos pagos extra y para que imprima el monto total pagado junto con la cantidad de meses requeridos.
 
 Cuando lo corras, este nuevo programa debería dar un pago total de  `929965.62` en 342 meses.
 
@@ -307,5 +291,5 @@ En tu directorio de trabajo de esta clase, escribí un programa llamado `esfera.
 Finalmente, ejecutá el programa desde la línea de comandos para responder ¿cuál es el volumen de una esfera de radio 6? Debería darte `904.7786842338603`.
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (3 Un primer programa)](03_Hello_world.md) \| [Próximo (5 Linea de Comandos [falta])](05_Lineas_de_Comandos.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 Un primer programa)](03_Hello_world.md) \| [Próximo (5 Linea de Comandos)](05_Lineas_de_Comandos.md)
 

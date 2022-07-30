@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (2 Condicionales, ciclos y variables booleanas [falta])](02_Condicionales_Ciclos.md) \| [Próximo (4 Números)](04_Numeros.md)
+[Contenidos](../Contenidos.md) \| [Anterior (2 # Variables, Condicionales y Ciclos)](02_Condicionales_Ciclos.md) \| [Próximo (4 Números)](04_Numeros.md)
 
 # 1.3 Un primer programa
 
@@ -18,7 +18,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-Les programadores no suelen tener problemas en usar el intérprete de esta forma, aunque no es la más cómoda para principiantes. Más adelante vamos a proponerles usar entornos de desarrollo más sofisticados, pero por el momento quedémosnos con la incomodidad que nos va a enseñar cosas útiles.
+Les programadores no suelen tener problemas en usar el intérprete de esta forma, aunque no es la más cómoda para principiantes. Más adelante vamos a proponerles usar entornos de desarrollo más sofisticados y amistosos, pero por el momento quedémosnos con la incomodidad que nos va a enseñar cosas útiles.
+
 
 ### Modo interactivo
 
@@ -67,7 +68,7 @@ Antes vimos que el guión bajo `_` guarda el último resultado.
 
 ### Crear programas
 
-Los programas se guardan en archivos `.py`.
+Por convención, los programas escritos en Python se guardan en archivos `.py`.
 
 ```python
 # hello.py
@@ -78,7 +79,7 @@ Podés crear estos archivos con tu editor de texto favorito. Más adelante vamos
 
 ### Ejecutar programas
 
-Para ejecutar un programa, correlo en la terminal con el comando  `python` seguido del nombre del archivo a ejecutar. Por ejemplo, en una línea de comandos Unix (por ejemplo Ubuntu):
+Para ejecutar un programa escrito en Python se le pide al interprete de Python que lo lea y lo ejecute. Hacé esto desde la terminal con el comando  `python` seguido del nombre del archivo a ejecutar. En una línea de comandos Unix (por ejemplo Ubuntu):
 
 ```bash
 bash % python hello.py
@@ -86,13 +87,13 @@ hello world
 bash %
 ```
 
-en una terminal de Windows:
+O en una terminal de Windows:
 
 ```
-C:\SomeFolder>hello.py
+C:\ejercicios_python>hello.py
 hello world
 
-C:\SomeFolder>c:\python36\python hello.py
+C:\ejercicios_python>c:\python36\python hello.py
 hello world
 ```
 
@@ -181,125 +182,6 @@ print(b)
 
 Los comentarios comienzan con `#` y siguen hasta el final de la línea.
 
-### Variables
-
-Una variable es un nombre para un valor. Estos nombres pueden estar formados por letras (minúsculas y mayúsculas) de la a a la z. También pueden incluir el guión bajo, y se pueden usar números, salvo como primer caracter.
-
-```python
-altura = 442 # válido
-_altura = 442 # válido
-altura2 = 442 # válido
-2altura = 442 # inválido
-```
-
-### Tipos
-
-El tipo de las variables no debe ser declarado como en otros lenguajes. El tipo es asociado con el valor del lado derecho.
-
-```python
-altura = 442           # Entero
-altura = 442.0         # Punto flotante
-altura = 'Muy, muy alto' # Cadena de caracteres
-```
-
-Decimos que Python tiene tipado dinámico. El tipo percibido por el intérprete puede cambiar a lo largo de la ejecución dependiendo del valor asignado a la variable.
-
-### Python distingue mayúsculas y minúsculas
-
-Mayúsculas y minúsculas son diferentes para Python. Por ejemplo, todas las siguientes variables son diferentes.
-
-```python
-nombre = 'David'
-Nombre = 'Diego'
-NOMBRE = 'Rosita'
-```
-
-Los comandos de Python siempre se escriben con minúsculas.
-
-```python
-while x < 0:   # OK
-WHILE x < 0:   # ERROR
-```
-
-### Ciclos
-
-El comando `while` ejecuta un ciclo o *loop*.
-
-```python
-while num_billetes * grosor_billete <= altura_obelisco:
-    print(dia, num_billetes, num_billetes * grosor_billete)
-    dia = dia + 1
-    num_billetes = num_billetes * 2
-
-print('Cantidad de días', dia)
-```
-
-Los comandos indentados debajo del `while` se van a a ejecutar mientras que la expresión luego del  `while` sea verdadera (`True`).
-
-### Indentación
-
-La indentación se usa para marcar grupos de comandos que van juntos.
-Considerá el ejemplo anterior:
-
-```python
-while num_billetes * grosor_billete <= altura_obelisco:
-    print(dia, num_billetes, num_billetes * grosor_billete)
-    dia = dia + 1
-    num_billetes = num_billetes * 2
-
-print('Cantidad de días', dia)
-```
-
-La indentación agrupa los comandos siguientes como las operaciones a repetir:
-
-```python
-    print(dia, num_billetes, num_billetes * grosor_billete)
-    dia = dia + 1
-    num_billetes = num_billetes * 2
-```
-
-Como el comando  `print()` del final no está indentado, no pertenece al ciclo. La línea en blanco que dejamos entre ambos solo está para facilitar la lectura y no afecta la ejecución.
-
-### Indentando adecuadamente
-
-Algunas recomendaciones sobre cómo indentar:
-
-* Usá espacios y no el tabulador.
-* Usá 4 espacios por cada nivel.
-* Usá un editor de textos que entienda que estás escribiendo en Python.
-
-El único requisito del intérprete de Python es que la indentación dentro de un mismo bloque sea consistente. Por ejemplo, esto es un error:
-
-```python
-while num_billetes * grosor_billete <= altura_obelisco:
-    print(dia, num_billetes, num_billetes * grosor_billete)
-        dia = dia + 1 # ERROR
-    num_billetes = num_billetes * 2
-```
-
-### Condicionales
-
-El comando `if` es usado para ejecutar un condicional:
-
-```python
-if a > b:
-    print('Gana a')
-else:
-    print('Gana b')
-```
-
-Podés verificar condiciones mutuamente excluyentes agregando condiciones extras con `elif`.
-
-```python
-if a > b:
-    print('Gana a')
-elif a == b:
-    print('Empate!')
-else:
-    print('Gana b')
-```
-
-El comando `elif` viene de *else, if* y puede traducirse como "si no se da la condición del *if* anterior, verificá si se da la siguiente".
 
 ### Imprimir en pantalla
 
@@ -337,7 +219,7 @@ Hola
 Mi nombre es Juana
 ```
 
-El salto de línea entre ambos comandos puede ser suprimido:
+El salto de línea entre ambos comandos puede ser suprimido o reemplazado (en este caso por un espacio):
 
 ```python
 print('Hola', end=' ')
@@ -436,7 +318,7 @@ Tu programa debería generar una tabla que se parezca a esta:
 10 0.6046617599999998
 ```
 
-*Nota: Podés limpiar un toque la salida si usás la función round() de la que miraste el help hace un rato. Tratá de usarla para redondear a cuatro dígitos.*
+*Nota: Podés limpiar un toque la salida si usás la función round() de la que miraste el help hace un rato. Tratá de usarla para redondear a cuatro dígitos después del punto decimal.*
 
 ```code
 1 60.0
@@ -456,5 +338,5 @@ Escribí un programa llamado `saludo.py` que pregunte el nombre de le usuarie, i
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (2 Condicionales, ciclos y variables booleanas [falta])](02_Condicionales_Ciclos.md) \| [Próximo (4 Números)](04_Numeros.md)
+[Contenidos](../Contenidos.md) \| [Anterior (2 # Variables, Condicionales y Ciclos)](02_Condicionales_Ciclos.md) \| [Próximo (4 Números)](04_Numeros.md)
 
