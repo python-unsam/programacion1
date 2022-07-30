@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (2 # Variables, Condicionales y Ciclos)](02_Condicionales_Ciclos.md) \| [Próximo (4 Números)](04_Numeros.md)
+[Contenidos](../Contenidos.md) \| [Anterior (2 Variables, Condicionales y Ciclos)](02_Condicionales_Ciclos.md) \| [Próximo (4 Números)](04_Numeros.md)
 
 # 1.3 Un primer programa
 
@@ -338,5 +338,5 @@ Escribí un programa llamado `saludo.py` que pregunte el nombre de le usuarie, i
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (2 # Variables, Condicionales y Ciclos)](02_Condicionales_Ciclos.md) \| [Próximo (4 Números)](04_Numeros.md)
+[Contenidos](../Contenidos.md) \| [Anterior (2 Variables, Condicionales y Ciclos)](02_Condicionales_Ciclos.md) \| [Próximo (4 Números)](04_Numeros.md)
 

@@ -1,6 +1,6 @@
 [Contenidos](../Contenidos.md) \| [Anterior (1 Python)](01_Python.md) \| [Próximo (3 Un primer programa)](03_Hello_world.md)
 
-# 1.2 # Variables, Condicionales y Ciclos
+# 1.2 Variables, Condicionales y Ciclos
 
 En esta sección veremos tres conceptos centrales: definición de variables y asignación de valores y operaciones, condicionales, y ciclos. Un programa es en el fondo una combinacion de estos tres elementos centrales: asignaciones de variables, ramificaciones condicionales, y repeticiones cíclicas. Suponemos que ya viste estos conceptos antes, pero empecemos por ahí.
 
