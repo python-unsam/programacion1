@@ -2,7 +2,70 @@
 
 # 1.2 Variables, condicionales y ciclos
 
-En esta sección veremos tres conceptos centrales: variables, condicionales, y ciclos. Un programa es en el fondo una combinacion de estos tres elementos centrales: asignaciones de variables, ramificaciones condicionales, y repeticiones cíclicas. Suponemos que ya viste estos conceptos antes, pero empecemos por ahí.
+En esta sección veremos como abrir el in´terprete de Python y tres conceptos centrales: variables, condicionales, y ciclos. Un programa es en el fondo una combinacion de estos tres elementos centrales: asignaciones de variables, ramificaciones condicionales, y repeticiones cíclicas. Suponemos que ya viste estos conceptos antes, pero empecemos por ahí.
+
+### Ejecutando Python
+
+Los programas en Python siempre son ejecutados en un intérprete de Python.
+
+El intérprete es una aplicación que funciona en la consola y se ejecuta desde la terminal.
+
+```bash
+python3
+Python 3.6.1 (v3.6.1:69c0db5050, Mar 21 2017, 01:21:04)
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+Les programadores no suelen tener problemas en usar el intérprete de esta forma, aunque no es la más cómoda para principiantes. Más adelante vamos a proponerles usar entornos de desarrollo más sofisticados y amistosos, pero por el momento quedémosnos con la incomodidad que nos va a enseñar cosas útiles.
+
+
+### Modo interactivo
+
+Cuando ejecutás Python, entrás al modo *interactivo* en el que podés experimentar.
+
+Si escribís un comando, se va a ejecutar inmediatamente. No hay ningún ciclo de edición-compilación-ejecución-debug en Python, como hay en otros lenguajes.
+
+```python
+>>> print('hello world')
+hello world
+>>> 37*42
+1554
+>>> for i in range(5):
+...     print(i)
+...
+0
+1
+2
+3
+4
+>>>
+```
+
+Esta forma de escribir código (en una consola del lenguaje) que se evalúa inmediatamente e imprime el resultado, se denomina *bucle de Lectura-Evaluación-Impresión* (REPL por las siglas en inglés de «Read-Eval-Print-Loop»). Asegurate de poder interactuar con el intérprete antes de seguir.
+
+Veamos en mayor detalle cómo funciona este REPL:
+
+- `>>>` es el símbolo del intérprete para comenzar un nuevo comando.
+- `...` es el símbolo del intérprete para continuar con un comando comenzado antes. Dejá una línea en blanco para terminar lo que ya ingresaste.
+
+El símbolo `...` puede mostrarse o no dependiendo de tu entorno. En este curso lo mostraremos como líneas en blanco para facilitar el copy-paste de fragmentos de código (del que ya dijimos, ¡no hay que abusar!).
+
+Antes vimos que el guión bajo `_` guarda el último resultado.
+
+```python
+>>> 37 * 42
+1554
+>>> _ * 2
+3108
+>>> _ + 50
+3158
+>>>
+```
+
+*Esto solo es válido en el modo interactivo que estamos viendo. No uses el guión bajo en un programa.*
+
 
 ### Variables
 
