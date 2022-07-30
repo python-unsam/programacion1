@@ -209,7 +209,7 @@ Gana una
 
 _Nota_: si este fragmento de código no funciona como esperás, revisá los valores guardados en `una` y `otra`. 
 
-Podés verificar condiciones mutuamente excluyentes agregando condiciones extras con `elif`.
+Podés realizar más comparaciones agregando condiciones extras con `elif`.
 
 ```python
 >>> una = 3
@@ -222,29 +222,45 @@ Podés verificar condiciones mutuamente excluyentes agregando condiciones extras
 ...     print('Empate!')
 ```
 
-El comando `elif` viene de *else, if* y puede traducirse como "sólo si no se cumple la condición del *if* anterior, verificá si se cumple la siguiente".
+El comando `elif` viene de *else, if* y puede traducirse como "si no se cumplió la condición del *if* anterior, verificá si se cumple la siguiente" .
 
-Una forma de entender las variables booleanas es pensarlas como el resultado de la ejecución condicional de código:
+Las variables booleanas pueden reemplazar a una _condición_ en un condicional. 
 
 ```python
->>> a = False
->>> if una == otra:
-...     a = True
+>>> variable_booleana = False # probá True también
+>>> if variable_booleana:
+...     print("La variable es verdadera")
+... else:
+...     print("La variable es false")
+```
+
+Recordemos que una variable booleana puede almacenar el resultado de una comparación:
+
+```python
+>>> una = 3
+>>> otra = 6
+>>> variable_booleana = (una > otra) # aca guardamos el resultado de la comparación
+>>> if variable_booleana:
+...     print('Gana una')
+... elif una < otra:
+...     print('Gana otra')
+... else:
+...     print('Empate!')
 ```
 
 
 ### Ciclos
 
-Para ejecutar una porción de código únicamente si ciertas condiciones se cumplen podés usar el comando `while`. El `while` se comporta como un `if` mas un _ciclo_ (bucle o _loop_) que vuelve a ejecutar el bloque indentado si la condición del `while` sigue valiendo `True`.
+Para ejecutar una porción de código reiteradamente mientras ciertas condiciones se cumplan podés usar el comando `while`. El `while` se comporta como un `if` mas un _ciclo_ (bucle o _loop_) que vuelve a ejecutar el bloque indentado si la condición del `while` sigue valiendo `True`.
 
 ```python
 >>> while una < otra:
 ...     una = una + 1
-...     print (una)
->>> print('una:', una, 'otra:', otra)
+...     print(una)
+... print('una:', una, 'otra:', otra)
 ```
 
-Los comandos indentados debajo del `while` se van a a ejecutar mientras la condición del `while` sea verdadera (`True`).
+Los comandos indentados debajo del `while` se van a a ejecutar mientras la condición del `while` sea verdadera (`True`). Cuando esta condición sea falsa, ese bloque indentado no se ejecutará más y la ejecución continuará con el código que sigue.
 
 
 ### Indentación
@@ -255,18 +271,18 @@ Considerá el ejemplo anterior:
 ```python
 >>> while una < otra:
 ...     una = una + 1
-...     print (una)
-... print ('una:',una,'otra:',otra)
+...     print(una)
+... print('una:',una,'otra:',otra)
 ```
 
 La indentación agrupa los comandos siguientes como las operaciones a repetir:
 
 ```python
      una = una + 1
-     print (una)
+     print(una)
 ```
 
-Como el comando  `print()` del final no está indentado, no pertenece al ciclo. La línea en blanco que dejamos entre ambos solo está para facilitar la lectura y no afecta la ejecución.
+Como el comando  `print()` del final no está indentado, no pertenece al ciclo. 
 
 ### Indentando adecuadamente
 
@@ -279,14 +295,12 @@ Algunas recomendaciones sobre cómo indentar:
 El único requisito del intérprete de Python es que la indentación dentro de un mismo bloque sea consistente. Por ejemplo, esto es un error:
 
 ```python
->>> while num_billetes * grosor_billete <= altura_obelisco:
-...     print(dia, num_billetes, num_billetes * grosor_billete)
-...         dia = dia + 1 # ERROR
-...     num_billetes = num_billetes * 2
+>>> while una < otra:
+...     una = una + 1
+...         print(una)
 ```
 
-
-Ahora que manejás variables, condicionales, y ciclos y tenés algunos de los elementos básicos de Python en la próxima sección vamos a usarlos para escribir algunos programas simples.
+Ahora que sabes como manejar  variables, condicionales, y ciclos en Python en la próxima sección vamos a usarlos para escribir algunos programas simples.
 
 
 
