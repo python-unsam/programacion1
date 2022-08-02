@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (5 Linea de comandos)](05_Lineas_de_Comandos.md) \| [Próximo (7 Listas)](07_Listas.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Línea de comandos)](05_Lineas_de_Comandos.md) \| [Próximo (7 Listas)](07_Listas.md)
 
 # 1.6 Cadenas
 
@@ -26,7 +26,7 @@ Y me cubren las estrellas.
 '''
 ```
 
-Normalmente las cadenas de caracteres solo ocupan una linea. Las comillas triples nos permiten capturar todo el texto encerrado a lo largo de múltiples lineas.
+Normalmente las cadenas de caracteres solo ocupan una línea. Las comillas triples nos permiten capturar todo el texto encerrado a lo largo de múltiples líneas.
 
 No hay diferencia entre las comillas simples (') y las dobles ("). *Pero el mismo tipo de comillas que se usó para abrir debe usarse para cerrar*.
 
@@ -416,5 +416,5 @@ upper(...)
 ```
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (5 Linea de comandos)](05_Lineas_de_Comandos.md) \| [Próximo (7 Listas)](07_Listas.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Línea de comandos)](05_Lineas_de_Comandos.md) \| [Próximo (7 Listas)](07_Listas.md)
 

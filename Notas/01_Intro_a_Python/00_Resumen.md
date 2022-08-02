@@ -8,7 +8,7 @@ El objetivo de esta primera clase es recordar los conceptos de condicional y de 
 * [1.2 Variables, condicionales y ciclos](02_Condicionales_Ciclos.md)
 * [1.3 Un primer programa](03_Hello_world.md)
 * [1.4 Números](04_Numeros.md)
-* [1.5 Linea de comandos](05_Lineas_de_Comandos.md)
+* [1.5 Línea de comandos](05_Lineas_de_Comandos.md)
 * [1.6 Cadenas](06_Strings.md)
 * [1.7 Listas](07_Listas.md)
 * [1.8 Cierre de la clase](08_Cierre.md)

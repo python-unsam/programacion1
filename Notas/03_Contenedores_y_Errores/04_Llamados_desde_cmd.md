@@ -6,9 +6,9 @@ Ya vimos que el python se puede correr desde la consola. También podemos correr
 
 ## Llamados desde consola:
 
-Se relaciona con la [Sección 1.5](../01_Intro_a_Python/05_Lineas_de_Comandos.md#la-linea-de-comandos).
+Se relaciona con la [Sección 1.5](../01_Intro_a_Python/05_Lineas_de_Comandos.md#la-línea-de-comandos).
 
-Ya vimos en la [Sección 1.5](../01_Intro_a_Python/05_Lineas_de_Comandos.md#la-linea-de-comandos) que el python se puede correr desde la consola. También podemos correr programas escritos en pythons desde la consola. Esto nos permite usarlos de manera muy práctica
+Ya vimos en la [Sección 1.5](../01_Intro_a_Python/05_Lineas_de_Comandos.md#la-línea-de-comandos) que el python se puede correr desde la consola. También podemos correr programas escritos en pythons desde la consola. Esto nos permite usarlos de manera muy práctica
 
 Quizas se puede poner este ejercicio:
 ### Ejercicio 3.10: Ejecución desde la línea de comandos con parámetros - SACAR DE ACA

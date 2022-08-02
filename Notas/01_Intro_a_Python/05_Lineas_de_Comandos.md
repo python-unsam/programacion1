@@ -1,16 +1,16 @@
 [Contenidos](../Contenidos.md) \| [Anterior (4 Números)](04_Numeros.md) \| [Próximo (6 Cadenas)](06_Strings.md)
 
-# 1.5 Linea de comandos
+# 1.5 Línea de comandos
 
-En esta sección comenzamos a hablar de la terminal, o la linea de comandos del sistema operativo. Es es un programa que podés instalar como cualquier otro, aunque tanto en Windows como en Linux y Mac OS se instala junto con el sistema operativo, y aunque es la forma más primitiva de interactuar con le usuarie, es también en muchos casos la más rápida, la más versátil, y la más segura.
-
-
-### La linea de comandos:
+En esta sección comenzamos a hablar de la terminal, o la línea de comandos del sistema operativo. Es un programa que podés instalar como cualquier otro, aunque tanto en Windows como en Linux y Mac OS se instala junto con el sistema operativo, y aunque es la forma más primitiva de interactuar con le usuarie, es también en muchos casos la más rápida, la más versátil, y la más segura.
 
 
-La línea de commandos (command line) suele usarse para pedirle al sistema operativo cosas que se puedan escribir en una o dos líneas, tales como listar un directorio, moverse entre carpetas, borrar un archivo, ejecutar un programa.
+### La línea de comandos:
 
-Quienes usen Linux probablemente hayan usado "Terminal" para instalar o ejecutar algún programa. En sistemas Linux (Ubuntu en este caso) nos dá esta bienvenida al ejecutarlo:
+
+La línea de comandos (command line) suele usarse para pedirle al sistema operativo cosas que se puedan escribir en una o dos líneas, tales como listar un directorio, moverse entre carpetas, borrar un archivo, ejecutar un programa.
+
+Quienes usen Linux probablemente hayan usado "Terminal" para instalar o ejecutar algún programa. En sistemas Linux (Ubuntu en este caso) nos da esta bienvenida al ejecutarlo:
 ```
 Bienvenido a Ubuntu 20.04.2 LTS (GNU/Linux 4.4.0)
 Para ejecutar un commando como administrador (usuario "root") usar "sudo <commando>"
@@ -44,7 +44,7 @@ A las líneas  `oski@flaquita:~$`  en Linux y  `PS C:\Users\oski>`  en Windows s
 
 La línea de comandos facilita administrar archivos y espacios de almacenamiento, y lanzar programas. El sistema ejecuta los comandos que le digas sobre el directorio en el que estás, salvo que especifiques lo contrario.
 
-_Nota_: Para los siguientes pasos puede serte útil abrir una instancia del programa Administrador de Archivos (File Manager en Windows ó Nautilus, Dolphin ó Thunar en Linux). Así verás lo que sucede en el disco en forma gráfica, además de lo que veas en la línea de comandos.
+_Nota_: Para los siguientes pasos puede serte útil abrir una instancia del programa Administrador de Archivos (File Manager en Windows o Nautilus, Dolphin o Thunar en Linux). Así verás lo que sucede en el disco en forma gráfica, además de lo que veas en la línea de comandos.
 
 Normalmente al abrir una ventana terminal estamos en el directorio _home_ (hogar) del usuario correspondiente (`~` y `\Users\oski`) en el disco `C:`.
 
@@ -62,7 +62,7 @@ Vamos a pedir ver el contenido del directorio _home_:
 
 Verás la lista de archivos y directorios en ese lugar. Solo para estar seguros, tratá de encontrar un directorio llamado `Ejercicios_Python`. No debería existir aún. 
 
-Vamos a usar los programas `zip` y `unzip` que se instalan con el sistema operativo. Los podés [bajar de acá](http://infozip.sourceforge.net/) aunque no debiera ser necesario. Con ellos vamos a abrir el paquete [Ejercicios.zip](./Ejercicios.zip) para armar la estructura de directorios donde ordenar las soluciones a los ejercicios de cada clase. Fijate dónde guarda el browser `ejercicios.zip` al bajarlo. (suele ser en Downloads ó Descargas)
+Vamos a usar los programas `zip` y `unzip` que se instalan con el sistema operativo. Los podés [bajar de acá](http://infozip.sourceforge.net/) aunque no debiera ser necesario. Con ellos vamos a abrir el paquete [Ejercicios.zip](../Ejercicios.zip) para armar la estructura de directorios donde ordenar las soluciones a los ejercicios de cada clase. Fijate dónde guarda el browser `ejercicios.zip` al bajarlo. (suele ser en Downloads ó Descargas)
 
 `PS C:\Users\flacus> unzip -l Downloads/ejercicios.zip`
 
@@ -74,7 +74,7 @@ Ahora pidámosle que extraiga uno de esos archivos:
 
 `unzip -x downloads/ejercicios.zip ejercicios_python/readme.txt`
 
-Notá que cambiamos el `-l` (listar) por un `-x` (extraer)
+Notá que cambiamos el `-l` (listar) por un `-x` (extraer).
 Vas a ver el archivo `readme.txt` en el directorio que acaba de crear (`ejercicios_python` dentro del directorio en que estás trabajando).
 
 Ahora pidámosle que abra todo el contenido el paquete. Si no le decimos que queremos un archivo en particular, unzip extrae todo.
@@ -111,7 +111,7 @@ Tanto _dónde_ como _parámetros_ son muchas veces opcionales. Si omitimos espec
 Veamos algunos ejemplos.
 
 
-### Que hay acá ? 
+### ¿Qué hay acá? 
 Para saber qué contiene un directorio, usá `ls` (_list_, lista). Devuelve una lista con los archivos y directorios contenidos donde vos digas. Veamos el directorio recién creado.
 
 ```code
@@ -154,7 +154,7 @@ d-----        2021-03-10   9:53 AM                Data
 
 ## Cambiar el directorio de trabajo
 
-Si queremos cambiar el directorio en que estamos trabajando, usamos el comando `cd` (_change directory_, cambiar directorio). Por ejemplo, para ir al directorio destinado a resolver los ejercicios de la Clase 1 podrías decir:
+Si queremos cambiar el directorio en el que estamos trabajando, usamos el comando `cd` (_change directory_, cambiar directorio). Por ejemplo, para ir al directorio destinado a resolver los ejercicios de la Clase 1 podrías decir:
 
 ```
 cd ejercicios_python/Clase01
@@ -192,7 +192,7 @@ Si ya estás en el directorio donde está el archivo que querés borrar, no nece
 PS C:\users\flacus\ejercicios_python\clase10>del readme.txt
 ``` 
 
-_Nota: Windows no es case-sentitive (sensible a mayusculas) para nombres de archivos y directorios. Linux SI_
+_Nota: Windows no es case-sentitive (sensible a mayusculas) para nombres de archivos y directorios. Linux SI_.
 
 
 

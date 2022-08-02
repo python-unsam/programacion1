@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (3 Un primer programa)](03_Hello_world.md) \| [Próximo (5 Linea de comandos)](05_Lineas_de_Comandos.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 Un primer programa)](03_Hello_world.md) \| [Próximo (5 Línea de comandos)](05_Lineas_de_Comandos.md)
 
 # 1.4 Números
 
@@ -15,7 +15,7 @@ Python tiene 4 tipos de variables numéricas:
 
 ### Booleanos (bool)
 
-Sobre las variables booleanas ya hablamos en una sección anterior. Pueden tomar dos valores: `True` y `False` (verdadero y falso). Internamente, son evaluados como enteros con valores `1`, `0`.
+Sobre las variables booleanas ya hablamos en una sección anterior. Pueden tomar dos valores: `True` y `False` (verdadero y falso) que internamente son evaluados como enteros con valores `1` y `0`.
 
 ### Enteros (int)
 
@@ -229,7 +229,7 @@ Modificá el programa para incorporar estos pagos extra y para que imprima el mo
 
 Cuando lo corras, este nuevo programa debería dar un pago total de  `929965.62` en 342 meses.
 
-Aclaración: aunque puede parecer sencillo, este ejercicio requiere que agregues una variable *mes* y que prestes bastante atención a cuándo la incrementás, con qué valor entra al ciclo y con qué valor sale del ciclo. Una posiblidad es inicializar *mes* en 0 y otra es inicializarla en 1. En el primer caso es problable que la variable salga del ciclo contando la cantidad de pagos que se hicieron, en el segundo, ¡es probable que salga contando la cantidad de pagos más uno!
+Aclaración: aunque puede parecer sencillo, este ejercicio requiere que agregues una variable *mes* y que prestes bastante atención a cuándo la incrementás, con qué valor entra al ciclo y con qué valor sale del ciclo. Una posiblidad es inicializar *mes* en 0 y otra es inicializarla en 1. En el primer caso es probable que la variable salga del ciclo contando la cantidad de pagos que se hicieron. En el segundo, ¡es probable que salga contando la cantidad de pagos más uno!
 
 ### Ejercicio 1.9: Calculadora de adelantos
 ¿Cuánto pagaría David si agrega $1000 por mes durante cuatro años, comenzando en el sexto año de la hipoteca (es decir, luego de 5 años)?
@@ -291,5 +291,5 @@ En tu directorio de trabajo de esta clase, escribí un programa llamado `esfera.
 Finalmente, ejecutá el programa desde la línea de comandos para responder ¿cuál es el volumen de una esfera de radio 6? Debería darte `904.7786842338603`.
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (3 Un primer programa)](03_Hello_world.md) \| [Próximo (5 Linea de comandos)](05_Lineas_de_Comandos.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 Un primer programa)](03_Hello_world.md) \| [Próximo (5 Línea de comandos)](05_Lineas_de_Comandos.md)
 
