@@ -1,7 +1,8 @@
 [Contenidos](../Contenidos.md) \| [Próximo (2 Estructuras y funciones)](../02_Estructuras_y_Funciones/00_Resumen.md)
 
 # 1. Introducción a Python
-El objetivo de este primera clase es recordar los conceptos de condicional y de ciclo e introducir algunos conceptos básicos de Python. Comenzando desde cero vas a aprender a editar, ejecutar y debuguear pequeños programas. También presentamos algunos tipos de datos de Python: número enteros, números de punto flotante, cadenas y listas.
+El objetivo de esta primera clase es recordar los conceptos de condicional y de ciclo e introducir algunos conceptos básicos de Python. Comenzando desde cero vas a aprender a editar, ejecutar y debuguear pequeños programas. También presentamos algunos tipos de datos de Python: número enteros, números de punto flotante, cadenas y listas.
+
 
 * [1.1 Python](01_Python.md)
 * [1.2 Variables, condicionales y ciclos](02_Condicionales_Ciclos.md)

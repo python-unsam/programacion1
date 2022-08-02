@@ -2,69 +2,7 @@
 
 # 1.3 Un primer programa
 
-En esta sección vas a crear tu primer programa en Python, ejecutarlo y debuguearlo.
-
-### Ejecutando Python
-
-Los programas en Python siempre son ejecutados en un intérprete de Python.
-
-El intérprete es una aplicación que funciona en la consola y se ejecuta desde la terminal.
-
-```bash
-python3
-Python 3.6.1 (v3.6.1:69c0db5050, Mar 21 2017, 01:21:04)
-[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>>
-```
-
-Les programadores no suelen tener problemas en usar el intérprete de esta forma, aunque no es la más cómoda para principiantes. Más adelante vamos a proponerles usar entornos de desarrollo más sofisticados y amistosos, pero por el momento quedémosnos con la incomodidad que nos va a enseñar cosas útiles.
-
-
-### Modo interactivo
-
-Cuando ejecutás Python, entrás al modo *interactivo* en el que podés experimentar.
-
-Si escribís un comando, se va a ejecutar inmediatamente. No hay ningún ciclo de edición-compilación-ejecución-debug en Python, como hay en otros lenguajes.
-
-```python
->>> print('hello world')
-hello world
->>> 37*42
-1554
->>> for i in range(5):
-...     print(i)
-...
-0
-1
-2
-3
-4
->>>
-```
-
-Esta forma de escribir código (en una consola del lenguaje) que se evalúa inmediatamente e imprime el resultado, se denomina *bucle de Lectura-Evaluación-Impresión* (REPL por las siglas en inglés de «Read-Eval-Print-Loop»). Asegurate de poder interactuar con el intérprete antes de seguir.
-
-Veamos en mayor detalle cómo funciona este REPL:
-
-- `>>>` es el símbolo del intérprete para comenzar un nuevo comando.
-- `...` es el símbolo del intérprete para continuar con un comando comenzado antes. Dejá una línea en blanco para terminar lo que ya ingresaste.
-
-El símbolo `...` puede mostrarse o no dependiendo de tu entorno. En este curso lo mostraremos como líneas en blanco para facilitar el copy-paste de fragmentos de código (del que ya dijimos, ¡no hay que abusar!).
-
-Antes vimos que el guión bajo `_` guarda el último resultado.
-
-```python
->>> 37 * 42
-1554
->>> _ * 2
-3108
->>> _ + 50
-3158
->>>
-```
-
-*Esto solo es válido en el modo interactivo que estamos viendo. No uses el guión bajo en un programa.*
+En esta sección vas a crear tu primer programa en Python, ejecutarlo y debuguearlo. Los programas en Python siempre son ejecutados en un intérprete de Python.
 
 ### Crear programas
 
@@ -106,7 +44,7 @@ en una terminal de Mac:
 
 
 Obervación: En Windows puede ser necesario especificar el camino (path) completo al intérprete de Python como en `c:\python36\python`.
-Sin embargo, si Python está instalado del modo usual, podría alcanzar con que tipées el nombre del programa como en `hello.py`.
+Sin embargo, si Python está instalado del modo usual, podría alcanzar con que tipees el nombre del programa como en `hello.py`.
 
 Tené en cuenta que con estos comandos estás corriendo el código de Python desde la línea de comandos de tu sistema operativo. El código se ejecuta, Python termina y el control vuelve a la terminal, saliendo de Python. Si necesitás ejecutarlo y seguir dentro del intérprete de Python podés usar `python -i hello.py`.
 
@@ -155,7 +93,7 @@ Cantidad de billetes 1048576
 Altura final 115.34336
 ```
 
-A continuación vamos a usar este primer programa como ejemplo para aprender algunas cosas fundamentales sobre Python.
+Más adelante en esta sección vamos a usar este primer programa como ejemplo para aprender algunas cosas fundamentales sobre Python.
 
 ### Comandos
 

@@ -34,6 +34,63 @@ Si es la primera vez que ves una consola o terminal, sería conveniente que pare
 
 Existen diversos entornos fuera de la terminal en los que se puede escribir y ejecutar código Python. Pero para nosotres es importante que primero aprendas a usarlo desde la terminal: si lo sabés usar bien desde la terminal (que es su entorno natural) lo podrás usar en cualquier otro entorno. Ya en la próxima clase usarás Python dentro de un entorno de desarrollo. Por ahora, te recomendamos usarlo de esta manera que  acabamos de explicar.
 
+El intérprete es una aplicación que funciona en la consola y se ejecuta desde la terminal.
+
+```bash
+python3
+Python 3.6.1 (v3.6.1:69c0db5050, Mar 21 2017, 01:21:04)
+[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+
+Les programadores no suelen tener problemas en usar el intérprete de esta forma, aunque no es la más cómoda para principiantes. Más adelante vamos a proponerles usar entornos de desarrollo más sofisticados y amistosos, pero por el momento quedémosnos con la incomodidad que nos va a enseñar cosas útiles.
+
+### Modo interactivo
+
+Cuando ejecutás Python, entrás al modo *interactivo* en el que podés experimentar.
+
+Si escribís un comando, se va a ejecutar inmediatamente. No hay ningún ciclo de edición-compilación-ejecución-debug en Python, como hay en otros lenguajes.
+
+```python
+>>> print('hello world')
+hello world
+>>> 37*42
+1554
+>>> for i in range(5):
+...     print(i)
+...
+0
+1
+2
+3
+4
+>>>
+```
+
+Esta forma de escribir código (en una consola del lenguaje) que se evalúa inmediatamente e imprime el resultado, se denomina *bucle de Lectura-Evaluación-Impresión* (REPL por las siglas en inglés de «Read-Eval-Print-Loop»). Asegurate de poder interactuar con el intérprete antes de seguir.
+
+Veamos en mayor detalle cómo funciona este REPL:
+
+- `>>>` es el símbolo del intérprete para comenzar un nuevo comando.
+- `...` es el símbolo del intérprete para continuar con un comando comenzado antes. Dejá una línea en blanco para terminar lo que ya ingresaste.
+
+El símbolo `...` puede mostrarse o no dependiendo de tu entorno. En este curso lo mostraremos como líneas en blanco para facilitar el copy-paste de fragmentos de código (del que ya dijimos, ¡no hay que abusar!).
+
+Antes vimos que el guión bajo `_` guarda el último resultado.
+
+```python
+>>> 37 * 42
+1554
+>>> _ * 2
+3108
+>>> _ + 50
+3158
+>>>
+```
+
+*Esto solo es válido en el modo interactivo que estamos viendo. No uses el guión bajo en un programa.*
+
 ## Ejercicios
 
 ### Ejercicio 1.1: Python como  calculadora
