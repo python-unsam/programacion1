@@ -3,7 +3,7 @@
 En el marco de la [Licenciatura en Ciencia de Datos](https://www.unsam.edu.ar/escuelas/ciencia/661/ciencia/ciencia-de-datos), 
 la [Escuela de Ciencia y Tecnología](http://www.unsam.edu.ar/escuelas/ciencia/) de la [UNSAM](https://www.unsam.edu.ar/) dicta la materia Programación 1.
 
-## ¿De qué era el curso?
+## ¿De qué es el curso?
 Este es un curso cuatrimestral de algoritmos y programación en Python.
 El curso combina el material de lectura con clases presenciales en el laboratorio y ejercicios de entrega semanal.
 
