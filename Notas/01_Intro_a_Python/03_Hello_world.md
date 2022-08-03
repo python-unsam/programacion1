@@ -38,7 +38,9 @@ hello world
 en una terminal de Mac:
 
 ```
-[falta] ¿cómo se ve?
+~/ejercicios_python
+➜ python hello.py
+hello world
 ```
 
 
