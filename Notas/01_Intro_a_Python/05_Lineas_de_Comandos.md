@@ -53,7 +53,7 @@ Normalmente al abrir una ventana terminal estamos en el directorio _home_ (hogar
 `PS C:\Users\oski>`
 
 
-## Abramos "ejercicios.zip"
+## Abramos "Ejercicios.zip"
 
 Vamos a pedir ver el contenido del directorio _home_:
 `oski@flaquita:~$ ls`
@@ -62,24 +62,24 @@ Vamos a pedir ver el contenido del directorio _home_:
 
 Verás la lista de archivos y directorios en ese lugar. Solo para estar seguros, tratá de encontrar un directorio llamado `Ejercicios_Python`. No debería existir aún. 
 
-Vamos a usar los programas `zip` y `unzip` que se instalan con el sistema operativo. Los podés [bajar de acá](http://infozip.sourceforge.net/) aunque no debiera ser necesario. Con ellos vamos a abrir el paquete [Ejercicios.zip](../Ejercicios.zip) para armar la estructura de directorios donde ordenar las soluciones a los ejercicios de cada clase. Fijate dónde guarda el browser `ejercicios.zip` al bajarlo. (suele ser en Downloads ó Descargas)
+Vamos a usar los programas `zip` y `unzip` que se instalan con el sistema operativo. Los podés [bajar de acá](http://infozip.sourceforge.net/) aunque no debiera ser necesario. Con ellos vamos a abrir el paquete [Ejercicios.zip](../Ejercicios.zip) para armar la estructura de directorios donde ordenar las soluciones a los ejercicios de cada clase. Fijate dónde guarda el browser `Ejercicios.zip` al bajarlo. (suele ser en Downloads ó Descargas)
 
-`PS C:\Users\flacus> unzip -l Downloads/ejercicios.zip`
+`PS C:\Users\flacus> unzip -l Downloads/Ejercicios.zip`
 
-Te va a mostrar una lista con los archivos y directorios contenidos en `ejercicios.zip` 
+Te va a mostrar una lista con los archivos y directorios contenidos en `Ejercicios.zip` 
 
-Fijate lo que hicimos: le pedimos al sistema operativo que ejecute un programa llamado `unzip` y que a ese programa le pase dos parámetros (`-l`  y  `Downloads/ejercicios.zip`)
+Fijate lo que hicimos: le pedimos al sistema operativo que ejecute un programa llamado `unzip` y que a ese programa le pase dos parámetros (`-l`  y  `Downloads/Ejercicios.zip`)
 
 Ahora pidámosle que extraiga uno de esos archivos:
 
-`unzip -x downloads/ejercicios.zip ejercicios_python/readme.txt`
+`unzip -x downloads/Ejercicios.zip ejercicios_python/readme.txt`
 
 Notá que cambiamos el `-l` (listar) por un `-x` (extraer).
 Vas a ver el archivo `readme.txt` en el directorio que acaba de crear (`ejercicios_python` dentro del directorio en que estás trabajando).
 
 Ahora pidámosle que abra todo el contenido el paquete. Si no le decimos que queremos un archivo en particular, unzip extrae todo.
 
-`unzip -x downloads/ejercicios.zip`
+`unzip -x downloads/Ejercicios.zip`
 
 Unzip inicia la extracción, crea los directorios que son necesarios para ubicar los archivos que extrae, y extrae los archivos del .zip en cada uno.  Encuentra que uno de ellos ya existe y te pregunta cómo querés solucionar el problema :
 
@@ -103,7 +103,7 @@ _donde_: archivos y/o directorios sobre los que queremos que actúe.
 _parámetros_ detalles sobre como queremos que actúe.
 
 comando: `unzip`
-donde: `downloads/ejercicios.zip`
+donde: `downloads/Ejercicios.zip`
 como: `-x`
 
 Tanto _dónde_ como _parámetros_ son muchas veces opcionales. Si omitimos especificarlos toman sus valores por omisión (tambien llamados "por defecto"). 
@@ -145,7 +145,6 @@ d-----        2021-02-23   3:34 PM                Clase08
 d-----        2021-02-23   3:34 PM                Clase09
 d-----        2021-02-23   3:34 PM                Clase10
 d-----        2021-02-23   3:34 PM                Clase11
-d-----        2021-02-23   3:34 PM                Clase12
 d-----        2021-03-10   9:53 AM                Data
 -a----        2021-03-10   9:16 AM            106 readme.txt
 
