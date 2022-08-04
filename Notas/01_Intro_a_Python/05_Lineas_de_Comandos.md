@@ -94,6 +94,8 @@ Generalicemos esto que hicimos recién.
 
 ### Comandos, directorio de trabajo y parámetros.
 
+_Nota:_ Habrás notado que en esta sección el sistema usa el separador `\` pero nosotros usamos `/`. Esto nos permite escribir la misma línea en Linux y en Windows dado que ambos entienden `/`
+
 En general para pedir cosas al sistema operativo decile *qué, dónde y cómo*: QUE querés que haga, DONDE querés que lo haga, y COMO querés que lo haga (con variaciones, por supuesto):
 
 comando [donde] [parámetros]
@@ -175,6 +177,7 @@ El comando `type` te muestra lo que un archivo contiene. Evita que tengas abrir 
 PS C:\Users\oski\ejercicios_python\clase10> type readme.txt
 esta carpeta contiene los archivos .py correspondientes a la ejercitaciÃ³n de la clase 10
 ```
+_Nota:_ La palabra "ejercitación"se lee mal por un problema de "encoding" o codificación de datos. Veremos esto mas adelante.
 
 
 ## Borrar un archivo
@@ -194,7 +197,37 @@ PS C:\users\flacus\ejercicios_python\clase10>del readme.txt
 _Nota: Windows no es case-sentitive (sensible a mayusculas) para nombres de archivos y directorios. Linux SI_.
 
 
+## Caminos absolutos y caminos relativos
 
+Notemos algo que es un poco sutil y aún así muy importante. Como decíamos antes, los comandos se ejecutan sobre el directorio en que estás. Por ejemplo, si estamos en un directorio donde existe un archivo `readme.txt` podemos simplemente decir 
+
+``` 
+PS C:\Users\oski\ejercicios_python\clase01> type readme.txt
+``` 
+
+Sin embargo, si queremos ver un archivo `readme.txt` que está en _otro_ directorio (por ejemplo en `clase02`), tenemos que especificar dónde está. Hay dos formas de referirnos a la ubicación de un archivo o directorio. Una es usando su nombre completo, lo que se llama un camino ó ("pathname") absoluto:
+
+``` 
+PS C:\Users\oski\ejercicios_python\clase01> type C:/Users/oski/ejercicios_python/clase02/readme.txt
+``` 
+
+Notar que estamos parados en `C:\Users\oski\ejercicios_python\clase01` y nos estamos refiriendo al `readme.txt` que está en "el directorio de al lado" `C:\Users\oski\ejercicios_python\clase02\`
+
+
+Otra forma de referirnos a un directorio es especificar cómo llegar allí desde donde estamos:
+
+``` 
+PS C:\Users\oski\ejercicios_python\clase01> type readme.txt
+``` 
+Se refiere al archivo `readme.txt` ubicado en este mismo directorio ó si queremos un `readme.txt` que está en un directorio aledaño:
+
+``` 
+PS C:\Users\oski\ejercicios_python\clase01> type ../clase02/readme.txt
+``` 
+
+Esto significa que _desde donde estamos_, vamos a "subir un directorio" (`../`) y luego bajar a `clase02/` y trabajar con el archivo `readme.txt` que está ahí. Notá que eliminamos toda la parte del nombre del archivo que también está incluída en el directorio donde estamos, y la reemplazamos por `../`
+
+Esta última forma, llamada "relative pathname" o camino relativo (relativo a donde estamos), es muy útil cuando tenés un conjunto de archivos en directorios cercanos (como los de las clases de esta materia) y se usará mucho en [Sección 3.4](../03_Contenedores_y_Errores/04_Llamados_desde_cmd.md#llamados-desde-consola)
 
 
 

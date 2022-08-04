@@ -75,21 +75,7 @@ Veamos en mayor detalle cómo funciona este REPL:
 - `>>>` es el símbolo del intérprete para comenzar un nuevo comando.
 - `...` es el símbolo del intérprete para continuar con un comando comenzado antes. Dejá una línea en blanco para terminar lo que ya ingresaste.
 
-El símbolo `...` puede mostrarse o no dependiendo de tu entorno. En este curso lo mostraremos como líneas en blanco para facilitar el copy-paste de fragmentos de código (del que ya dijimos, ¡no hay que abusar!).
-
-Antes vimos que el guión bajo `_` guarda el último resultado.
-
-```python
->>> 37 * 42
-1554
->>> _ * 2
-3108
->>> _ + 50
-3158
->>>
-```
-
-*Esto solo es válido en el modo interactivo que estamos viendo. No uses el guión bajo en un programa.*
+El símbolo `...` puede mostrarse o no dependiendo de tu entorno. En este curso lo mostraremos como líneas en blanco para facilitar el copy-paste de fragmentos de código (del que no hay que abusar).
 
 ## Ejercicios
 
@@ -98,7 +84,6 @@ En tu máquina, iniciá Python y usalo como calculadora para resolver el siguien
 
 * ¿Cuántas horas son 105 minutos?
 * ¿Cuántos kilómetros son 20 millas? (un kilómetro corresponde a 0,6214 millas)
-
 
 
 ```python
@@ -116,6 +101,7 @@ tip: Usá el guión bajo (underscore, \_) para referirte al resultado del últim
 >>> _/1.75
 18.391650190813372
 ```
+*Esto solo es válido en el modo interactivo que estamos viendo. No uses el guión bajo en un programa.*
 
 ### Ejercicio 1.2: Obtener ayuda
 Usá el comando `help()` para obtener ayuda sobre la función  `abs()`. Luego, usá el `help()` para obtener la ayuda sobre la función `round()`. Tipeá `help()` sólo para entrar en la ayuda en modo  interactivo. Con `q` salís del help.
