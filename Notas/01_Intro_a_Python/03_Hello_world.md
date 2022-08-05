@@ -38,9 +38,10 @@ hello world
 en una terminal de Mac:
 
 ```
-[falta] ¿cómo se ve?
-```
-
+~/ejercicios_python
+➜ python hello.py
+hello world
+ ```
 
 
 Obervación: En Windows puede ser necesario especificar el camino (path) completo al intérprete de Python como en `c:\python36\python`.
