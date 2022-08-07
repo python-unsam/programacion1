@@ -1,21 +1,15 @@
 [Contenidos](../Contenidos.md) \| [Anterior (4 Llamados desde consola [falta])](04_Llamados_desde_cmd.md)
 
-# 3.5 Cierre de la clase [falta]
+# 3.5 Cierre de la clase
 
-En esta clase aprendimos a ... 
+Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Recordá usar siempre la misma dirección de mail y poner como *subject* del correo **[Unidad 3]**. Los ejercicios de esta unidad los podés enviar hasta el día viernes 26 de agosto inclusive. *Recordá:* Si cursás en el turno de los miércoles, mandá tus ejercicios a python@unsam.edu.ar, si cursás en el turno de los jueves mandalos a pythonunsam@gmail.com.
 
-* Para cerrar esta clase te pedimos que recopiles las soluciones de los siguientes ejercicios:
+* Los ejercicios a enviar esta semana son:
     1. El archivo `informe.py` del [Ejercicio 3.4](../03_Contenedores_y_Errores/02_Contenedores.md#ejercicio-34-balances).
     2. El archivo `solucion_de_errores.py` con los ejercicios [Ejercicio 3.5](../03_Contenedores_y_Errores/03_Bugs.md#ejercicio-35-semantica) al [Ejercicio 3.9](../03_Contenedores_y_Errores/03_Bugs.md#ejercicio-39-pisando-memoria).
     3. El archivo `camion_commandline.py` del [Ejercicio 3.10](../03_Contenedores_y_Errores/04_Llamados_desde_cmd.md#ejercicio-310-ejecucion-desde-la-linea-de-comandos-con-parametros-sacar-de-aca) (es adecuado el nivel? [falta]).
     
-
-Observación: Si el enunciado de un ejercicio te pide que lo corras con un input particular, por favor poné la salida que obtuviste como comentario en tu código. 
-
-[Entregar Ejercicios](http://programacionpython.ecyt.unsam.edu.ar/unit/submission/3)
-
-
-
+¡Nos vemos pronto!
 
 [Contenidos](../Contenidos.md) \| [Anterior (4 Llamados desde consola [falta])](04_Llamados_desde_cmd.md)
 

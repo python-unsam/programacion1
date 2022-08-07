@@ -1,8 +1,8 @@
-[Contenidos](../Contenidos.md) \| [Anterior (3 Errores)](03_Bugs.md) \| [Próximo (5 Cierre de la clase [falta])](05_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 Errores)](03_Bugs.md) \| [Próximo (5 Cierre de la clase)](05_Cierre.md)
 
 # 3.4 Llamados desde consola [falta]
 
-Ya vimos que el python se puede correr desde la consola. También podemos correr programas escritos en pythons desde la consola. Esto nos permite usarlos de manera muy práctica
+Ya vimos que el Python se puede correr desde la consola. También podemos correr programas escritos en pythons desde la consola. Esto nos permite usarlos de manera muy práctica
 
 ## Llamados desde consola:
 
@@ -12,7 +12,7 @@ Ya vimos en la [Sección 1.5](../01_Intro_a_Python/05_Lineas_de_Comandos.md#la-l
 
 Quizas se puede poner este ejercicio:
 ### Ejercicio 3.10: Ejecución desde la línea de comandos con parámetros - SACAR DE ACA
-*SACAR DE ACA*
+*¿QUEDA ACA?*
 
 En el programa `costo_camion.py`, el nombre del archivo de entrada `'../Data/camion.csv'` fue escrito en el código.
 
@@ -72,9 +72,9 @@ Si no le pasamos ningún archivo, va a mostrar el resultado para `camion.csv` po
 Guardá tu programa en el archivo `camion_commandline.py` para entregar al final de la clase.
 
 
-Te dejamos un [video](https://youtu.be/D4WI4qsuwrQ) explicando cómo funciona el pasaje de parámetros por linea de comandos en python. 
+Te dejamos un [video](https://youtu.be/D4WI4qsuwrQ) explicando cómo funciona el pasaje de parámetros por linea de comandos en Python. 
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (3 Errores)](03_Bugs.md) \| [Próximo (5 Cierre de la clase [falta])](05_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 Errores)](03_Bugs.md) \| [Próximo (5 Cierre de la clase)](05_Cierre.md)
 

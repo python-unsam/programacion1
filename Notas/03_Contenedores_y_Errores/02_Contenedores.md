@@ -13,9 +13,9 @@ Los programas suelen trabajar con muchos objetos.
 
 En Python hay tres opciones principales para elegir.
 
-* Listas. Datos ordenados.
-* Diccionarios. Datos desordenados.
-* Conjuntos. Colección desordenada de elementos únicos.
+* Listas - Datos ordenados.
+* Diccionarios - Datos desordenados.
+* Conjuntos - Colección desordenada de elementos únicos.
 
 ### Listas como contenedores
 
@@ -184,6 +184,8 @@ s1 | s2                 # Unión de conjuntos s1 y s2
 s1 & s2                 # Intersección de conjuntos
 s1 - s2                 # Diferencia de conjuntos
 ```
+
+![Operaciones de conjuntos](Set_UID.png)
 
 ## Ejercicios
 
@@ -366,7 +368,7 @@ El archivo `Data/precios.csv` puede tener líneas en blanco, esto te puede traer
 Observá que arriba figura una lista vacía (la última), porque la última línea del archivo no tenía datos.
 
 Puede suceder que esto haga que tu programa termine con una excepción. Usá los comandos `try` y `except` para evitar el problema.
-Para pensar: ¿Sería mejor prevenir estos problemas con el comando `if` en vez de `try` y `except`?
+Para pensar: ¿sería mejor prevenir estos problemas con el comando `if` en vez de `try` y `except`?
 
 Una vez que hayas escrito tu función `leer_precios()`, testeala interactivamente para asegurarte de que funciona bien:
 
