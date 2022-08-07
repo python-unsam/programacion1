@@ -180,9 +180,9 @@ Más operaciones en conjuntos:
 citricos.add('Banana')        # Agregar un elemento
 citricos.remove('Limon')    # Eliminar un elemento
 
-s1 | s2                 # Unión de conjuntos s1 y s2
-s1 & s2                 # Intersección de conjuntos
-s1 - s2                 # Diferencia de conjuntos
+A | B                 # Unión de conjuntos A y B
+A & B                 # Intersección de conjuntos
+A - B                 # Diferencia de conjuntos
 ```
 
 ![Operaciones de conjuntos](Set_UID.png)
