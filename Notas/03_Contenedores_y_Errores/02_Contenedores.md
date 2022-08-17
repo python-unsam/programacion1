@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción [falta])](01_Introduccion.md) \| [Próximo (3 Errores)](03_Bugs.md)
+[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción)](01_Introduccion.md) \| [Próximo (3 Errores)](03_Bugs.md)
 
 # 3.2 Contenedores
 
@@ -6,16 +6,18 @@ En esta sección trataremos listas, diccionarios y conjuntos.
 
 ### Panorama
 
-Los programas suelen trabajar con muchos objetos.
+Para dar soluciones útiles, los programas suelen trabajar con una diversidad de objetos. Muchas veces éstos son representaciones de objetos en la vida real. Por ejemplo, en la clase pasada, el programa del camión de frutas [Ejercicio 2.9](../02_Estructuras_y_Funciones/04_Funciones.md#ejercicio-29-funciones-de-la-biblioteca) maneja listas que representan el contenido de un camión, y maneja un archivo .csv con una lista de precios del mercado. 
 
 * Un camión con cajones de fruta
 * Una tabla de precios de cajones de fruta
 
-En Python hay tres opciones principales para elegir.
+Si elegimos bien la forma en que representamos los objetos de la vida real dentro de un programa, podemos encontrar muy fácil programar las soluciones que buscamos (y viceversa). 
 
-* Listas - Datos ordenados.
-* Diccionarios - Datos desordenados.
-* Conjuntos - Colección desordenada de elementos únicos.
+En Python hay tres opciones principales para elegir contenedores de datos.
+
+* Listas - Secuencias ordenadas de datos.
+* Diccionarios - Datos no ordenados.
+* Conjuntos - Colección no ordenada de elementos únicos.
 
 ### Listas como contenedores
 
@@ -229,7 +231,7 @@ Primero, en vez de definir `total = 0`, tenés que empezar con una variable que 
 camion = []
 ```
 
-Después, en vez de sumar el costo, tenés que pasar cada fila a una tupla igual a como lo hiciste en el último ejercicio, y agregarla a la lista. Por ejemplo:
+Segundo, en vez de sumar el costo, tenés que pasar cada fila a una tupla igual a como lo hiciste en el último ejercicio, y agregarla a la lista. Por ejemplo:
 
 ```python
 for row in rows:
@@ -389,5 +391,5 @@ Ahora vamos calcular el balance del negocio: juntá todo el trabajo que hiciste 
 Ayuda: hubo una ganancia de algo más de quince mil pesos.
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción [falta])](01_Introduccion.md) \| [Próximo (3 Errores)](03_Bugs.md)
+[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción)](01_Introduccion.md) \| [Próximo (3 Errores)](03_Bugs.md)
 

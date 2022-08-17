@@ -1,20 +1,115 @@
 [Contenidos](../Contenidos.md) \| [Anterior (3 Errores)](03_Bugs.md) \| [Próximo (5 Cierre de la clase)](05_Cierre.md)
 
-# 3.4 Llamados desde consola [falta]
+# 3.4 Llamados desde consola
 
-Ya vimos que el Python se puede correr desde la consola. También podemos correr programas escritos en pythons desde la consola. Esto nos permite usarlos de manera muy práctica
+Ya vimos que Python se puede correr desde la consola. También podemos correr programas escritos en Python desde la consola. Veamos que ventajas tiene esto.
 
 ## Llamados desde consola:
 
 Se relaciona con la [Sección 1.5](../01_Intro_a_Python/05_Lineas_de_Comandos.md#la-línea-de-comandos).
 
-Ya vimos en la [Sección 1.5](../01_Intro_a_Python/05_Lineas_de_Comandos.md#la-línea-de-comandos) que el python se puede correr desde la consola. También podemos correr programas escritos en pythons desde la consola. Esto nos permite usarlos de manera muy práctica
+Ya vimos en la [Sección 1.5](../01_Intro_a_Python/05_Lineas_de_Comandos.md#la-línea-de-comandos) que Python se puede correr desde la consola. También podemos pasarle como parámetro, al invocarlo, el nombre de un script que queremos que ejecute. Esto nos permite usarlo de manera muy práctica. Abrí una ventana terminal y probá esto:
 
-Quizas se puede poner este ejercicio:
-### Ejercicio 3.10: Ejecución desde la línea de comandos con parámetros - SACAR DE ACA
-*¿QUEDA ACA?*
+```code
+PS ...\Clase03> py ../Clase01/rebotes.py
+1 60.0
+2 36.0
+3 21.6
+4 12.96
+5 7.776
+6 4.6656
+7 2.7994
+8 1.6796
+9 1.0078
+10 0.6047
+```
 
-En el programa `costo_camion.py`, el nombre del archivo de entrada `'../Data/camion.csv'` fue escrito en el código.
+Fijate que estamos en la carpeta de la clase 3 (`\Clase03>`) y le estamos pidiendo a Python que ejecute el script `rebotes.py` que hiciste en la clase 1, y que está en ese directorio (`../Clase01/rebotes.py`). La salida es el resultado de esa ejecución.
+
+Ahora vamos a darle un poco más de flexibilidad a `rebotes.py`.
+
+Escribí el siguiente código y guardalo con el nombre `parametros.py`
+
+```python
+import sys
+
+print (sys.argv)
+```
+
+Ahora ejecutalo desde la línea de comandos con
+
+```
+PS ...\Clase03> py parametros.py
+['parametros.py']
+```
+
+Y ahora probá:
+```
+PS ...\Clase03> py parametros.py uno dos tres
+['parametros.py', 'uno', 'dos', 'tres']
+```
+
+Sin entrar en detalles, lo que hace el script es imprimir una variable (`sys.argv`) del módulo `sys`. Esa variable es una lista (por éso los corchetes en la salida `['parametros.py']`) y esa lista contiene los parámetros que le dimos a Python al invocarlo (`
+['parametros.py', 'uno', 'dos', 'tres']`). Notá que el primer parámetro en la lista (con índice `0`) es el nombre del script a ejecutar.
+
+Esto es interesante porque significa que un script puede acceder a los parámatros que hayas escrito en la línea de comandos, incluso a su propio nombre. 
+
+Cambiemos este pequeño script para que haga un cálculo con los parámetros que le pases:
+
+```python
+import sys
+
+param1 = int(sys.argv[1])
+param2 = int(sys.argv[2])
+
+print (param1 * param2)
+```
+
+Y volvé a probarlo como antes.
+
+No funciona, verdad ? Porqué ? Que dice el Traceback ? (probálo!). Dice que hubo una excepción de tipo `ValueError` porque la función `int()` no puede interpretar la cadena `uno` y el script se detiene.
+
+Podríamos evitar que esta excepción detenga el programa, pero por ahora no compliquemos el script, y pasémosle parámetros que pueda usar:
+
+```
+...\Clase03> py parametros.py 4 3
+12
+```
+
+## Ejercicios:
+
+Usando estas ideas, modificá `rebotes.py` para que la altura inicial de la pelota no sea ya 100 metros, sino que la puedas especificar al invocar el script, de modo de obtener este comportamiento:
+
+```code
+...\Clase03> py rebotes.py 300
+1 180.0
+2 108.0
+3 64.8
+4 38.88
+5 23.328
+6 13.9968
+7 8.3981
+8 5.0389
+9 3.0233
+10 1.814
+```
+
+Atención a la forma de invocar el script ! 
+Que acaba de pasar acá ? Que hemos hecho: hemos "exportado" una función escrita en Python y ahora la podemos invocar desde la línea de comandos pasándole los parámetros necesarios. Poderoso!
+
+
+Esta modificación para recibir parámetros desde la línea de comandos tiene una ventaja y una desventaja. La ventaja esta clara. La desventaja tal vez también: ahora _es obligatorio_ pasarle parámetros por línea de comandos. 
+
+En general, los programas tienen cierto comportamiento si uno les pide que hagan algo en particular, y otro comportamiento si uno no les pide nada (por ejemplo, en el caso de `zip` que usamos en la clase 1, si no le pedimos que haga nada en particular nos dá una ayuda)
+
+Podemos lograr este comportamiento midiendo la longitud de la lista `sys.argv`, o checkeando que cumpla ciertas características.
+
+### Ejercicio 3.10: Parámetros por omisión.
+Antes de asignar un valor a la altura inicial de la pelota, medí la longitud de la lista de parámetros. Si _omitimos_ pasarle el parámetro para la altura inicial al invocarlo desde la linea de comandos, que use el valor por omisión de 100 metros. Si le pasamos una altura, entonces que use ésa. 
+
+### Ejercicio 3.11: Ejecución desde la línea de comandos con parámetros.[Ejercicio 2.9](../02_Estructuras_y_Funciones/04_Funciones.md#ejercicio-29-funciones-de-la-biblioteca)
+
+En el programa `costo_camion.py` del ejercicio [Ejercicio 2.9](../02_Estructuras_y_Funciones/04_Funciones.md#ejercicio-29-funciones-de-la-biblioteca), el nombre del archivo de entrada `'../Data/camion.csv'` fue escrito en el código.
 
 ```python
 # costo_camion.py
@@ -52,7 +147,7 @@ costo = costo_camion(nombre_archivo)
 print('Costo total:', costo)
 ```
 
-`sys.argv` es una lista que contiene los argumentos que le pasamos al script al momento de llamarlo desde la línea de comandos (si es que le pasamos alguno). Por ejemplo, desde una terminal de Unix (en Windows es similar), para correr nuestro programa y que procese el mismo archivo podríamos escribir:
+Como vimos antes, `sys.argv` es una lista que contiene los argumentos que le pasamos al script al momento de llamarlo desde la línea de comandos (si es que le pasamos alguno). Por ejemplo, desde una terminal de Unix (en Windows es similar), para correr nuestro programa y que procese el mismo archivo podríamos escribir:
 
 ```bash
 bash $ python3 camion_commandline.py ../Data/camion.csv
