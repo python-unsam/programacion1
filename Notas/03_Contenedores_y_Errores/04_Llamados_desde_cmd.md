@@ -107,8 +107,7 @@ Podemos lograr este comportamiento midiendo la longitud de la lista `sys.argv`, 
 ### Ejercicio 3.10: Parámetros por omisión.
 Antes de asignar un valor a la altura inicial de la pelota, medí la longitud de la lista de parámetros. Si _omitimos_ pasarle el parámetro para la altura inicial al invocarlo desde la linea de comandos, que use el valor por omisión de 100 metros. Si le pasamos una altura, entonces que use ésa. 
 
-### Ejercicio 3.11: Ejecución desde la línea de comandos con parámetros.[Ejercicio 2.9](../02_Estructuras_y_Funciones/04_Funciones.md#ejercicio-29-funciones-de-la-biblioteca)
-
+### Ejercicio 3.11: Ejecución desde la línea de comandos con parámetros.
 En el programa `costo_camion.py` del ejercicio [Ejercicio 2.9](../02_Estructuras_y_Funciones/04_Funciones.md#ejercicio-29-funciones-de-la-biblioteca), el nombre del archivo de entrada `'../Data/camion.csv'` fue escrito en el código.
 
 ```python
