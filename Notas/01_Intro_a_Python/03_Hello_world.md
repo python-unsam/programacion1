@@ -44,8 +44,8 @@ hello world
  ```
 
 
-Obervación: En Windows puede ser necesario especificar el camino (path) completo al intérprete de Python como en `c:\python36\python`.
-Sin embargo, si Python está instalado del modo usual, podría alcanzar con que tipees el nombre del programa como en `hello.py`.
+Obervación: En Windows puede ser necesario especificar el camino (path) completo al intérprete de Python como en `c:\python36\python`. Si está bien instalado debería alcanzar con `python` , `python3` ó simplemente `py`.
+Sin embargo, si Windows está bien configurado y Python está instalado del modo usual, debería alcanzar con que tipees el nombre del programa como en `hello.py` ó (por seguridad) `./hello.py`.
 
 Tené en cuenta que con estos comandos estás corriendo el código de Python desde la línea de comandos de tu sistema operativo. El código se ejecuta, Python termina y el control vuelve a la terminal, saliendo de Python. Si necesitás ejecutarlo y seguir dentro del intérprete de Python podés usar `python -i hello.py`.
 

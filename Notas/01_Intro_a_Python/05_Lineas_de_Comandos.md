@@ -19,14 +19,6 @@ Ver "man sudo_root" para mas detalles.
 oski@flaquita:~$
 ```
 
-Bajo Windows usaremos "Windows Command Prompt" (no el PowerShell). Al abrirse mostrará: 
-```
-Microsoft Windows [Version 10.0.19044.1826]
-(c) Microsoft Corporation. All rights reserved.
-
-C:\Users\oski>
-```
-
 Quienes estén en Windows usen "Windows PowerShell".
 ```
 Windows PowerShell
