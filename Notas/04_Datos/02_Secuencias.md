@@ -2,7 +2,7 @@
 
 # 4.2 Secuencias
 
-En esta sección hablamos de secuencias. Te dejamos un [video introductorio](https://youtu.be/e_E-2tFcRwQ) para este tema.
+En esta sección hablamos de secuencias de datos.
 
 ### Tipo de secuencias
 
@@ -265,6 +265,8 @@ Un uso frecuente de `zip` es para crear pares clave/valor y construir diccionari
 ```python
 d = dict(zip(columnas, valores))
 ```
+
+ Como cierre te dejamos una [explicación](https://youtu.be/e_E-2tFcRwQ) para este tema.
 
 ## Ejercicios
 
