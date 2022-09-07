@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (2 Contenedores)](02_Contenedores.md) \| [Próximo (4 Llamados desde consola)](04_Llamados_desde_cmd.md)
+[Contenidos](../Contenidos.md) \| [Anterior (2 Contenedores)](02_Contenedores.md) \| [Próximo (4 Llamados desde consola [falta])](04_Llamados_desde_cmd.md)
 
 # 3.3 Errores
 
@@ -16,7 +16,7 @@ El tercer tipo de error es el más difícil de encontrar y de entender. Son los 
 
 ## Debuggear a mano
 
-Los errores (o bugs) son difíciles de rastrear y resolver. Especialmente aquellos errores que no resultan en un mensaje de error por parte del intérprete, sino que resultan en que el programa no pueda continuar o dé un resultado inesperado. Si tu programa corre, pero no dá el resultado que esperás, o _se cuelga_ y no entendés por qué, existen herramientas concretas que te ayudan a buscar el origen del problema. A continuación veremos algunas metodologías específicas (aunque un poco primitivas) que permiten rastrear el origen del problema.
+Los errores (o bugs) son difíciles de rastrear y resolver. Especialmente aquellos errores que no resultan en un mensaje de error por parte del intérprete, sino que resultan en que el programa no pueda continuar o dé un resultado inesperado. Si tu programa corre, pero no da el resultado que esperás, o _se cuelga_ y no entendés por qué, existen herramientas concretas que te ayudan a buscar el origen del problema. A continuación veremos algunas metodologías específicas (aunque un poco primitivas) que permiten rastrear el origen del problema.
 
 ### ¿Qué dice un traceback?
 Si el intérprete te da un mensaje de error, estás en el caso más fácil. Lo primero que podés hacer es intentar entender la causa del error usando como punto de partida el "traceback":
@@ -43,7 +43,7 @@ En este caso en particular, la pregunta es: es  `x` efectivamente un objeto que 
 
 Sin embargo a veces el traceback no proporciona suficiente información (por ejemplo, no sabemos el valor de cada parámetro usado en las llamadas).
 
-Una posibilidad que a veces da resultado es copiar el traceback en Google. Si estás usando una biblioteca de funciones que mucha gente usa (como `numpy` ó `math`) es muy probable que alguien se haya encontrado antes con el mismo problema que vos, y alguien más le haya explicado qué lo causa, o cómo evitarlo. Podés aprender mucho con esas búsquedas, y en muchos casos tu programa está cometiendo el mismo error.
+Una posibilidad que a veces da resultado es copiar el traceback en Google. Si estás usando una biblioteca de funciones que mucha gente usa (como `numpy` o `math`) es muy probable que alguien se haya encontrado antes con el mismo problema que vos, y alguien más le haya explicado qué lo causa, o cómo evitarlo. Podés aprender mucho con esas búsquedas, y en muchos casos tu programa está cometiendo el mismo error.
 
 ### Usá el modo [REPL](https://es.wikipedia.org/wiki/REPL) de Python
 
@@ -236,5 +236,5 @@ _Ayuda: Primero tratá de pensarlo, pero si este último se te hace muy difícil
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (2 Contenedores)](02_Contenedores.md) \| [Próximo (4 Llamados desde consola)](04_Llamados_desde_cmd.md)
+[Contenidos](../Contenidos.md) \| [Anterior (2 Contenedores)](02_Contenedores.md) \| [Próximo (4 Llamados desde consola [falta])](04_Llamados_desde_cmd.md)
 

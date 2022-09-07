@@ -52,7 +52,7 @@ Escribí una función `especies(lista_arboles)` que tome una lista de árboles c
 _Sugerencia: Usá el comando `set` como en la [Sección 3.2](../03_Contenedores_y_Errores/02_Contenedores.md#conjuntos)._
 
 ### Ejercicio 4.15: Contar ejemplares por especie
-Usando contadores como en el [Ejercicio 4.6](../04_Datos/03_Contadores.md#ejercicio-46-contadores), escribí una función `contar_ejemplares(lista_arboles)` que, dada una lista como la que generada con `leer_parque()`, devuelva un diccionario en el que las especies (recordá, es la columna `'nombre_com'` del archivo) sean las claves y tengan como valores asociados la cantidad de ejemplares en esa especie en la lista dada.
+Usando un diccionario contador (Counter) del módulo `collections` como en el [Ejercicio 4.6](../04_Datos/03_Contadores.md#ejercicio-46-contadores), escribí una función `contar_ejemplares(lista_arboles)` que, dada una lista como la generada con `leer_parque()`, devuelva un diccionario contador en el que las especies (recordá, es la columna `'nombre_com'` del archivo) sean las claves y tengan como valores asociados la cantidad de ejemplares en esa especie en la lista dada.
 
 Luego, combiná esta función con `leer_parque()` y con el método `most_common()` para informar las cinco especies más frecuentes en cada uno de los siguientes parques:
 
@@ -97,7 +97,7 @@ Correlo para los tres parques mencionados anteriormente.
 
 
 ### Ejercicio 4.19: Especie más inclinada en promedio
-Volvé a combinar las funciones anteriores para escribir la función `especie_promedio_mas_inclinada(lista_arboles)` que, dada una lista de árboles devuelva la especie que en promedio tiene la mayor inclinación y el promedio calculado..
+Volvé a combinar las funciones anteriores para escribir la función `especie_promedio_mas_inclinada(lista_arboles)` que, dada una lista de árboles devuelva la especie que en promedio tiene la mayor inclinación y el promedio calculado.
 
 **Resultados.** Deberías obtener, por ejemplo, que los _Álamos Plateados_ del Parque Los Andes tiene un promedio de inclinación de 25 grados.
 

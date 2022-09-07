@@ -217,7 +217,7 @@ El precio de la naranja es:  106.28
 ```
 
 ### Ejercicio 2.4: Archivos comprimidos
-¿Que pasaría si quisiéramos leer un archivo comprimido con gzip, por ejemplo? La función primitiva de Python  `open()` no hace esa tarea. Pero hay un módulo de la biblioteca de Python llamado `gzip` que lee archivos comprimidos.
+¿Qué pasaría si quisiéramos leer un archivo comprimido con gzip, por ejemplo? La función primitiva de Python  `open()` no hace esa tarea. Pero hay un módulo de la biblioteca de Python llamado `gzip` que lee archivos comprimidos.
 
 Probalo:
 

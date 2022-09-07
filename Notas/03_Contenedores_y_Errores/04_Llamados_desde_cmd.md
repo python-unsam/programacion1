@@ -1,8 +1,8 @@
 [Contenidos](../Contenidos.md) \| [Anterior (3 Errores)](03_Bugs.md) \| [Próximo (5 Cierre de la clase)](05_Cierre.md)
 
-# 3.4 Llamados desde consola
+# 3.4 Llamados desde consola [falta]
 
-Ya vimos que Python se puede correr desde la consola. También podemos correr programas escritos en Python desde la consola. Veamos que ventajas tiene esto.
+Ya vimos que el Python se puede correr desde la consola. También podemos correr programas escritos en pythons desde la consola. Esto nos permite usarlos de manera muy práctica
 
 ## Llamados desde consola:
 
@@ -49,7 +49,7 @@ PS ...\Clase03> py parametros.py uno dos tres
 ['parametros.py', 'uno', 'dos', 'tres']
 ```
 
-Sin entrar en detalles, lo que hace el script es imprimir una variable (`sys.argv`) del módulo `sys`. Esa variable es una lista (por éso los corchetes en la salida `['parametros.py']`) y esa lista contiene los parámetros que le dimos a Python al invocarlo (`
+Sin entrar en detalles, lo que hace el script es imprimir una variable (`sys.argv`) del módulo `sys`. Esa variable es una lista (por eso los corchetes en la salida `['parametros.py']`) y esa lista contiene los parámetros que le dimos a Python al invocarlo (`
 ['parametros.py', 'uno', 'dos', 'tres']`). Notá que el primer parámetro en la lista (con índice `0`) es el nombre del script a ejecutar.
 
 Esto es interesante porque significa que un script puede acceder a los parámatros que hayas escrito en la línea de comandos, incluso a su propio nombre. 
@@ -95,7 +95,7 @@ Usando estas ideas, modificá `rebotes.py` para que la altura inicial de la pelo
 ```
 
 Atención a la forma de invocar el script ! 
-Que acaba de pasar acá ? Que hemos hecho: hemos "exportado" una función escrita en Python y ahora la podemos invocar desde la línea de comandos pasándole los parámetros necesarios. Poderoso!
+Qué acaba de pasar acá ? Qué hemos hecho: hemos "exportado" una función escrita en Python y ahora la podemos invocar desde la línea de comandos pasándole los parámetros necesarios. Poderoso!
 
 
 Esta modificación para recibir parámetros desde la línea de comandos tiene una ventaja y una desventaja. La ventaja esta clara. La desventaja tal vez también: ahora _es obligatorio_ pasarle parámetros por línea de comandos. 
@@ -104,10 +104,10 @@ En general, los programas tienen cierto comportamiento si uno les pide que hagan
 
 Podemos lograr este comportamiento midiendo la longitud de la lista `sys.argv`, o checkeando que cumpla ciertas características.
 
-### Ejercicio 3.10: Parámetros por omisión.
-Antes de asignar un valor a la altura inicial de la pelota, medí la longitud de la lista de parámetros. Si _omitimos_ pasarle el parámetro para la altura inicial al invocarlo desde la linea de comandos, que use el valor por omisión de 100 metros. Si le pasamos una altura, entonces que use ésa. 
+### Ejercicio 3.10: Parámetros por omisiónAntes de asignar un valor a la altura inicial de la pelota, medí la longitud de la lista de parámetros. Si _omitimos_ pasarle el parámetro para la altura inicial, que use el valor por omisión de 100 metros. Si le pasamos una altura, entonces que use ésa. 
 
-### Ejercicio 3.11: Ejecución desde la línea de comandos con parámetros.
+### Ejercicio 3.11: Ejecución desde la línea de comandos con parámetros[Ejercicio 2.9](../02_Estructuras_y_Funciones/04_Funciones.md#ejercicio-29-funciones-de-la-biblioteca)
+
 En el programa `costo_camion.py` del ejercicio [Ejercicio 2.9](../02_Estructuras_y_Funciones/04_Funciones.md#ejercicio-29-funciones-de-la-biblioteca), el nombre del archivo de entrada `'../Data/camion.csv'` fue escrito en el código.
 
 ```python
@@ -166,7 +166,7 @@ Si no le pasamos ningún archivo, va a mostrar el resultado para `camion.csv` po
 Guardá tu programa en el archivo `camion_commandline.py` para entregar al final de la clase.
 
 
-Te dejamos un [video](https://youtu.be/D4WI4qsuwrQ) explicando cómo funciona el pasaje de parámetros por linea de comandos en Python. 
+Te dejamos un [video](https://youtu.be/D4WI4qsuwrQ) explicando cómo funciona el pasaje de parámetros por línea de comandos en Python. 
 
 
 

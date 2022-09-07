@@ -4,7 +4,7 @@
 
 Estructuras de datos, algoritmos, y las relaciones entre ellos.
 
-Cuando estés diseñando algoritmos de procesamiento de datos vas a encontrarte con algo my interesante: un algoritmo en particular funciona eficientemente sólo si los datos están almacenados de cierta forma, y otro algoritmo que resuelva el mismo problema puede requerir que almacenes los datos en otra estructura completamente diferente.
+Cuando estés diseñando algoritmos de procesamiento de datos vas a encontrarte con algo muy interesante: un algoritmo en particular funciona eficientemente sólo si los datos están almacenados de cierta forma, y otro algoritmo que resuelva el mismo problema puede requerir que almacenes los datos en otra estructura completamente diferente.
 
 Los algoritmos imponen restricciones sobre la forma de almacenar los datos. Como contracara, muchas veces una forma particular de almacenar los datos sugiere de por sí un algoritmo de procesamiento. 
 
@@ -12,7 +12,7 @@ Los algoritmos y las estructuras de datos pueden ser conceptos independientes pe
 
 Un caso clásico es el de los algoritmos de búsqueda:
 
-Si queremos saber si un número particular está presente en una lista de números, el hecho de tener esa lista de números ordenada permite usar métodos de busqueda que son mucho mas eficientes que si dicha lista estuviera desordenada.
+Si queremos saber si un número particular está presente en una lista de números, el hecho de tener esa lista de números ordenada permite usar métodos de búsqueda que son mucho más eficientes que si dicha lista estuviera desordenada.
 
 Supongamos que nuestra lista de números es 
 Numeros = [10, 20, 30, 40, 50, 60, 70, 80, 90]

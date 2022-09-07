@@ -2,7 +2,11 @@
 
 # 5.6 Cierre de la clase
 
-En esta clase vimos algo más sobre el debugger, el manejo de listas y la creación de listas por comprensión. 
+En esta clase vimos algo más sobre el debugger, el manejo de listas y la creación de listas por comprensión.
+
+Ya no es necesario que te recordemos el [código de honor](../Codigo.md) del curso (aunque lo acabamos de hacer).
+
+Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Recordá usar siempre la misma dirección de mail y poner como *subject* del correo **[Unidad 5]**. Los ejercicios de esta unidad los podés enviar hasta el día viernes 16 de septiembre inclusive. *Recordá:* Si cursás en el turno de los miércoles, mandá tus ejercicios a python@unsam.edu.ar, si cursás en el turno de los jueves mandalos a pythonunsam@gmail.com.
 
 
 * Para cerrar esta clase te pedimos que recopiles las soluciones de los siguientes ejercicios:
@@ -12,9 +16,8 @@ En esta clase vimos algo más sobre el debugger, el manejo de listas y la creaci
     4. El archivo `arboles.py` sobre arbolado porteño y comprensión de listas incluyendo el [Ejercicio 5.16](../05_Listas/05_Arboles2_LC.md#ejercicio-516-lista-de-altos-de-jacaranda) y el [Ejercicio 5.17](../05_Listas/05_Arboles2_LC.md#ejercicio-517-lista-de-altos-y-diametros-de-jacaranda).
 
 
-Al terminar envianos tus ejercicios. Podrás participar de la revisión de pares.
+Recordá que también podés pedir participar de la revisión de pares incluyendo en la entrega la frase "Me sumo a revision de pares".
 
-[Entregar Ejercicios](http://programacionpython.ecyt.unsam.edu.ar/unit/submission/4)
 
 ¡Gracias! Nos vemos en la próxima clase.
 

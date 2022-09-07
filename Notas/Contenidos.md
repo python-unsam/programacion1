@@ -4,7 +4,7 @@
 
 * [1. Introducción a Python](01_Intro_a_Python/00_Resumen.md)
 * [2. Estructuras y funciones](02_Estructuras_y_Funciones/00_Resumen.md)
-* [3. Contenedores y errores](03_Contenedores_y_Errores/00_Resumen.md)
+* [3. Contenedores y Errores](03_Contenedores_y_Errores/00_Resumen.md)
 * [4. Trabajando con datos](04_Datos/00_Resumen.md)
 * [5. Algoritmos sobre listas y comprensión de listas](05_Listas/00_Resumen.md)
 * [6. Aleatoriedad](06_Aleatoriedad/00_Resumen.md)

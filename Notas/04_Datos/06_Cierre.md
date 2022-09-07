@@ -4,7 +4,7 @@
 
 Te recordamos que leas el [código de honor](../Codigo.md) del curso en el que hablamos de las reglas que rigen en este curso para evitar el plagio así como otros aspectos importantes sobre qué se puede compartir y qué no. Al enviar tus archivos entendemos que leíste y estas de acuerdo con este texto. En caso contrario no envíes tus archivos y contactate con los docentes.
 
-Tené en cuenta que algunos ejercicios serán corrgidos automáticamente, por eso es importante que respetes los nombres de las funciones, el orden de los parámetros y lo que devuelven esas funciones de manera que al correrlas den _exactamente_ lo que te pedía el enunciado.
+Tené en cuenta que quizás algunos ejercicios sean corregidos automáticamente: es importante que respetes los nombres de las funciones, el orden de los parámetros y lo que devuelven esas funciones de manera que al correrlas den _exactamente_ lo que pide el enunciado.
 
 * Para cerrar esta clase te pedimos que recopiles las soluciones de los siguientes ejercicios:
     1. El archivo `costo_camion.py` del [Ejercicio 4.4](../04_Datos/02_Secuencias.md#ejercicio-44-la-funcion-zip).
