@@ -41,7 +41,7 @@ plt.scatter(d,h)
 Algunas recomendaciones:
 
 1. Convertí la lista generada en un `ndarray` de `numpy`, de esa forma podés usar rebanadas para obtener un vector *d* con diámteros y otro *h* con alturas inmediatamente.
-2. Mirá algún ejemplo como [éste](https://matplotlib.org/stable/gallery/shapes_and_collections/scatter.html#sphx-glr-gallery-shapes-and-collections-scatter-py) y tratá de entender cómo se usan los parámetros opcionales *s* (de size, tamaño) y *c* (de color) y *alpha* (de transparencia) de la función [matplotlib.pyplot.scatter](https://matplotlib.org/3.3.1/api/_as_gen/matplotlib.pyplot.scatter.html#matplotlib.pyplot.scatter). 
+2. Mirá algun ejemplo como [este](https://matplotlib.org/stable/gallery/shapes_and_collections/scatter.html#sphx-glr-gallery-shapes-and-collections-scatter-py) y tratá de entender cómo se usan los parámetros opcionales *s* (de size, tamaño) y *c* (de color) y *alpha* (de transparencia) de la función [matplotlib.pyplot.scatter](https://matplotlib.org/3.3.1/api/_as_gen/matplotlib.pyplot.scatter.html#matplotlib.pyplot.scatter). 
 3. Usando el parámetro *alpha* hacé que el gráfico permita visualizar dónde hay mayor densidad de datos.
 
 ¿Ves alguna relación entre el diámetro y el alto de los Jacarndás? ¿Te parece que es una relación lineal o de otro tipo?
@@ -68,7 +68,7 @@ especies = ['Eucalipto', 'Palo borracho rosado', 'Jacarandá']
 medidas = medidas_de_especies(especies, arboleda)
 ```
 
-¿Se mantienen las relaciones que viste en el ejercicio anterior para las tres especies? ¿Hay diferencias entre las especies? Para un mismo alto, ¿cuál tiene mayor diámetro (tipicamente)?
+¿Se mantienen las relaciones que viste en el ejercicio anterior para las tres especies? ¿Hay diferencias entre las especies? Para un mismo alto, ¿cuál tiene mayor diámetro (típicamente)?
 
 Para poder comparar diferentes especies resulta conveniente fijar los límites en los ejes *x* e *y* en las diferentes figuras usando las funciones `xlim()` e  `ylim()`. A continuación un ejemplo:
 ```python

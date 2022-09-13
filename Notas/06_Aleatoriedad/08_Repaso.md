@@ -9,12 +9,12 @@ A continuación dejamos unos links a unos videos sobre un par de ejercicios de p
 
 ## Análisis de alternativas para *propagar*
 
-Los siguientes tres ejercicios proponen diferentes soluciones al [Ejercicio 5.6](../05_Listas/02_IteradoresLista.md#ejercicio-56-propagacion) de propagación del fuego. Vamos a analizar sus diferencias y comenzar a pensar en su eficiencia. Algunas soluciones tienen errores que deberás corregir oportunamente. ¡Usá el debugger de Python!
+Los siguientes tres ejercicios proponen diferentes soluciones al [Ejercicio 5.6](../05_Listas/02_IteradoresLista.md#ejercicio-56-propagacion) de propagación del fuego. Vamos a analizar sus diferencias y comenzar a pensar en la eficiencia de cada algoritmo. Algunas soluciones tienen errores que deberás corregir oportunamente. ¡Usá el debugger de Python!
 
 _Observación: Cuando te pidamos que cuentes cuántas operaciones hace una función, no nos va a importar el detalle de las constantes. Por ejemplo: si una función para una entrada de largo n hace n+2 operaciones y otra hace 3*n+5 nos va a importar que ambas hacen una cantidad **lineal** de operaciones en el tamaño de la entrada, pero no las constantes 2, 3 y 5 que figuran en cada caso. Diremos que la cantidad de operaciones es *O(n)* (se lee 'o de n'). En cambio, sí vamos a hacer una diferencia si una función hace n y otra hace n^2 operaciones (una va a tener complejidad *O(n)* y la otra O(n^2)*). Volveremos sobre estos temas más adelante._
 
 
-### Ejercicio 6.28: Propagar por vecinos
+### Ejercicio 6.28: _Propagar_ a vecinos
 El siguiente código propaga el fuego de cáda fósforo encendido a sus vecinos inmediatos (si son fósforos nuevos) a lo largo de toda la lista. Y repite esta operación mientras sea necesario. ¿Te animás a estimar cuántas operaciones puede tener que hacer, en el peor caso?
 
 ```python
@@ -50,12 +50,12 @@ propagar([1,0,0,0,0])
 1. ¿Por qué los tests `l[i+1]==0` y `l[i-1]==0` de la función `propagar_al_vecino` no causan un `IndexError` en los bordes de la lista?
 2. ¿Por qué `propagar([0,0,0,0,1])` y `propagar([1,0,0,0,0])`, siendo entradas perfectamente simétricas, no generan la misma cantidad de repeticiones de llamadas a la función `propagar_al_vecino`?
 3. Sobre la complejidad. Si te sale, calculá:
-    * ¿Cuántas veces como máximo se puede repetir el ciclo while en una lista de largo n?
-    * ¿Cuántas operaciones hace "propagar_al_vecino" en una lista de largo n?
-    * Entonces, ¿cuántas operaciones hace como máximo esta versión de `propagar` en una lista de largo n? ¿Es un algoritmo de complejidad lineal o cuadrática?
+    * ¿Cuántas veces como máximo se puede repetir el ciclo `while` en una lista de largo _n_?
+    * ¿Cuántas operaciones hace "propagar_al_vecino" en una lista de largo _n_?
+    * Entonces, ¿cuántas operaciones hace como máximo esta versión de `propagar` en una lista de largo _n_? ¿Es un algoritmo de complejidad lineal o cuadrática?
 
 
-### Ejercicio 6.29: Propagar por como el auto fantástico
+### Ejercicio 6.29: Propagar como el auto fantástico
 
 El siguiente código propaga el fuego inspirado en las luces del [auto fantástico](https://youtu.be/oNeQi8-PXAU?t=11).
 ```python
@@ -87,8 +87,8 @@ print("Estado propagado: ",lp)
 1. ¿Por qué se modificó la lista original? 
 2. ¿Por qué no quedó igual al `estado propagado`? 
 3. Corregí el código para que no cambie la lista de entrada.
-4. ¿Cuántas operaciones hace como máximo `propagar_a_derecha` en una lista de largo n?
-5. Sabiendo que invertir una lista (`[::-1]`) requiere una cantidad lineal de operaciones en la longitud de la lista ¿Cuántas operaciones hace como máximo `propagar` en una lista de largo n?
+4. ¿Cuántas operaciones hace como máximo `propagar_a_derecha` en una lista de largo _n_?
+5. Sabiendo que invertir una lista (`[::-1]`) requiere una cantidad lineal de operaciones en la longitud de la lista ¿Cuántas operaciones hace como máximo `propagar` en una lista de largo _n_?
 
 
 ### Ejercicio 6.30: Propagar con cadenas
@@ -128,10 +128,10 @@ print("Estado propagado: ",lp)
 ```
 
 **Preguntas:**
-1. ¿Porqué se acorta la lista? 
+1. ¿Por qué se acorta la lista? 
 2. ¿Podés corregir el error agregando un solo caracter al código?
-3. ¿Te parece que este algoritmo es cuadrático como el [Ejercicio 6.28](../06_Aleatoriedad/08_Repaso.md#ejercicio-628-propagar-por-vecinos)
-o lineal como el [Ejercicio 6.29](../06_Aleatoriedad/08_Repaso.md#ejercicio-629-propagar-por-como-el-auto-fantastico)?
+3. ¿Te parece que este algoritmo es cuadrático como el [Ejercicio 6.28](../06_Aleatoriedad/08_Repaso.md#ejercicio-628-propagar-a-vecinos)
+o lineal como el [Ejercicio 6.29](../06_Aleatoriedad/08_Repaso.md#ejercicio-629-propagar-como-el-auto-fantastico)?
 
 
 

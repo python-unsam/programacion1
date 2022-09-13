@@ -89,10 +89,11 @@ print(random.choices(caras,k=5))
 Estos son experimentos *con reposición* en el sentido de que si en el primer dado sacamos un dos, al tirar el segundo dado podemos sacar otro dos, repitiendo el valor. El término *reposición* viene de pensar en una urna con bolitas. Si un dado lo pensamos como una urna con seis bolitas (etiquetadas del uno al seis), luego de sacar una bolita (tirar el dado una vez) *reponemos* la bolita que sacamos, de forma que en el siguiente experimento (tirar nuevamente el dado) podamos obtener el mismo valor.
 
 ### Ejercicio 6.3: Cocumpleaños
-Haciendo miles de experimentos numéricos, estimá la probabilidad de que en un grupo de 30 personas elegidas al azar, dos cumplan años el mismo día. Escribí un programita que permita calcular esa probabilidad asumiendo que el año tiene 365 días.
+Con un método análogo al que usaste con la generala podés armar un script que haga miles de experimentos numéricos y estime la probabilidad de que en un grupo al azar de 30 personas, dos cumplan años el mismo día del año. Escribí un programita que calcule esa probabilidad asumiendo que el año tiene 365 días.
 
-Modificando un poco tu programa anterior, ¿podés calcular cuántas personas tiene que haber en un grupo para que sea más probable que dos cumplan años el mismo día que que todas cumplan en días diferentes?
+Podes formular una pregunta muy similar y contestarla modificando un poco tu programa:
 
+La probabilidad de que en un grupo de personas haya dos personas que cumplan años el mismo día del año depende del tamaño del grupo. Que tamaño tiene que tener el grupo para que esa probabilidad sea mayor a 0.5 ?
 
 _Observación_: Les dejamos una nota sobre las [Simulaciones de Monte Carlo](https://www.pagina12.com.ar/347117-la-simulacion-de-monte-carlo),  por Adrián Paenza, que está relacionada con estos temas.
 
@@ -100,7 +101,7 @@ _Observación_: Les dejamos una nota sobre las [Simulaciones de Monte Carlo](htt
 
 Si queremos modelar un juego con un mazo de naipes, es natural modelarlo sin reposición. Cuando le damos tres cartas a un jugador la segunda carta no puede ser igual a la primera y la tercera será diferente de las dos anteriores.
 
-En un mazo de naipes españoles, cada carta tiene un palo y un valor. El mazo tiene 40 naipes. Los palos son oro, copa, espada y basto y los valores van del 1 al 7 y de del 10 al 12. Usaremos una comprensión doble de listas para generar los naipes (todas las combinaciones posibles de valores y palos).
+En un mazo de naipes españoles, cada carta tiene un palo y un valor. El mazo tiene 40 naipes. Los palos son oro, copa, espada y basto y los valores van del 1 al 7 y del 10 al 12. Usaremos una comprensión doble de listas para generar los naipes (todas las combinaciones posibles de valores y palos).
 
 ```python
 valores = [1, 2, 3, 4, 5, 6, 7, 10, 11, 12]
@@ -117,7 +118,7 @@ Teniendo en cuenta las reglas del [Truco](https://es.wikipedia.org/wiki/Truco_ar
 
 _Observación: como corresponde, en esta materia jugamos al truco **sin** flor. Si no conocés las reglas del Truco y no te dan ganas de aprenderlo ahora, simplemente salteá este ejercicio._
 
-Guardá este ejercicio en un archivo `envido.py` para entregar.
+Guardá este ejercicio con el nombre `envido.py`.
 
 ### Mezclar 
 La última función que queremos introducir es útil en muchos contextos. En los juegos de naipes, para continuar con nuestro ejemplo, es muy usual mezclar el mazo entero antes de repartir. En Python usamos la función `shuffle` del módulo `random`.
@@ -126,6 +127,7 @@ La última función que queremos introducir es útil en muchos contextos. En los
 valores = [1, 2, 3, 4, 5, 6, 7, 10, 11, 12]
 palos = ['oro', 'copa', 'espada', 'basto']
 naipes = [(valor,palo) for valor in valores for palo in palos]
+print(naipes)
 random.shuffle(naipes)
 print(naipes)
 ```
