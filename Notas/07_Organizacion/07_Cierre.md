@@ -4,6 +4,8 @@
 
 En esta clase trabajamos con funciones y creamos módulos. También aprendimos algunas nociones de complejidad de algoritmos, estudiamos la búsqueda binaria y comparamos su performance con la de la búsqueda secuencial.
 
+Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Recordá usar siempre la misma dirección de mail y poner como *subject* del correo **[Unidad 7]**. Los ejercicios de esta unidad los podés enviar hasta el día viernes 16 de septiembre inclusive. *Recordá:* Si cursás en el turno de los miércoles, mandá tus ejercicios a python@unsam.edu.ar, si cursás en el turno de los jueves mandalos a pythonunsam@gmail.com.
+
 
 * Para cerrar esta clase te pedimos que recopiles las soluciones de los siguientes ejercicios:
     1. El archivo `fileparse.py` del [Ejercicio 7.6](../07_Organizacion/02_Funciones.md#ejercicio-76-trabajando-sin-encabezados).
@@ -13,8 +15,6 @@ En esta clase trabajamos con funciones y creamos módulos. También aprendimos a
     5. El archivo `plot_bbin_vs_bsec.py` del [Ejercicio 7.17](../07_Organizacion/06_graficos_de_complejidad.md#ejercicio-717-busqueda-binaria-vs-busqueda-secuencial).
 
 Al terminar envianos tus ejercicios. Podrás participar de la revisión de pares.
-
-[Entregar Ejercicios](http://programacionpython.ecyt.unsam.edu.ar/unit/submission/6)
 
 ¡Gracias! 
 

@@ -33,7 +33,9 @@ ineficiente puede no servir para nada. Esto es obvio en algoritmos que corren en
 
 Escribir programas eficientes no es una tarea sencilla. Muchas veces, las soluciones más directas no son las más eficientes. Los algoritmos más eficientes suelen aprovechar sutilezas que no son simples de comprender de un vistazo. En muchos casos les programadores deben incrementar la complejidad conceptual de un algoritmo para disminuír la complejidad computacional.
 
-Por ejemplo, buscar la posición de un número en una lista recorriendo la lista lugar a lugar (búsqueda secuencial) demanda una cantidad de operaciones proporcional a la longitud de la lista (por cada elemento de la lista hacemos algunas operaciones fijas: comparar el elemento contra la clave, incrementar un contador, etc). Solemos decir que el algoritmo de búsqueda secuencial tiene un complejidad lineal en la longitud de la lista (ya que toma un tiempo `f(n)`, donde `f` es una función lineal en n, la cantidad de elementos de la lista). No vamos a preocuparnos aquí si `f (n) = 3 · n + 5` ó `f (n) = 2 · n + 18`. No nos importan las constantes: simplemente diremos que f (n) es lineal en n. En la literatura esto se escribe `f(n) = O(n)` y se lee *'la función f tiene orden n'*, o *'f es un O de n'*.
+Por ejemplo, buscar la posición de un número en una lista recorriendo la lista lugar a lugar (búsqueda secuencial) demanda una cantidad de operaciones proporcional a la longitud de la lista (por cada elemento de la lista hacemos algunas operaciones fijas: comparar el elemento contra la clave, incrementar un contador, etc). Solemos decir que el algoritmo de búsqueda secuencial tiene una complejidad que escala linealmente con la longitud de la lista (ya que toma un tiempo `f (n)`, donde `f` es una función lineal en `n`, la longitud de la lista). De aquí que los algoritmos de búsqueda "secuencial" se llamen también algoritmos de búsqueda "lineal". 
+
+No vamos a distinguir aquí si `f (n) = 3 · n + 5` ó `f (n) = 2 · n + 18`. No nos importan las constantes: simplemente diremos que `f (n)` es lineal en `n`. En la literatura esto se escribe `f (n) = O (n)` y se lee *'la función f tiene orden n'*, ó *'f es un O de n'*.
 
 ![Imagen Lineal vs Cuad](./lin_cuad.png)
 
@@ -57,7 +59,7 @@ Este algoritmo realiza una comparación ( `m == p*q` ) para cada elemento p y ca
 ### Complejidad en el peor caso
 
 El término análisis de algoritmos fue acuñado por Donald Knuth, uno de los fundadores de las ciencias de la computación. El análisis de algoritmos es una parte de la teoría de la complejidad computacional que no solo estudia la complejidad de los algoritmos sino de los problemas computacionales (la pregunta general de la teoría de la complejidad no sería cuál es la complejidad de la búsqueda secuencial o binaria, sino cuál es la complejidad mínima que puede tener un algoritmo que realice la tarea de buscar un elemento
-en una lista ordenada). En general, y sin mencionarlo, hablamos de la complejidad en el peor caso de un algoritmo. En algunos casos puede ocurrir que la búsqueda secuencial sea más eficiente que la búsqueda binaria (por ejemplo, considerá el caso en que el elemento buscado es justo el primer elemento de la lista, ¿cuánto tarda cada método?). Al hablar de la complejidad de una algoritmo (salvo que se mencione otra cosa) hablamos del tiempo que tarda ese algoritmo en el peor caso posible.
+en una lista ordenada). En general, y sin mencionarlo, hablamos de la complejidad en el peor caso de un algoritmo. En algunos casos puede ocurrir que la búsqueda secuencial sea más eficiente que la búsqueda binaria (por ejemplo, considerá el caso en que el elemento buscado es justo el primer elemento de la lista, ¿cuánto tarda cada método?). Al hablar de la complejidad de un algoritmo (salvo que se mencione otra cosa) hablamos del tiempo que tarda ese algoritmo en el peor caso posible.
 
 ### Estructuras de datos y Tipos Abstractos de Datos
 
@@ -85,11 +87,11 @@ Usando lo que hiciste en el [Ejercicio 7.11](../07_Organizacion/04_BusqBinaria.m
 ```
 
 ### Ejercicio 7.13: Cálcular la complejidad de dos resoluciones de `propagar`
-Ahora que tenés algunas herramientas teóricas más, volvé a leer las dos versiones de `propagar` del [Ejercicio 6.28](../06_Aleatoriedad/08_Repaso.md#ejercicio-628-propagar-por-vecinos) y el [Ejercicio 6.29](../06_Aleatoriedad/08_Repaso.md#ejercicio-629-propagar-por-como-el-auto-fantastico) y compará sus complejidades.
+Ahora que tenés algunas herramientas teóricas más, volvé a leer las dos versiones de `propagar` del [Ejercicio 6.28](../06_Aleatoriedad/08_Repaso.md#ejercicio-628-propagar-a-vecinos) y el [Ejercicio 6.29](../06_Aleatoriedad/08_Repaso.md#ejercicio-629-propagar-como-el-auto-fantastico) y compará sus complejidades.
 
 ### Secuencias binarias
 
-Para nosotres, una **secuencia binaria** es una lista que contiene solo 0’s y 1’s. Por ejemplo `s = [0, 1, 0, 0, 1]` es una secuencia binaria de longitud 5. La *primera* secuencia binaria de esa longitud es `[0, 0, 0, 0, 0]`, mientras que *la última* es `[1, 1, 1, 1, 1]`. Cada secuencia tiene una *siguiente* (salvo la última). No vamos a dar una definición precisa, pero escencialmente las secuencias pueden pensarse como representando números enteros en base dos y *la siguiente* secuencia es la que representa al siguiente número. Por convención, diremos que la secuencia siguiente de la última es la primera.
+Para nosotres, una **secuencia binaria** es una lista que contiene solo 0’s y 1’s. Por ejemplo `s = [0, 1, 0, 0, 1]` es una secuencia binaria de longitud 5. La *primera* secuencia binaria de esa longitud es `[0, 0, 0, 0, 0]`, mientras que *la última* es `[1, 1, 1, 1, 1]`. Cada secuencia tiene una *siguiente* (salvo la última). No vamos a dar una definición precisa, pero esencialmente las secuencias pueden pensarse como representando números enteros en base dos y *la siguiente* secuencia es la que representa al siguiente número. Por convención, diremos que la secuencia siguiente de la última es la primera.
 
 Ejemplos:
 ```

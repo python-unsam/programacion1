@@ -4,7 +4,7 @@
 
 Hasta aquí aprendimos algunas cosas básicas de Python y escribiste tus primeros programas. A medida que escribas programas más grandes, vas a necesitar organizarlos un poco mejor. En esta clase trataremos con mayor detalle cómo escribir funciones y módulos propios.
 
-En la segunda mitad retomamos nuestra discusión sobre algoritmos de búsqueda e introducimos la búsqueda binaria, un algoritmo mucho más eficiente para buscar un elemento en un vector. Discutimos algunos conceptos de la teoría de la complejidad y finalmente haremos unos gráficos para comparar visualmente la cantidad de operaciones que realizan dos métodos de búsqueda. 
+En esta segunda mitad retomamos nuestra discusión sobre algoritmos de búsqueda e introducimos la búsqueda binaria, un algoritmo de búsqueda de un elemento en un vector mucho más eficiente que los que vimos antes. Discutimos algunos conceptos de la teoría de la complejidad y finalmente haremos unos gráficos para comparar visualmente la cantidad de operaciones que realizan dos métodos de búsqueda. 
 
 
 

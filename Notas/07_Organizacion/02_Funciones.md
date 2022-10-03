@@ -26,14 +26,14 @@ precios = leer_precios(nombre_archivo = 'precios.csv', debug = True)
 
 ### Argumentos por omisión
 
-Si preferís que un argumento sea opcional (que tenga un valor _por omisión_ o  *by default*), en ese caso asignale un valor en la definición de la función. Ése será el valor del argumento si llamás a la función sin especificar un valor para ese argumento.
+Si preferís que un argumento sea opcional (que tenga un valor *por omisión* o  _by default_), en ese caso asignale un valor en la definición de la función. Ése será el valor del argumento si llamás a la función sin especificar un valor para ese argumento.
 
 ```python
 def leer_precios(nombre_archivo, debug = False):
     ...
 ```
 
-En la declaración de la función podés asignar un valor a un argumento. Entonces, ese argumento será opcional al invocar a esa funcion y si lo omitís al invocar a la función va a tomar su valor asignado. A ese valor lo llamamos valor por omisión.
+En la declaración de la función podés asignar un valor a un argumento. Entonces, ese argumento será opcional al invocar a esa funcion y si lo omitís al invocar la función va a tomar su valor asignado. A ese valor lo llamamos valor por omisión.
 
 ```python
 d = leer_precios('precios.csv')
@@ -54,11 +54,11 @@ cortar_datos(data, debug = True)
 cortar_datos(data, debug = True, ignore_errores = True)
 ```
 
-En la mayoría de los casos los argumentos con nombre hacen al código más claro, más fácil de entender, especialmente si estos argumentos son booleanos, que determinan opciones si-no.
+En la mayoría de los casos los argumentos con nombre hacen al código más claro, más fácil de entender, especialmente si estos argumentos son booleanos, que determinan opciones sí-no.
 
 ### Buenas prácticas de diseño
 
-Compará estas dos formas de declarar una misma función. Para comprender cómo usar la primera, tendríamos que explorar dentro de la función y saber que significan sus parámetros. Usá siempre nombres cortos para los argumentos, pero con significado.
+Compará estas dos formas de declarar una misma función. Para comprender cómo usar la primera, tendríamos que explorar dentro de la función y saber qué significan sus parámetros. Usá siempre nombres cortos para los argumentos, pero con significado.
 
 ```python
 def leer_precios(f, d = False):
@@ -205,7 +205,7 @@ Si declaramos `global nombre` dentro de la función, entonces `nombre` fuera de 
 
 La declaración de globalidad de la variable (con la palabra reservada `global`) tiene que aparecer antes del uso de la variable dentro de una función, y la declaración de la variable global fuera de la función debe ocurrir en el mismo archivo que ésta.
 
-Dicho esto, hay que decir también que usar variables globales se considera una mala práctica. Tratá de evitar completamente el uso de `global`. Si tenés una función que depende del estado de una variable global, tu programa es menos modular: no podés reutilizar la función en otro contexto sin agregar una variable global. Si necesitás que una función modifique el estado de algo fuera de esa función, es mejor entonces usar una clase en lugar de una función. Hablaremos de ésto más adelante, en la segunda mitad de la materia.
+Dicho esto, hay que decir también que usar variables globales se considera una mala práctica. Tratá de evitar completamente el uso de `global`. Si tenés una función que depende del estado de una variable global, tu programa es menos modular: no podés reutilizar la función en otro contexto sin agregar una variable global. Si necesitás que una función modifique el estado de algo fuera de esa función, es mejor entonces usar una clase en lugar de una función. Hablaremos de esto más adelante.
 
 ### Pasaje de argumentos
 
@@ -258,7 +258,7 @@ La parte central del programa `informe_funciones.py` resuelve la lectura de arch
 
 Si tu tarea fuera de verdad leer datos de archivos, entonces querrías limpiar este código un poco, hacerlo más prolijo, y aplicable a un uso más general. Ésa es nuestra intención ahora:
 
-Comenzá este ejercicio creando un nuevo archivo `fileparse.py` en la carpeta `ejercicios_python/Clase06`. Ahí vamos a trabajar.
+Comenzá este ejercicio creando un nuevo archivo `fileparse.py` en la carpeta `ejercicios_python/Clase07`. Ahí vamos a trabajar.
 
 _Nota:_ En inglés *to parse* significa analizar gramaticalmente (por ejemplo una frase), separándola en sus partes constitutivas. Es un término muy usado en ciencias de la computación que no tiene una traducción compacta al castellano. Mucha gente usa el anglicismo *parsear* para referirse a esta actividad.
 
