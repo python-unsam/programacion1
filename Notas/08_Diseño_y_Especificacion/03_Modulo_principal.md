@@ -38,7 +38,7 @@ El archivo que le pases al intérprete al invocarlo será el módulo principal. 
 
 ### Chequear `__main__` 
 
-Es una práctica estándar usar la siguiente convención en módulos que son ejecutados como scripts principales: 
+Es una práctica estándar usar la siguiente construcción en módulos que son ejecutados como scripts principales: 
 
 ```python
 # prog.py
@@ -49,7 +49,7 @@ if __name__ == '__main__':
     ...
 ```
 
-Los comandos dentro del `if` constituyen el *programa principal*
+Los comandos dentro del `if` constituyen el *programa principal*. Si el `if` no se cumple, el módulo es leído y las funciones se definen y las podés invocar desde otro módulo, pero no se ejecutan los comandos bajo ese `if`. 
 
 
 
@@ -78,7 +78,7 @@ if __name__ == '__main__':
 
 ### Modelo de programa
 
-Éste es un modelo usual para escribir un programa en Python:
+Éste es un modelo usual para escribir un programa en Python. Esta configuración permite importar el módulo y acceder a sus funciones, o ejecutarlo como un programa:
 
 ```python
 # prog.py
@@ -143,7 +143,7 @@ precios = sys.argv[2]
 ...
 ```
 
-Para ir un poco más allá, podés mirar el módulo [argparse](https://docs.python.org/3/library/argparse.html#module-argparse) de Python permite escribir interfaces para programas que corren por linea de comandos de una manera amigables y profesional.
+Para ir un poco más allá, podés mirar el módulo [argparse](https://docs.python.org/3/library/argparse.html#module-argparse) de Python permite escribir interfaces para programas que corren por linea de comandos de una manera amigable y profesional.
 
 
 ### Standard I/O
@@ -185,7 +185,7 @@ import sys
 sys.exit(codigo_salida)
 ```
 
-Es estándar que un codigo de salida de `0` indica que no hubo problemas y otro valor, que los hubo. 
+Es estándar que un codigo de salida de `0` indica que no hubo problemas y otro valor, que los hubo, donde el valor indica que tipo de problema hubo. 
 
 ### El comando `#!` 
 
@@ -198,7 +198,7 @@ Bajo Unix (Linux es un Unix) una línea que comienza con `#!` ejecutará un scri
 ...
 ```
 
-Para porder ser ejecutado, el archivo `prog.py` requiere permiso de ejecución asignado. Podés asignarle este permiso así: 
+Para ser ejecutado, el archivo `prog.py` requiere tener permiso de ejecución asignado. Podés asignarle este permiso así: 
 
 ```bash
 bash % chmod +x prog.py
@@ -239,7 +239,7 @@ if __name__ == '__main__':
     f_principal(sys.argv)
 ```
 
-_Observación: Este modelo es flexible en el sentido que te permite escribir programas que podés llamar desde la terminal pasándole parámetros o ejecutar directamente dentro de un intérprete usando `import` y llamando a su función `main` como veremos en los siguientes ejercicios._
+_Observación: Este modelo es flexible porque te permite escribir programas que podés llamar desde la terminal pasándole parámetros o ejecutar directamente dentro de un intérprete usando `import` y llamando a su función `main` como veremos en los siguientes ejercicios._
 
 ## Ejercicios
 

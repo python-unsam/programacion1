@@ -2,7 +2,7 @@
 
 # 8.1 Repaso de temas pasados
 
-A continuación dejamos unos links a unos videos retomando temas de la clase anterior e introduciendo los nuevos mediante ejemplos.
+A continuación dejamos unos links a unos videos retomando temas de la clase anterior e introduciendo temas nuevos mediante ejemplos.
 
 1. En [este video](https://youtu.be/O65J5n6yA1g) hablamos sobre complejidad de algoritmos. Búsqueda secuencial y búsqueda binaria. El problema de la mochila.
 

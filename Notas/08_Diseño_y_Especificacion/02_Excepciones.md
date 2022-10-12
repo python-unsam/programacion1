@@ -2,7 +2,7 @@
 
 # 8.2 Control de errores
 
-Aunque ya hablamos de *excepciones*, en esta sección hablaremos de administración de excepciones y control de errores con mayor detalle.
+Aunque ya hablamos de *excepciones* antes, en esta sección hablaremos de administración de excepciones y control de errores con mayor detalle.
 Dejamos [este video](https://youtu.be/1yX-uFioZ8w) con una introducción breve a esta sección.
 
 ### Formas en que los programas fallan
@@ -86,7 +86,7 @@ def foo():
 foo()
 ```
 
-Para administrar la excepción, usá instrucciones en el bloque `except`. Cualquier instrucción hará que Python considere a la excepción como administrada, incluso un `pass` pero es pertinente realizar acciones relacionadas con la excepción específica a administrar. 
+Para administrar la excepción, usá instrucciones en el bloque `except`. Cualquier instrucción hará que Python considere a la excepción como administrada, incluso un `pass` pero lo mejor es realizar acciones relacionadas con la excepción específica a administrar. 
 
 ```python
 def grok(): ...
@@ -221,7 +221,7 @@ except Exception:
     print('Hubo un error.')
 ```
 
-Esto atrapa todos los errores posibles, y puede complicar mucho el debugging cuando el código falla por algún motivo que no esperabas (por ejemplo, falta algún módulo de Python y lo único que te dice es "Hubo un error").
+Esto atrapa todos los errores posibles, y puede complicar mucho el debugging cuando el código falla por algún motivo que no esperabas (por ejemplo, falta algún módulo de Python y lo único que obtenés es "Hubo un error").
 
 ### Así es un poco mejor.
 
@@ -237,7 +237,7 @@ except Exception as e:
 `Exception` incluye toda excepción posible, de modo que no sabés cuál atrapaste.
 Al menos esta versión te informa el motivo específico del error. Siempre es bueno tener alguna forma de ver o informar errores cuando atrapás todas las excepciones posibles. 
 
-Sin embargo, por lo general es mejor atrapar errores específicos, y sólo aquellos que podés administrar. Errores que no sepas como manejar adecuadamente, déjalos correr (tal vez alguna otra porción de código los atrape y administre correctamente o tal vez lo mejor sea detener la ejecución).
+Sin embargo, por lo general es mejor atrapar errores específicos, y sólo aquellos que podés administrar. Errores que no sepas administrar, déjalos correr (tal vez alguna otra porción de código los atrape y administre correctamente o tal vez lo mejor sea detener la ejecución).
 
 ### Re-lanzar una excepción
 
