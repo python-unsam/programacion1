@@ -49,10 +49,10 @@ PS ...\Clase03> py parametros.py uno dos tres
 ['parametros.py', 'uno', 'dos', 'tres']
 ```
 
-Sin entrar en detalles, lo que hace el script es imprimir una variable (`sys.argv`) del módulo `sys`. Esa variable es una lista (por eso los corchetes en la salida `['parametros.py']`) y esa lista contiene los parámetros que le dimos a Python al invocarlo (`
+Sin entrar en detalles, lo que hace el script es imprimir una variable (`sys.argv` del módulo `sys`). Esa variable es una lista (por eso los corchetes en la salida `['parametros.py']`) y esa lista contiene los parámetros que le dimos a Python al invocarlo (`
 ['parametros.py', 'uno', 'dos', 'tres']`). Notá que el primer parámetro en la lista (con índice `0`) es el nombre del script a ejecutar.
 
-Esto es interesante porque significa que un script puede acceder a los parámatros que hayas escrito en la línea de comandos, incluso a su propio nombre. 
+Esto es interesante porque implica que un script puede acceder a los parámatros que hayas escrito en la línea de comandos, incluso a su propio nombre. 
 
 Cambiemos este pequeño script para que haga un cálculo con los parámetros que le pases:
 
@@ -67,7 +67,7 @@ print (param1 * param2)
 
 Y volvé a probarlo como antes.
 
-No funciona, verdad ? Porqué ? Que dice el Traceback ? (probálo!). Dice que hubo una excepción de tipo `ValueError` porque la función `int()` no puede interpretar la cadena `uno` y el script se detiene.
+No funciona, verdad ? Porqué ? Que dice el Traceback ? (probálo!). Dice que hubo una excepción de tipo `ValueError` porque la función `int()` no puede interpretar la cadena `uno` y por lo tanto el script se detiene.
 
 Podríamos evitar que esta excepción detenga el programa, pero por ahora no compliquemos el script, y pasémosle parámetros que pueda usar:
 
@@ -77,7 +77,6 @@ Podríamos evitar que esta excepción detenga el programa, pero por ahora no com
 ```
 
 ## Ejercicios:
-
 Usando estas ideas, modificá `rebotes.py` para que la altura inicial de la pelota no sea ya 100 metros, sino que la puedas especificar al invocar el script, de modo de obtener este comportamiento:
 
 ```code
@@ -104,10 +103,10 @@ En general, los programas tienen cierto comportamiento si uno les pide que hagan
 
 Podemos lograr este comportamiento midiendo la longitud de la lista `sys.argv`, o checkeando que cumpla ciertas características.
 
-### Ejercicio 3.10: Parámetros por omisiónAntes de asignar un valor a la altura inicial de la pelota, medí la longitud de la lista de parámetros. Si _omitimos_ pasarle el parámetro para la altura inicial, que use el valor por omisión de 100 metros. Si le pasamos una altura, entonces que use ésa. 
+### Ejercicio 3.10: Parámetros por omisión
+Antes de asignar un valor a la altura inicial de la pelota, medí la longitud de la lista de parámetros. Si _omitimos_ pasarle el parámetro para la altura inicial, que use el valor por omisión de 100 metros. Si le pasamos una altura, entonces que use ésa. 
 
-### Ejercicio 3.11: Ejecución desde la línea de comandos con parámetros[Ejercicio 2.9](../02_Estructuras_y_Funciones/04_Funciones.md#ejercicio-29-funciones-de-la-biblioteca)
-
+### Ejercicio 3.11: Ejecución desde la línea de comandos con parámetros
 En el programa `costo_camion.py` del ejercicio [Ejercicio 2.9](../02_Estructuras_y_Funciones/04_Funciones.md#ejercicio-29-funciones-de-la-biblioteca), el nombre del archivo de entrada `'../Data/camion.csv'` fue escrito en el código.
 
 ```python
