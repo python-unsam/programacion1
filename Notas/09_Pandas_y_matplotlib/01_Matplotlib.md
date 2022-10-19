@@ -262,7 +262,7 @@ Si estás trabajando en una interfaz gráfica podés cerrar una figura clickeand
 plt.close(1)     # Cierra la figura 1
 ```
 
-A pesar de que en casi todo el mundo usamos el sistema métrico, increíblemente el imperialismo llega al punto que no hay un modo directo de especificar distancias o tamaños en centímetros en matplotlib. Podemos usar una función auxiliar como ésta para convertir una distancia de *cm* a *pulgadas*:
+A pesar de que en casi todo el mundo usamos el sistema métrico, increíblemente el imperialismo llega al punto en que no hay un modo directo de especificar distancias o tamaños en centímetros en matplotlib. Podemos usar una función auxiliar como ésta para convertir una distancia de *cm* a *pulgadas*:
 
 ```python
 def cm2inch(value):

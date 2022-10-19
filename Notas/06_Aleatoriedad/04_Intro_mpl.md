@@ -1,6 +1,6 @@
 [Contenidos](../Contenidos.md) \| [Anterior (3 NumPy)](03_NumPy_Arrays.md) \| [Próximo (5 Gráficos del Arbolado porteño)](05_Arboles3_plt.md)
 
-# 6.4 Introducción a matplotlib [falta]
+# 6.4 Introducción a matplotlib
 
 ## Ploteando 
 

@@ -17,9 +17,9 @@ La experiencia te va a permitir decidir (quizás tardíamente) cuándo es mas co
     4. El archivo `torre_control.py` del [Ejercicio 11.12](../11_Clases_y_Objetos/05_Pilas_Colas.md#ejercicio-1112-torre-de-control).
 
 
-Al terminar envianos tus ejercicios.
+Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Recordá usar siempre la misma dirección de mail y poner como *subject* del correo **[Unidad 11]** y si querés participar de la revisión de pares agregá la cadena **[RP]** . Podés enviar estos ejercicios hasta el día viernes 4 de noviembre inclusive. *Recordá:* Si cursás en el turno de los miércoles, mandá tus ejercicios a python@unsam.edu.ar, si cursás en el turno de los jueves mandalos a pythonunsam@gmail.com.
 
-[Entregar Ejercicios](http://programacionpython.ecyt.unsam.edu.ar/unit/submission/9)
+¡Gracias! 
 
 **idealmente quizas agregar un ejercicio integrador**
 

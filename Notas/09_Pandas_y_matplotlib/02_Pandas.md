@@ -1,8 +1,8 @@
-[Contenidos](../Contenidos.md) \| [Anterior (1 La biblioteca matplotlib)](01_Matplotlib.md) \| [Próximo (3 Cierre de la clase [falta])](03_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (1 La biblioteca matplotlib)](01_Matplotlib.md) \| [Próximo (3 Cierre de la clase.)](03_Cierre.md)
 
 # 9.2 Introducción a Pandas
 
-La  biblioteca Pandas es una extensión de NumPy para manipulación y análisis de datos. En particular, ofrece estructuras de datos y operaciones para manipular tablas de datos (numéricos y de otros tipos) y series temporales. Se distribuye como software libre.
+La biblioteca Pandas es una extensión de NumPy para manipulación y análisis de datos. En particular, ofrece estructuras de datos y operaciones para manipular tablas de datos (numéricos y de otros tipos) y series temporales. Se distribuye como software libre.
 
 Ésta es una breve introducción a [Pandas](https://pandas.pydata.org/docs/getting_started/index.html). Para información más completa, te recomendamos consultar [la documentación oficial](https://pandas.pydata.org/docs/user_guide/10min.html).
 
@@ -40,7 +40,7 @@ Con `df.head()` podés ver las primeras líneas de datos. Si a `head` le pasás 
 ```
 
 
-Usando `df.columns` pandas te va a devolver un índice con los nombres de las columnas del DataFrame. Recordá que en la [Sección 4.5](../04_Datos/05_Arboles1.md#descripción-de-la-base) describimos la base de datos. A su vez, `df.index` te mostrará el índice. En este caso el índice es numérico y se corresponde con el número de la línea leida del archivo. En principio no es muy interesante para analizar cuestiones de árboles, simplemente tenemos las filas numeradas. Veremos otros ejemplos donde el índice puede contener información vital (una categoría, un timestamp, etc).
+Usando `df.columns` pandas te va a devolver un índice con los nombres de las columnas del DataFrame. Recordá que en la [Sección 4.5](../04_Datos/05_Arboles1.md#descripción-de-la-base) describimos la base de datos. A su vez, `df.index` te mostrará el índice. En este caso el índice es numérico y se corresponde con el número de la línea leída del archivo. En principio `df.index` no parece muy interesante para analizar árboles, simplemente tenemos las filas numeradas, peroeremos otros ejemplos donde el índice puede contener información vital (una categoría, un timestamp, etc).
 
 ```python
 >>> df.columns
@@ -451,5 +451,5 @@ En este ejercicio te proponemos los siguientes pasos para comparar los diámetro
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (1 La biblioteca matplotlib)](01_Matplotlib.md) \| [Próximo (3 Cierre de la clase [falta])](03_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (1 La biblioteca matplotlib)](01_Matplotlib.md) \| [Próximo (3 Cierre de la clase.)](03_Cierre.md)
 

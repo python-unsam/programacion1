@@ -13,14 +13,9 @@ Te proponemos además un ejercicio optativo:
 
     - El archivo  `ordenar_imgs.py` del [Ejercicio 10.6](../10_Fechas_y_Carpetas/04_Ordenando_archivos.md#ejercicio-106-ordenar-el-arbol-de-archivos-optativo).
 
-Al terminar envianos tus ejercicios.
-
-[Entregar Ejercicios](http://programacionpython.ecyt.unsam.edu.ar/unit/submission/8)
+Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Recordá usar siempre la misma dirección de mail y poner como *subject* del correo **[Unidad 10]** y si querés participar de la revisión de pares agregá la cadena **[RP]** . Podés enviar estos ejercicios hasta el día viernes 28 de octubre inclusive. *Recordá:* Si cursás en el turno de los miércoles, mandá tus ejercicios a python@unsam.edu.ar, si cursás en el turno de los jueves mandalos a pythonunsam@gmail.com.
 
 ¡Gracias! 
-
-
-
 
 [Contenidos](../Contenidos.md) \| [Anterior (4 Ordenar archivos en Python)](04_Ordenando_archivos.md)
 

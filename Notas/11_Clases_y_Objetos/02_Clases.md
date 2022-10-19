@@ -159,7 +159,7 @@ otra cosa como en el ejemplo anterior.
 
 ## Ejercicios
 
-Vamos a comenzar esta serie de ejercicios modificando código que escribiste antes del parcial. En particular retomaremos el código del [Ejercicio 8.7](../08_Diseño_y_Especificacion/04_Flexibilidad.md#ejercicio-87-arreglemos-las-funciones-existentes). Te dejamos [acá](./ejs.zip) una versión funcionando que podés mirar y/o usar. Tiene cosas interesantes, aunque tengas la tuya funcionando si querés pegale una mirada. 
+Vamos a comenzar esta serie de ejercicios modificando código que escribiste antes del parcial. En particular retomaremos el código del [Ejercicio 8.8](../08_Diseño_y_Especificacion/04_Flexibilidad.md#ejercicio-88-arreglemos-las-funciones-existentes). Te dejamos [acá](./ejs.zip) una versión funcionando que podés mirar y/o usar. Tiene cosas interesantes, aunque tengas la tuya funcionando si querés pegale una mirada. 
 
 
 ### Ejercicio 11.1: Objetos como estructura de datos.
@@ -245,7 +245,7 @@ Agregá los métodos `costo()` y `vender()` a tu objeto `Lote`. Deberían dar es
 ```
 
 ### Ejercicio 11.3: Lista de instancias
-Seguí estos pasos para crear una lista de las instancias de `Lote` (una lista de objetos `Lote`) a partir de una lista de diccionarios. Luego calculá el precio total de todas esas instancias. Para poder importar `fileparse`, primero copialo a la carpeta de ejercicios de la clase actual. La última versión que deberías tener es la correspondiente al [Ejercicio 8.6](../08_Diseño_y_Especificacion/04_Flexibilidad.md#ejercicio-86-de-archivos-a-objetos-cual-archivos).
+Seguí estos pasos para crear una lista de las instancias de `Lote` (una lista de objetos `Lote`) a partir de una lista de diccionarios. Luego calculá el precio total de todas esas instancias. Para poder importar `fileparse`, primero copialo a la carpeta de ejercicios de la clase actual. La última versión que deberías tener es la correspondiente al [Ejercicio 8.7](../08_Diseño_y_Especificacion/04_Flexibilidad.md#ejercicio-87-de-archivos-a-objetos-cual-archivos).
 
 ```python
 >>> import fileparse

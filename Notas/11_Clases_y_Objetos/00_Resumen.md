@@ -3,9 +3,9 @@
 # 11. Clases y objetos
 En esta clase vamos a meternos con la **programación orientada a objetos**. Vamos a ver los conceptos de clases y objetos. Hasta ahora los programas que escribimos usaron sólo tipos de datos nativos de Python, con la instrucción `class` vamos a definir nuevas clases. Vamos a ir más allá y a hablar del concepto de herencia, una herramienta comúnmente usada para escribir programas extensibles. Por último, vamos a referirnos a algunos *métodos especiales* de los objetos de Python.
 
-En los ejercicios vamos a estudiar las pilas y las colas que son tipos abstractos de datos de un mayor importancia tanto teórica com opráctica.
+En los ejercicios vamos a estudiar las pilas y las colas que son tipos abstractos de datos, importantes tanto de sde un punto de vista teórico como práctico.
 
-El ejercicio para la revisión de pares de esta semana es de programación orientada a objetos (modelar una torre de control).
+El ejercicio para la revisión de pares de esta semana es el de programación orientada a objetos (modelar una torre de control).
 
 
 
