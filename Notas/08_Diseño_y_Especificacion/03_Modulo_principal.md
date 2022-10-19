@@ -198,7 +198,7 @@ Bajo Unix (Linux es un Unix) una línea que comienza con `#!` ejecutará un scri
 ...
 ```
 
-Para ser ejecutado, el archivo `prog.py` requiere tener permiso de ejecución asignado. Podés asignarle este permiso así: 
+Bajo Linux, para ejecutar el archivo `prog.py` vas a necesitar habilitar su permiso de ejecución. Podés habilitar este permiso de ejecución así ... (bajo windows esto no es necesario, ya que el programa que estás ejecutando es formalmente el interprete de python): 
 
 ```bash
 bash % chmod +x prog.py
@@ -241,11 +241,43 @@ if __name__ == '__main__':
 
 _Observación: Este modelo es flexible porque te permite escribir programas que podés llamar desde la terminal pasándole parámetros o ejecutar directamente dentro de un intérprete usando `import` y llamando a su función `main` como veremos en los siguientes ejercicios._
 
+Notá que esta estructura difiere un poco de la estructura que solemos proponer, porque la línea `import sys` depende del resultado de un `if`. Esto evita importar el módulo `sys` cuando no lo necesitemos.
+
+
+
 ## Ejercicios
 
 Recordá trabajar siempre con las últimas versiones de tus archivos.
 
+Te proponemos, con lo que ahora sabés sobre funciones, módulos y llamados desde el sistema operativo, que conviertas un programa ya existente en un módulo importable, que sólo ejecute código si lo llamamos desde el sistema operativo con parámetros.
+
+
 ### Ejercicio 8.4: Función principal
+Recordarás que en las primeras clases modificaste el programa `rebotes.py` que hiciste en la Clase 1 para poder pasarle parámetros desde la línea de comandos. El resultado fué [Ejercicio 3.9](../03_Contenedores_y_Errores/04_Llamados_desde_cmd.md#ejercicios). Queremos, además, poder usar el poder de cálculo incluído en ese script desde otro programa escrito en python, sin perder la capacidad de ejecucion desde el sistema operativo. La idea es lograr el sigiente comportamiento dual: 
+
+
+```bash
+PS C:\ejercicios_python\Clase08> py rebotes.py 50 5
+1:  30.00
+2:  18.00
+3:  10.80
+4:  6.48
+5:  3.89
+PS C:\ejercicios_python\Clase08> py
+Python 3.9.0 (tags/v3.9.0:9cf6752, Oct  5 2020, 15:34:40) [MSC v.1927 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import rebotes as rb
+>>> rb.rebotar (50,5)
+1:  30.00
+2:  18.00
+3:  10.80
+4:  6.48
+5:  3.89
+>>>
+```
+
+
+### Ejercicio 8.5: Función principal
 Usando estas ideas, agregá a tu programa `informe_final.py` una función `f_principal()` que tome una lista de parámetros en la línea de comandos y produzca la misma salida que antes.
 
 ```bash
@@ -280,7 +312,7 @@ Costo total: 47671.15
 >>>
 ```
 
-### Ejercicio 8.5: Hacer un script
+### Ejercicio 8.6: Hacer un script
 Finalmente, modificá tus programas `informe_final.py` y `costo_camion.py` para que puedan ser ejecutados como scripts desde la línea de comandos:
 
 ```bash

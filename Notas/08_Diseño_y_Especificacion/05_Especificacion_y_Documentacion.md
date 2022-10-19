@@ -264,7 +264,7 @@ Prestá atención a que tanto la pre como la pos no dicen cómo hace la función
 En definitiva, la estipulación de pre y poscondiciones dentro de la documentación de las funciones es una forma de definir claramente el comportamiento del código. Son, en efecto, un *contrato* entre el código invocante (o usuarie) y el código invocado (o función).
 
 
-### Ejercicio 8.8: Sumas
+### Ejercicio 8.9: Sumas
 En este ejercicio vas a realizar dos implementaciones correspondientes a la función `sumar_enteros` definida recién. 
 
 1. En la primera implementación te pedimos que uses un ciclo.
@@ -342,8 +342,8 @@ En resumen, el concepto de invariante de ciclo es una herramienta que nos permit
 - un algoritmo es correcto, es decir que realiza la tarea descripta por la pre y poscondición.
 - un algoritmo termina (y no se cuelga).
 
-### Ejercicio 8.9: Invariante en sumas
-En el [Ejercicio 8.8](../08_Diseño_y_Especificacion/05_Especificacion_y_Documentacion.md#ejercicio-88-sumas), escribiste una función `sumar_enteros(desde, hasta)` que utiliza un ciclo. ¿Cuál es el invariante de este ciclo?
+### Ejercicio 8.10: Invariante en sumas
+En el [Ejercicio 8.9](../08_Diseño_y_Especificacion/05_Especificacion_y_Documentacion.md#ejercicio-89-sumas), escribiste una función `sumar_enteros(desde, hasta)` que utiliza un ciclo. ¿Cuál es el invariante de este ciclo?
 
 ## Parámetros mutables e inmutables
 
@@ -397,7 +397,7 @@ Dejamos un par de videos. En el [primer video](https://youtu.be/k-QC8WAmWr0) dis
 
 ## Ejercicios
 
-### Ejercicio 8.10: Funciones y documentación
+### Ejercicio 8.11: Funciones y documentación
 Para cada una de las siguientes funciones:
 * Pensá cuál es el contrato de la función.
 * Agregale la documentación adecuada.
