@@ -1,8 +1,8 @@
-[Contenidos](../Contenidos.md) \| [Anterior (3 Manejo de archivos y carpetas)](03_Archivos_y_Directorios.md) \| [Próximo (5 Cierre de la clase [falta])](05_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 Manejo de archivos y carpetas)](03_Archivos_y_Directorios.md) \| [Próximo (5 Cierre de la clase)](05_Cierre.md)
 
 # 10.4 Ordenar archivos en Python
 
-En esta sección vamos a integrar las últimas dos secciones con lo que veníamos viendo antes del parcial. La idea es que descomprimas [este archivo](./ordenar.zip) en tu carpeta `../Data` y escribas un script que trabaje con estos archivos.
+En esta sección vamos a integrar las últimas dos secciones con lo que veníamos viendo antes del parcial. La idea es que descomprimas [este archivo](./ordenar.zip) en tu carpeta `../Data` y escribas un script que trabaje con los archivos que contiene.
 
 Esta sección tiene un ejercicio para entregar y luego otro más complejo que es optativo.
 
@@ -26,7 +26,7 @@ Probá tu función con distintos directorios. Por ejemplo
  'python_20190812.png']
 ```
 
-Escribí un programa que dado un directorio, imprima en pantalla los nombres de todos los archivos `.png` que se encuentren en *algún* subdirectorio del él. Tu programa debe poder ejecutarse desde la línea de comandos recibiendo como parámetro el directorio a leer original. Para esto, organizá tu código como lo indicamos en la [Sección 8.3](../08_Diseño_y_Especificacion/03_Modulo_principal.md#modelo-de-script-con-parámetros). Primero los imports, luego las funciones (en este caso solamente la función `archivos_png()`), y luego el bloque con las instrucciones para el caso `__name__ == '__main__'`.
+Escribí un programa que dado un directorio, imprima en pantalla los nombres de todos los archivos `.png` que se encuentren en *algún* subdirectorio del él. Tu programa debe poder ejecutarse desde la línea de comandos recibiendo como parámetro el directorio original a leer. Para esto, organizá tu código como lo indicamos en la [Sección 8.3](../08_Diseño_y_Especificacion/03_Modulo_principal.md#modelo-de-script-con-parámetros). Primero los imports, luego las funciones (en este caso solamente la función `archivos_png()`), y luego el bloque con las instrucciones para el caso `__name__ == '__main__'`.
 
 Guardá el script resultante en un archivo `listar_imgs.py`. 
 
@@ -65,5 +65,5 @@ _Observación:_ Este tipo de tareas se repite con mucha frecuencia. Tener la cap
   * Al terminar de usar el código, comentá todas las instrucciones salvo los imports y las definiciones de funciones, para poder entregarlo al cierre de la clase.
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (3 Manejo de archivos y carpetas)](03_Archivos_y_Directorios.md) \| [Próximo (5 Cierre de la clase [falta])](05_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 Manejo de archivos y carpetas)](03_Archivos_y_Directorios.md) \| [Próximo (5 Cierre de la clase)](05_Cierre.md)
 
