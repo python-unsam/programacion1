@@ -14,7 +14,7 @@ Por último y como ejercicio integrador, presentamos una versión libre de un ej
 * [6.1 Repaso](01_Repaso.md)
 * [6.2 Random](02_Random.md)
 * [6.3 NumPy](03_NumPy_Arrays.md)
-* [6.4 Introducción a matplotlib](04_Intro_mpl.md)
+* [6.4 Introducción a matplotlib [falta]](04_Intro_mpl.md)
 * [6.5 Gráficos del Arbolado porteño](05_Arboles3_plt.md)
 * [6.6 Cierre de la clase](06_Cierre.md)
 * [6.7 Integrador: El album de Figuritas](07_Figuritas.md)

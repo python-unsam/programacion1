@@ -3,10 +3,7 @@
 # 11. Clases y objetos
 En esta clase vamos a meternos con la **programación orientada a objetos**. Vamos a ver los conceptos de clases y objetos. Hasta ahora los programas que escribimos usaron sólo tipos de datos nativos de Python, con la instrucción `class` vamos a definir nuevas clases. Vamos a ir más allá y a hablar del concepto de herencia, una herramienta comúnmente usada para escribir programas extensibles. Por último, vamos a referirnos a algunos *métodos especiales* de los objetos de Python.
 
-En los ejercicios vamos a estudiar las pilas y las colas que son tipos abstractos de datos, importantes tanto de sde un punto de vista teórico como práctico.
-
-El ejercicio para la revisión de pares de esta semana es el de programación orientada a objetos (modelar una torre de control).
-
+En los ejercicios vamos a estudiar las pilas y las colas que son tipos abstractos de datos, importantes tanto desde un punto de vista teórico como práctico.
 
 
 
@@ -15,7 +12,7 @@ El ejercicio para la revisión de pares de esta semana es el de programación or
 * [11.3 Herencia](03_Herencia.md)
 * [11.4 Métodos especiales](04_Métodos_Especiales.md)
 * [11.5 Objetos, pilas y colas](05_Pilas_Colas.md)
-* [11.6 Cierre de la clase [**falta**]](06_Cierre.md)
+* [11.6 Cierre de la clase](06_Cierre.md)
 * [11.7 Integrador y Repaso [falta]](07_Integrador.md)
 
 

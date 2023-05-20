@@ -4,7 +4,7 @@
 
 En esta clase comenzamos a trabajar con funciones y estructuras de datos.
 
-Te recordamos que leas el [código de honor](../Codigo.md) del curso en el que hablamos de las reglas que rigen en este curso para evitar el plagio así como otros aspectos importantes sobre qué se puede compartir y qué no. Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Recordá usar siempre la misma dirección de mail y poner como *subject* del correo **[Unidad 2]**. Los ejercicios de esta unidad los podés enviar hasta el día viernes 19 de agosto inclusive.
+Te recordamos que leas el [código de honor](../Codigo.md) del curso en el que hablamos de las reglas que rigen en este curso para evitar el plagio así como otros aspectos importantes sobre qué se puede compartir y qué no. Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Recordá usar siempre la misma dirección de mail y poner como *subject* del correo **[Unidad 2]**.
 
 Recordá: Si cursás en el turno de los miércoles, mandá tus ejercicios a python@unsam.edu.ar, si cursás en el turno de los jueves mandalos a pythonunsam@gmail.com.
 

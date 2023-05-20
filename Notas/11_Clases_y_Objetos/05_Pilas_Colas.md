@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (4 Métodos especiales)](04_Métodos_Especiales.md) \| [Próximo (6 Cierre de la clase [**falta**])](06_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (4 Métodos especiales)](04_Métodos_Especiales.md) \| [Próximo (6 Cierre de la clase)](06_Cierre.md)
 
 # 11.5 Objetos, pilas y colas
 
@@ -222,7 +222,7 @@ Para poder volver a recuperar el valor 10 para `x` en `g()` luego de llamar a `f
 En g, después de llamar a f, x vale 10. 
 ```
 
-Estos conceptos son importantes para la clase próxima donde estudiaremos funciones que se llaman a sí mismas _recursivamente_. Si no fuera por la pila de llamadas, los valores de las variables de las diferentes instancias de una función recursiva correrían el riesgo de mezclarse y confundirse.
+Estos conceptos son importantes para diseñar funciones que se llaman a sí mismas _recursivamente_ (hay una clase optativas sobre recursión). Si no fuera por la pila de llamadas, los valores de las variables de las diferentes instancias de una función recursiva correrían el riesgo de mezclarse y confundirse.
 
 ### Ejercicio 11.13: implementar el TAD pila
 Implementá en una clase `Pila` el TAD descripto anteriormente con los métodos `apilar()`, `desapilar()` y `esta_vacia()`.
@@ -257,5 +257,5 @@ Ejecutando g(), x vale 10
 ```
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (4 Métodos especiales)](04_Métodos_Especiales.md) \| [Próximo (6 Cierre de la clase [**falta**])](06_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (4 Métodos especiales)](04_Métodos_Especiales.md) \| [Próximo (6 Cierre de la clase)](06_Cierre.md)
 

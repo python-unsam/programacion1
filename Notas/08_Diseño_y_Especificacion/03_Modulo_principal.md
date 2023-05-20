@@ -275,7 +275,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 5:  3.89
 >>>
 ```
-
+Copiá tu archivo `rebotes.py` y modificalo para que funcione como se muestra arriba.
 
 ### Ejercicio 8.5: Función principal
 Usando estas ideas, agregá a tu programa `informe_final.py` una función `f_principal()` que tome una lista de parámetros en la línea de comandos y produzca la misma salida que antes.

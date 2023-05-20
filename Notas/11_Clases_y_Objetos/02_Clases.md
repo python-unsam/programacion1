@@ -2,9 +2,9 @@
 
 # 11.2 Clases
 
-Esta sección tiene un [video](https://youtu.be/h7X8rrW8JLo) donde introducimos las clases, damos algunos ejemplos y también introducimos el tema de la [Sección 11.4](../11_Clases_y_Objetos/04_Métodos_Especiales.md#114-métodos-especiales). En este video, y en el que veremos más adelante sobre herencia, usamos el código de [este archivo](./clase9_clases_metesp.py).
+Esta sección tiene un [video](https://youtu.be/h7X8rrW8JLo) donde introducimos las *clases*, damos algunos ejemplos y también introducimos el tema de la [Sección 11.4](../11_Clases_y_Objetos/04_Métodos_Especiales.md#114-métodos-especiales). En este video, y en el que veremos más adelante sobre herencia, usamos el código de [este archivo](./clase9_clases_metesp.py).
 
-La programación orientada a objetos requiere un pequeño pero importante cambio en la forma de pensar la programación tradicional. Dejá decantar los conceptos nuevos mientras leés esta sección.
+La programación orientada a objetos requiere un pequeño pero importante cambio en la forma de pensar la programación tradicional. Dejá decantar los conceptos nuevos a medida que leas esta sección.
 
 En esta sección veremos el concepto de clase, cómo crear nuevos tipos de objetos, su utilidad, y las ventajas de esa forma de organizar los programas.
 
@@ -28,11 +28,11 @@ Ya usaste objetos durante el curso infinidad de veces. Por ejemplo, al manipular
 >>>
 ```
 
-Miremos un poco más en detalle este fragmento de código. Sabemos que `nums` es una variable de tipo lista. Equivalentemente, podemos decir que `nums` es una *instancia* de la clase *list*. Cada variable de tipo lista es una instancia de la misma clase.
+Miremos un poco más en detalle este fragmento de código. Sabemos que `nums` es una variable de tipo lista. En términos técnicos decimos que `nums` es una *instancia* de la clase *list*. Cada variable de tipo lista es una instancia de la misma clase.
 Al hablar de 'instancia' nos referimos a un 'objeto': un objeto es una instancia de una clase.
 
 Un objeto de tipo lista tiene atributos (datos) y métodos.
-Los métodos, como `append()` o `insert()`, se definen cuando se define la clase, pero se usan para manipular los datos de un objeto concreto (`nums` en este caso).
+Los métodos, como `append()` o `insert()`, se definen cuando se define la clase, pero se usan para manipular los datos de ése objeto en concreto (`nums` en este caso).
 
 ### La instrucción `class`
 
@@ -112,7 +112,7 @@ class Jugador:
 ```
 
 Siempre se recibe la instancia misma como primer argumento:
-"self" significa "mismo" como en "mi mismo" ó "en sí misma". Es como decir "yo".
+"self" significa "mismo" como en "para mi mismo" ó "en sí misma". Es como decir "yo".
 
 ```python
 >>> a.mover(1, 2)
@@ -126,15 +126,15 @@ def mover(self, dx, dy):
 
 Por convención siempre llamamos `self` a la instancia actual, y ésta es siempre pasada como primer argumento a todos los métodos. En realidad el nombre real de la variable no importa, pero es una convención en Python llamar al primer argumento `self`. 
 
-Podríamos usar `mismo`, por ejemplo, en lugar de `self` y todo va a funcionar igual, pero no respeta las convenciones de la comunidad:
+Podríamos usar `yo`, por ejemplo, en lugar de `self` y todo va a funcionar igual, pero no respeta las convenciones de la comunidad:
 
 ```python
 class Jugador:
     ...
     # `mover` es un método
-    def mover(mismo, dx, dy):
-        mismo.x += dx
-        mismo.y += dy
+    def mover(yo, dx, dy):
+        yo.x += dx
+        yo.y += dy
 ```
 
 
@@ -245,7 +245,7 @@ Agregá los métodos `costo()` y `vender()` a tu objeto `Lote`. Deberían dar es
 ```
 
 ### Ejercicio 11.3: Lista de instancias
-Seguí estos pasos para crear una lista de las instancias de `Lote` (una lista de objetos `Lote`) a partir de una lista de diccionarios. Luego calculá el precio total de todas esas instancias. Para poder importar `fileparse`, primero copialo a la carpeta de ejercicios de la clase actual. La última versión que deberías tener es la correspondiente al [Ejercicio 8.7](../08_Diseño_y_Especificacion/04_Flexibilidad.md#ejercicio-87-de-archivos-a-objetos-cual-archivos).
+Seguí estos pasos para crear una lista de las instancias de `Lote` (una lista de objetos `Lote`) a partir de una lista de diccionarios. Luego calculá el precio total de todas esas instancias. Para poder importar `fileparse`, primero copialo a la carpeta de ejercicios de esta clase. La última versión que deberías tener es la correspondiente al [Ejercicio 8.7](../08_Diseño_y_Especificacion/04_Flexibilidad.md#ejercicio-87-de-archivos-a-objetos-cual-archivos).
 
 ```python
 >>> import fileparse

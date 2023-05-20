@@ -26,7 +26,7 @@ Probá tu función con distintos directorios. Por ejemplo
  'python_20190812.png']
 ```
 
-Escribí un programa que dado un directorio, imprima en pantalla los nombres de todos los archivos `.png` que se encuentren en *algún* subdirectorio del él. Tu programa debe poder ejecutarse desde la línea de comandos recibiendo como parámetro el directorio original a leer. Para esto, organizá tu código como lo indicamos en la [Sección 8.3](../08_Diseño_y_Especificacion/03_Modulo_principal.md#modelo-de-script-con-parámetros). Primero los imports, luego las funciones (en este caso solamente la función `archivos_png()`), y luego el bloque con las instrucciones para el caso `__name__ == '__main__'`.
+Escribí un programa que dado un directorio, imprima en pantalla los nombres de todos los archivos `.png` que se encuentren en *algún* subdirectorio del él. Tu programa debe poder ejecutarse desde la línea de comandos recibiendo como parámetro el directorio original a leer. Para esto, organizá tu código como lo indicamos en el [Ejercicio 8.4](../08_Diseño_y_Especificacion/03_Modulo_principal.md#ejercicio-84-funcion-principal). Primero los imports, luego las funciones (en este caso solamente la función `archivos_png()`), y luego el bloque con las instrucciones para el caso `__name__ == '__main__'`.
 
 Guardá el script resultante en un archivo `listar_imgs.py`. 
 

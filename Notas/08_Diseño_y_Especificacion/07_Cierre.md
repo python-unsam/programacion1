@@ -12,13 +12,14 @@ También estudiamos diversos estilos de gráficos, como obtener un vistazo rápi
 
 
 * Para cerrar esta clase te pedimos que recopiles las soluciones de los siguientes ejercicios:
-    1. El archivo `argumentos.py` del [Ejercicio 8.4](../08_Diseño_y_Especificacion/03_Modulo_principal.md#ejercicio-84-funcion-principal).
+    1. El archivo `rebotes.py` del [Ejercicio 8.4](../08_Diseño_y_Especificacion/03_Modulo_principal.md#ejercicio-84-funcion-principal).
     1. El archivo `fileparse.py` del [Ejercicio 8.7](../08_Diseño_y_Especificacion/04_Flexibilidad.md#ejercicio-87-de-archivos-a-objetos-cual-archivos).
     2. El archivo `informe_final.py` del [Ejercicio 8.8](../08_Diseño_y_Especificacion/04_Flexibilidad.md#ejercicio-88-arreglemos-las-funciones-existentes).
     3. El archivo `documentacion.py` del [Ejercicio 8.11](../08_Diseño_y_Especificacion/05_Especificacion_y_Documentacion.md#ejercicio-811-funciones-y-documentacion).
     
 
-Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Recordá usar siempre la misma dirección de mail y poner como *subject* del correo **[Unidad 8]** y si querés participar de la revisión de pares agregá la cadena **[RP]** . Los ejercicios de esta unidad los podés enviar hasta el día viernes 14 de octubre inclusive. *Recordá:* Si cursás en el turno de los miércoles, mandá tus ejercicios a python@unsam.edu.ar, si cursás en el turno de los jueves mandalos a pythonunsam@gmail.com.
+Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Recordá usar siempre la misma dirección de mail y poner como *subject* del correo **[Unidad 8]**. *Recordá:* Si cursás en el turno de los miércoles, mandá tus ejercicios a python@unsam.edu.ar, si cursás en el turno de los jueves mandalos a pythonunsam@gmail.com.
+
 ¡Gracias! 
 
 

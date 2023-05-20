@@ -71,7 +71,7 @@ Se puede usar así:
 >>>
 ```
 
-Esta clase heredó los atributos y métodos de `Lote` y la extendío con un nuevo método (`rematar()`).
+Esta clase heredó los atributos y métodos de `Lote` y la extendió con un nuevo método (`rematar()`).
 
 ### Redefinir un método existente
 
@@ -156,7 +156,7 @@ class Rectangulo(FiguraGeom):
 
 Imaginate por ejemplo su uso en una jerarquía lógica, o taxonómica, en la que las clases tienen una relación natural tal que hace intuitivo derivar una de otra. 
 
-Una aplicación más común, y tal vez más práctica, consiste en escribir código que es reutilizable y/o extensible. Podríamos definir una clase base para una interfaz de transferencia de datos y permitir que cada fabricante de equipo de adquisición de datos implemente los detalles de comunicación con cada interfaz en particular.
+Una aplicación más común, y tal vez más práctica, consiste en escribir código que es reutilizable y/o extensible. Podríamos definir una clase base para una interfaz genérica de transferencia de datos y permitir que cada fabricante de hardware implemente los detalles de comunicación con una clase interfaz particular para ese hardware (ésta es la idea de un _driver_).
 
 ```python
 class Procesador_de_datos(TCPHandler):
@@ -328,7 +328,7 @@ def informe_camion(archivo_camion, archivo_precios):
 Ejecutá este código:
 
 ```python
->>> ================================ RESTART ================================
+>>> ========================REINICIAR INTERPRETE========================
 >>> import informe_final
 >>> informe_final.informe_camion('../Data/camion.csv', '../Data/precios.csv')
 ... crashes ...
@@ -466,14 +466,14 @@ Usando las mismas ideas creá la clase `FormatoTablaHTML` que produzca un tabla 
 <tr><td>Naranja</td><td>100</td><td>70.44</td><td>35.84</td></tr>
 ```
 
-Para testear tu código, modificá el programa principal de modo que use un objeto de la clase `FormatoTablaHTML` en lugar de uno de la clase `FormatoTablaCSV` para darle formato a la tabla de salida. Fijate lo fácil que es cambiar el comportamiento de un programa cuando tenés objetos que son compatibles entre sí.
+Para testear tu código, modificá el programa principal de modo que use un objeto de la clase `FormatoTablaHTML` en lugar de uno de la clase `FormatoTablaCSV` para darle formato a la tabla de salida (para ver el resultado "prolijo" poné esa salida en un archivo y leelo con un webbrowser). ¿Viste lo fácil que es cambiar el comportamiento de un programa cuando tenés objetos que son compatibles entre sí?
 
 ### Ejercicio 11.7: Polimorfismo en acción
 Una de las grandes ventajas de la programación orientada a objetos es que podés cambiar un objeto por otro compatible y tu programa va a funcionar sin necesidad de adaptar el código que usa esos objetos.
 
 Si escribiste un programa diseñado para usar un objeto de la clase `FormatoTabla`, va a funcionar sin importar *qué* objeto de esa clase uses. A este comportamiento particular se lo llama polimorfismo. Está relacionado con la capacidad de usar la misma interfaz con diferentes objetos de la misma clase, haciendo que el programa como un todo se porte distinto.
 
-Ahora bien, un potencial problema es cómo diseñar tu programa de manera que el usuarie final pueda elegir el formato. Usar los nombres de las clases de formateadores no resultaría cómodo. Una solución posible es considerar un condicional:
+Ahora bien, un potencial problema es cómo diseñar tu programa de manera que le usuarie final pueda elegir el formato. Usar los nombres de las clases de formateadores no resultaría cómodo. Una solución posible es considerar un condicional:
 
 
 ```python
@@ -503,7 +503,7 @@ def informe_camion(archivo_camion, archivo_precios, fmt = 'txt'):
     imprimir_informe(data_informe, formateador)
 ```
 
-En este código, el usuarie especifica un nombre simplificado como `txt` o
+En este código, le usuarie especifica un nombre simplificado como `txt` o
 `csv` para elegir el formato. Pero bancá. ¿Es una buena idea poner un gran bloque `if` en la función `informe_camion()`? ¿O quizás sería mejor ponerla directamente en una función de propósito general en otro lado?
 
 En el archivo `formato_tabla.py`, agregá la función `crear_formateador(nombre)` que permita crear un objeto formateador dado un tipo de salida como `txt`, `csv`, o `html`.  Modificá `informe_camion()` para que se vea así:
@@ -573,7 +573,7 @@ Tal vez estés pensando "¡Debería usar una biblioteca para crear formatos ya e
 
 Siempre que tu programa adhiera a la interfaz de objetos definida por tu clase, podés cambiar la implementación interna en los objetos que escribas para que funcionen del modo que elijas. Podés escribir todo el código vos o usar bibliotecas ya escritas, no importa. Cuando encuentres algo mejor, cambiás tu implementación para que llame al nuevo código. Si la interfaz que hiciste está bien escrita, no vas a necesitar modificar el programa que usa las diferentes implementaciones. Simplemente funcionan si cumplen los contratos de la interfaz. Es algo muy útil y es uno de los motivos por los que usar herencia puede resolverte los problemas de extensibilidad y diversidad a futuro.
 
-Dicho esto, es cierto que diseñar un programa en el paradigma orientado a objetos puede resultar algo muy difícil. Si vas a encarar proyectos grandes con esta herramienta, consultá libros sobre patrones de diseño en POO. De todos modos, haber entendido lo que acabamos de hacer te permite llegar bastante lejos.
+Dicho esto, es cierto que diseñar un programa en el paradigma orientado a objetos puede resultar algo difícil. Si vas a encarar proyectos grandes con esta herramienta, consultá libros sobre patrones de diseño en POO. De todos modos, haber entendido lo que acabamos de hacer te permite llegar bastante lejos.
 
 
 [Contenidos](../Contenidos.md) \| [Anterior (2 Clases)](02_Clases.md) \| [Próximo (4 Métodos especiales)](04_Métodos_Especiales.md)
