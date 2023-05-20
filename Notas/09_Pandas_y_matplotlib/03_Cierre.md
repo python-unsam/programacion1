@@ -1,6 +1,6 @@
 [Contenidos](../Contenidos.md) \| [Anterior (2 Introducción a Pandas)](02_Pandas.md)
 
-# 9.3 Cierre de la clase.
+# 9.3 Cierre de la clase
 
 
 * Para cerrar esta clase te pedimos que recopiles las soluciones de los siguientes ejercicios:
