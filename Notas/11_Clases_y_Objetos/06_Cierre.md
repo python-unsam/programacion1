@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (5 Objetos, pilas y colas)](05_Pilas_Colas.md) \| [Próximo (7 Integrador y Repaso [falta])](07_Integrador.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Objetos, pilas y colas)](05_Pilas_Colas.md)
 
 # 11.6 Cierre de la clase
 
@@ -21,9 +21,9 @@ Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por
 
 ¡Gracias! 
 
-
+Con esto damos por terminado el curso.
 ¡Nos vemos!
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (5 Objetos, pilas y colas)](05_Pilas_Colas.md) \| [Próximo (7 Integrador y Repaso [falta])](07_Integrador.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Objetos, pilas y colas)](05_Pilas_Colas.md)
 

@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción y repaso.)](01_Introduccion_y_repaso.md) \| [Próximo (3 Manejo de archivos)](03_Archivos.md)
+[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción y repaso)](01_Introduccion_y_repaso.md) \| [Próximo (3 Manejo de archivos)](03_Archivos.md)
 
 # 2.2 Entorno de desarrollo integrado
 
@@ -17,5 +17,5 @@ En la captura se puede ver que por defecto el Spyder viene estructurado con tres
 Les recomendamos que le dediquen un tiempo a probar sus últimos ejercicios en este entorno. Verán que es muy cómodo. Pueden mirar un [breve tutorial](https://www.youtube.com/watch?v=0fxURPC1YFs) donde no sólo les enseñan el uso de la tecla `F5`, sino también una introducción al uso del debugger (le dice depurador) que veremos más adelante en este curso.
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción y repaso.)](01_Introduccion_y_repaso.md) \| [Próximo (3 Manejo de archivos)](03_Archivos.md)
+[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción y repaso)](01_Introduccion_y_repaso.md) \| [Próximo (3 Manejo de archivos)](03_Archivos.md)
 

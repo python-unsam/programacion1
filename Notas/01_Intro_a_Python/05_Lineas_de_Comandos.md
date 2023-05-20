@@ -219,7 +219,7 @@ PS C:\Users\oski\ejercicios_python\clase01> type ../clase02/readme.txt
 
 Esto significa que _desde donde estamos_, vamos a "subir un directorio" (`../`) y luego bajar a `clase02/` y trabajar con el archivo `readme.txt` que está ahí. Notá que eliminamos toda la parte del nombre del archivo que también está incluída en el directorio donde estamos, y la reemplazamos por `../`
 
-Esta última forma, llamada "relative pathname" o camino relativo (relativo a donde estamos), es muy útil cuando tenés un conjunto de archivos en directorios cercanos (como los de las clases de esta materia) y se usará mucho en [Sección 3.4](../03_Contenedores_y_Errores/04_Llamados_desde_cmd.md#llamados-desde-consola)
+Esta última forma, llamada "relative pathname" o camino relativo (relativo a donde estamos), es muy útil cuando tenés un conjunto de archivos en directorios cercanos (como los de las clases de esta materia) y se usará mucho en [Sección 3.3](../03_Contenedores_y_Errores/03_Llamados_desde_cmd.md#llamados-desde-consola)
 
 
 

@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción.)](01_Introduccion.md) \| [Próximo (3 Contadores del módulo _collections_)](03_Contadores.md)
+[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción)](01_Introduccion.md) \| [Próximo (3 Contadores del módulo _collections_)](03_Contadores.md)
 
 # 4.2 Secuencias
 
@@ -438,7 +438,7 @@ Si lo hiciste bien, vas a descubrir que tu programa aún funciona a pesar de que
 
 El cambio que hicimos acá es sutil, pero importante. En lugar de tener *hardcodeado* un formato fijo, la nueva versión de la función `costo_camion()` puede sacar la información de interés de cualquier archivo CSV. En la medida en que el archivo tenga las columnas requeridas, el código va a funcionar.
 
-Copiá el programa `informe.py` que escribiste antes (ver [Ejercicio 3.4](../03_Contenedores_y_Errores/02_Contenedores.md#ejercicio-34-balances)) a la carpeta de ejercicios de la clase actual, y modificalo para que use esta técnica para elegir las columnas a partir de sus encabezados.
+Copiá el programa `informe.py` que escribiste antes (ver [Ejercicio 3.4](../03_Contenedores_y_Errores/01_Contenedores.md#ejercicio-34-balances)) a la carpeta de ejercicios de la clase actual, y modificalo para que use esta técnica para elegir las columnas a partir de sus encabezados.
 
 Probá correr el programa `informe.py` sobre el archivo  `Data/fecha_camion.csv`
 y fijate si da la misma salida que antes.
@@ -512,5 +512,5 @@ También, tené en cuenta que `zip()` se detiene cuando la más corta de las ent
 ```
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción.)](01_Introduccion.md) \| [Próximo (3 Contadores del módulo _collections_)](03_Contadores.md)
+[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción)](01_Introduccion.md) \| [Próximo (3 Contadores del módulo _collections_)](03_Contadores.md)
 

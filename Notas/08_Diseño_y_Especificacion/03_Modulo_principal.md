@@ -253,7 +253,7 @@ Te proponemos, con lo que ahora sabés sobre funciones, módulos y llamados desd
 
 
 ### Ejercicio 8.4: Función principal
-Recordarás que en las primeras clases modificaste el programa `rebotes.py` que hiciste en la Clase 1 para poder pasarle parámetros desde la línea de comandos. El resultado fué [Ejercicio 3.9](../03_Contenedores_y_Errores/04_Llamados_desde_cmd.md#ejercicios). Queremos, además, poder usar el poder de cálculo incluído en ese script desde otro programa escrito en python, sin perder la capacidad de ejecucion desde el sistema operativo. La idea es lograr el sigiente comportamiento dual: 
+Recordarás que en las primeras clases modificaste el programa `rebotes.py` que hiciste en la Clase 1 para poder pasarle parámetros desde la línea de comandos. El resultado fué [Ejercicio 3.9](../03_Contenedores_y_Errores/03_Llamados_desde_cmd.md#ejercicios). Queremos, además, poder usar el poder de cálculo incluído en ese script desde otro programa escrito en python, sin perder la capacidad de ejecucion desde el sistema operativo. La idea es lograr el sigiente comportamiento dual: 
 
 
 ```bash

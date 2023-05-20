@@ -1,4 +1,4 @@
-[Contenidos](../Contenidos.md) \| [Anterior (5 Contratos: Especificación y Documentación)](05_Especificacion_y_Documentacion.md) \| [Próximo (7 Cierre de la clase)](07_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Contratos, Especificación y Documentación)](05_Especificacion_y_Documentacion.md) \| [Próximo (7 Cierre de la clase)](07_Cierre.md)
 
 # 8.6 Estilos de codeo
 
@@ -232,5 +232,5 @@ El Zen de Python es una colección de principios de software que influyen en el 
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (5 Contratos: Especificación y Documentación)](05_Especificacion_y_Documentacion.md) \| [Próximo (7 Cierre de la clase)](07_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Contratos, Especificación y Documentación)](05_Especificacion_y_Documentacion.md) \| [Próximo (7 Cierre de la clase)](07_Cierre.md)
 

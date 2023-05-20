@@ -49,7 +49,7 @@ Probá con el parque "GENERAL PAZ" para tener un ejemplo de trabajo, debería da
 ### Ejercicio 4.14: Determinar las especies en un parque
 Escribí una función `especies(lista_arboles)` que tome una lista de árboles como la generada en el ejercicio anterior y devuelva el conjunto de especies (la columna `'nombre_com'` del archivo) que figuran en la lista.
 
-_Sugerencia: Usá el comando `set` como en la [Sección 3.2](../03_Contenedores_y_Errores/02_Contenedores.md#conjuntos)._
+_Sugerencia: Usá el comando `set` como en la [Sección 3.1](../03_Contenedores_y_Errores/01_Contenedores.md#conjuntos)._
 
 ### Ejercicio 4.15: Contar ejemplares por especie
 Usando un diccionario contador (Counter) del módulo `collections` como en el [Ejercicio 4.6](../04_Datos/03_Contadores.md#ejercicio-46-contadores), escribí una función `contar_ejemplares(lista_arboles)` que, dada una lista como la generada con `leer_parque()`, devuelva un diccionario contador en el que las especies (recordá, es la columna `'nombre_com'` del archivo) sean las claves y tengan como valores asociados la cantidad de ejemplares en esa especie en la lista dada.

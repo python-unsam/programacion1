@@ -1,6 +1,6 @@
-[Contenidos](../Contenidos.md) \| [Anterior (2 Contenedores)](02_Contenedores.md) \| [Próximo (4 Llamados desde consola)](04_Llamados_desde_cmd.md)
+[Contenidos](../Contenidos.md) \| [Anterior (1 Contenedores)](01_Contenedores.md) \| [Próximo (3 Llamados desde consola)](03_Llamados_desde_cmd.md)
 
-# 3.3 Errores
+# 3.2 Errores
 
 En esta sección hablamos sobre errores. Acá hay un [video](https://youtu.be/1nTWUPopXrI) sobre este tema.
 
@@ -236,5 +236,5 @@ _Ayuda: Primero tratá de pensarlo, pero si este último se te hace muy difícil
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (2 Contenedores)](02_Contenedores.md) \| [Próximo (4 Llamados desde consola)](04_Llamados_desde_cmd.md)
+[Contenidos](../Contenidos.md) \| [Anterior (1 Contenedores)](01_Contenedores.md) \| [Próximo (3 Llamados desde consola)](03_Llamados_desde_cmd.md)
 

@@ -1,6 +1,6 @@
-[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción)](01_Introduccion.md) \| [Próximo (3 Errores)](03_Bugs.md)
+[Contenidos](../Contenidos.md) \| [Próximo (2 Errores)](02_Bugs.md)
 
-# 3.2 Contenedores
+# 3.1 Contenedores
 
 En esta sección trataremos listas, diccionarios y conjuntos.
 
@@ -108,7 +108,7 @@ with open('../Data/precios.csv', 'rt') as f:
         precios[row[0]] = float(row[1])
 ```
 
-Nota: Si probás estos comandos en el archivo `../Data/precios.csv`, vas a ver que casi anda. Pero hay una línea en blanco al final que genera un error. Usando lo que ya vimos, más adelante (en el [Ejercicio 3.3](../03_Contenedores_y_Errores/02_Contenedores.md#ejercicio-33-diccionarios-como-contenedores)) vas a tener que modificar el código para resolver el problema.
+Nota: Si probás estos comandos en el archivo `../Data/precios.csv`, vas a ver que casi anda. Pero hay una línea en blanco al final que genera un error. Usando lo que ya vimos, más adelante (en el [Ejercicio 3.3](../03_Contenedores_y_Errores/01_Contenedores.md#ejercicio-33-diccionarios-como-contenedores)) vas a tener que modificar el código para resolver el problema.
 
 ### Búsquedas en un diccionario
 
@@ -386,10 +386,10 @@ Una vez que hayas escrito tu función `leer_precios()`, testeala interactivament
 ### Ejercicio 3.4: Balances
 Supongamos que los precios en `camion.csv` son los precios pagados al productor de frutas mientras que los precios en `precios.csv` son los precios de venta en el lugar de descarga del camión.
 
-Ahora vamos calcular el balance del negocio: juntá todo el trabajo que hiciste recién en tu programa `informe.py` (usando las funciones `leer_camion()` y `leer_precios()`) y completá el programa para que con los precios del camión ([Ejercicio 3.2](../03_Contenedores_y_Errores/02_Contenedores.md#ejercicio-32-lista-de-diccionarios)) y los de venta en el negocio ([Ejercicio 3.3](../03_Contenedores_y_Errores/02_Contenedores.md#ejercicio-33-diccionarios-como-contenedores)) calcule lo que costó el camión, lo que se recaudó con la venta, y la diferencia. ¿Hubo ganancia o pérdida? El programa debe imprimir por pantalla un balance con estos datos.
+Ahora vamos calcular el balance del negocio: juntá todo el trabajo que hiciste recién en tu programa `informe.py` (usando las funciones `leer_camion()` y `leer_precios()`) y completá el programa para que con los precios del camión ([Ejercicio 3.2](../03_Contenedores_y_Errores/01_Contenedores.md#ejercicio-32-lista-de-diccionarios)) y los de venta en el negocio ([Ejercicio 3.3](../03_Contenedores_y_Errores/01_Contenedores.md#ejercicio-33-diccionarios-como-contenedores)) calcule lo que costó el camión, lo que se recaudó con la venta, y la diferencia. ¿Hubo ganancia o pérdida? El programa debe imprimir por pantalla un balance con estos datos.
 
 Ayuda: hubo una ganancia de algo más de quince mil pesos.
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (1 Introducción)](01_Introduccion.md) \| [Próximo (3 Errores)](03_Bugs.md)
+[Contenidos](../Contenidos.md) \| [Próximo (2 Errores)](02_Bugs.md)
 

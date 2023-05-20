@@ -1,11 +1,11 @@
-[Contenidos](../Contenidos.md) \| [Anterior (7 Integrador: El album de Figuritas)](07_Figuritas.md)
+[Contenidos](../Contenidos.md) \| [Anterior (6 Integrador: El album de Figuritas)](06_Figuritas.md)
 
-# 6.8 Revisitando ejercicios.
+# 6.7 Revisitando ejercicios.
 
 A continuación dejamos unos links a unos videos sobre un par de ejercicios de pasados:
 
 1. Ejercicio [Ejercicio 6.2](../06_Aleatoriedad/02_Random.md#ejercicio-62-generala-no-necesariamente-servida) sobre la probabilidad de obtener una generala no servida resuelto por [Matías](https://youtu.be/D_mipwwZjhM) y por [Rafael](https://youtu.be/c2SO3-iSd04).
-2. Ejercicio [Ejercicio 6.18](../06_Aleatoriedad/07_Figuritas.md#ejercicio-618) del [álbum de Figuritas](https://youtu.be/lSVNxPoRLJA).
+2. Ejercicio [Ejercicio 6.18](../06_Aleatoriedad/06_Figuritas.md#ejercicio-618) del [álbum de Figuritas](https://youtu.be/lSVNxPoRLJA).
 
 ## Análisis de alternativas para *propagar*
 
@@ -130,11 +130,11 @@ print("Estado propagado: ",lp)
 **Preguntas:**
 1. ¿Por qué se acorta la lista? 
 2. ¿Podés corregir el error agregando un solo caracter al código?
-3. ¿Te parece que este algoritmo es cuadrático como el [Ejercicio 6.28](../06_Aleatoriedad/08_Repaso.md#ejercicio-628-propagar-a-vecinos)
-o lineal como el [Ejercicio 6.29](../06_Aleatoriedad/08_Repaso.md#ejercicio-629-propagar-como-el-auto-fantastico)?
+3. ¿Te parece que este algoritmo es cuadrático como el [Ejercicio 6.28](../06_Aleatoriedad/07_Repaso.md#ejercicio-628-propagar-a-vecinos)
+o lineal como el [Ejercicio 6.29](../06_Aleatoriedad/07_Repaso.md#ejercicio-629-propagar-como-el-auto-fantastico)?
 
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (7 Integrador: El album de Figuritas)](07_Figuritas.md)
+[Contenidos](../Contenidos.md) \| [Anterior (6 Integrador: El album de Figuritas)](06_Figuritas.md)
 

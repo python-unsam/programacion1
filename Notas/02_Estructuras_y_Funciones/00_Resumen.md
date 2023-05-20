@@ -7,7 +7,7 @@ Para escribir programas útiles, necesitamos aprender a trabajar con algunas est
 
 
 
-* [2.1 Introducción y repaso.](01_Introduccion_y_repaso.md)
+* [2.1 Introducción y repaso](01_Introduccion_y_repaso.md)
 * [2.2 Entorno de desarrollo integrado](02_IDE.md)
 * [2.3 Manejo de archivos](03_Archivos.md)
 * [2.4 Funciones](04_Funciones.md)

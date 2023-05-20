@@ -1,6 +1,6 @@
 [Contenidos](../Contenidos.md) \| [Anterior (6 Aleatoriedad)](../06_Aleatoriedad/00_Resumen.md) \| [Próximo (8 Diseño, especificación, documentación y estilo)](../08_Diseño_y_Especificacion/00_Resumen.md)
 
-# 7. Complejidad y Organización de programas.
+# 7. Complejidad y Organización de programas
 
 Hasta aquí aprendimos algunas cosas básicas de Python y escribiste tus primeros programas. A medida que escribas programas más grandes, vas a necesitar organizarlos un poco mejor. En esta clase trataremos con mayor detalle cómo escribir funciones y módulos propios.
 

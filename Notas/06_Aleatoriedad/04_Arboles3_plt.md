@@ -1,6 +1,6 @@
-[Contenidos](../Contenidos.md) \| [Anterior (4 Introducción a matplotlib [falta])](04_Intro_mpl.md) \| [Próximo (6 Cierre de la clase)](06_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 NumPy)](03_NumPy_Arrays.md) \| [Próximo (5 Cierre de la clase)](05_Cierre.md)
 
-# 6.5 Gráficos del Arbolado porteño
+# 6.4 Gráficos del Arbolado porteño
 
 ## Ploteando datos reales
 
@@ -81,5 +81,5 @@ Acordate siempre de ponerle título a las figuras y nombres y unidades a los eje
 _Extra:_ ¿podés hacer un solo gráfico que muestre dos de estas tres especies en diferentes colores y resulte claro? ¿Y las tres especies?
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (4 Introducción a matplotlib [falta])](04_Intro_mpl.md) \| [Próximo (6 Cierre de la clase)](06_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (3 NumPy)](03_NumPy_Arrays.md) \| [Próximo (5 Cierre de la clase)](05_Cierre.md)
 

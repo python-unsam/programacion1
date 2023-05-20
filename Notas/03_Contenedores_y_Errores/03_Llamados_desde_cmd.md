@@ -1,6 +1,6 @@
-[Contenidos](../Contenidos.md) \| [Anterior (3 Errores)](03_Bugs.md) \| [Próximo (5 Cierre de la clase)](05_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (2 Errores)](02_Bugs.md) \| [Próximo (4 Cierre de la clase)](04_Cierre.md)
 
-# 3.4 Llamados desde consola
+# 3.3 Llamados desde consola
 
 Ya vimos que podés correr Python desde la consola. También podemos correr programas escritos en Python desde la consola. Esto nos permite usarlos de manera muy práctica
 
@@ -169,5 +169,5 @@ Te dejamos un [video](https://youtu.be/D4WI4qsuwrQ) explicando cómo funciona el
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (3 Errores)](03_Bugs.md) \| [Próximo (5 Cierre de la clase)](05_Cierre.md)
+[Contenidos](../Contenidos.md) \| [Anterior (2 Errores)](02_Bugs.md) \| [Próximo (4 Cierre de la clase)](04_Cierre.md)
 

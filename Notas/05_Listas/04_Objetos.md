@@ -48,7 +48,7 @@ Esto significa que al modificar un valor modificamos *todas* las referencias.
 
 Observá cómo un cambio en la lista original desencadena cambios en todas las demás variables (ouch!). Esto es porque no se hizo ninguna copia. Todos son punteros a la misma cosa.
 
-Esto es lo mismo que pasaba en el [Ejercicio 3.9](../03_Contenedores_y_Errores/03_Bugs.md#ejercicio-39-pisando-memoria).
+Esto es lo mismo que pasaba en el [Ejercicio 3.9](../03_Contenedores_y_Errores/02_Bugs.md#ejercicio-39-pisando-memoria).
 
 
 ### Reasignar valores

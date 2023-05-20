@@ -1,6 +1,6 @@
-[Contenidos](../Contenidos.md) \| [Anterior (6 Cierre de la clase)](06_Cierre.md) \| [Próximo (8 Revisitando ejercicios.)](08_Repaso.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Cierre de la clase)](05_Cierre.md) \| [Próximo (7 Revisitando ejercicios.)](07_Repaso.md)
 
-# 6.7 Integrador: El album de Figuritas
+# 6.6 Integrador: El album de Figuritas
 
 ## Las figuritas del mundial
 
@@ -173,5 +173,5 @@ Acordate de guardar todo lo que hiciste sobre figuritas en un archivo `figuritas
 
 
 
-[Contenidos](../Contenidos.md) \| [Anterior (6 Cierre de la clase)](06_Cierre.md) \| [Próximo (8 Revisitando ejercicios.)](08_Repaso.md)
+[Contenidos](../Contenidos.md) \| [Anterior (5 Cierre de la clase)](05_Cierre.md) \| [Próximo (7 Revisitando ejercicios.)](07_Repaso.md)
 

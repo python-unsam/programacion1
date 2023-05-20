@@ -8,7 +8,7 @@ Al final de la clase, vamos a trabajar con datos reales sobre los árboles de la
 
 
 
-* [4.1 Introducción.](01_Introduccion.md)
+* [4.1 Introducción](01_Introduccion.md)
 * [4.2 Secuencias](02_Secuencias.md)
 * [4.3 Contadores del módulo _collections_](03_Contadores.md)
 * [4.4 Impresión con formato](04_Formato.md)

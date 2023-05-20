@@ -87,7 +87,7 @@ Usando lo que hiciste en el [Ejercicio 7.11](../07_Organizacion/04_BusqBinaria.m
 ```
 
 ### Ejercicio 7.13: Cálcular la complejidad de dos resoluciones de `propagar`
-Ahora que tenés algunas herramientas teóricas más, volvé a leer las dos versiones de `propagar` del [Ejercicio 6.28](../06_Aleatoriedad/08_Repaso.md#ejercicio-628-propagar-a-vecinos) y el [Ejercicio 6.29](../06_Aleatoriedad/08_Repaso.md#ejercicio-629-propagar-como-el-auto-fantastico) y compará sus complejidades.
+Ahora que tenés algunas herramientas teóricas más, volvé a leer las dos versiones de `propagar` del [Ejercicio 6.28](../06_Aleatoriedad/07_Repaso.md#ejercicio-628-propagar-a-vecinos) y el [Ejercicio 6.29](../06_Aleatoriedad/07_Repaso.md#ejercicio-629-propagar-como-el-auto-fantastico) y compará sus complejidades.
 
 ### Secuencias binarias
 

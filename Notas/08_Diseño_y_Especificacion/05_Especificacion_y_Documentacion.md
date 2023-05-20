@@ -1,6 +1,6 @@
 [Contenidos](../Contenidos.md) \| [Anterior (4 Cuestiones de diseño)](04_Flexibilidad.md) \| [Próximo (6 Estilos de codeo)](06_Estilo.md)
 
-# 8.5 Contratos: Especificación y Documentación
+# 8.5 Contratos, Especificación y Documentación
 
 En esta unidad formalizamos algunos temas que ya mencionamos brevemente en las clases anteriores sobre la especificación y documentación de funciones. Dejamos [este video](https://youtu.be/cKVP5-Z4_RE) con una introducción breve a esta sección y la siguiente.
 
