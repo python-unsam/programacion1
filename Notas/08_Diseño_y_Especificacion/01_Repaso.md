@@ -10,7 +10,7 @@ A continuación dejamos unos links a unos videos retomando temas de la clase ant
 
 3. En [este video](https://youtu.be/uJq3_EJ6MRI) resolvemos el Ejercicio [Ejercicio 7.11](../07_Organizacion/04_BusqBinaria.md#ejercicio-711-busqueda-binaria) de insertar en una lista ordenada. De paso ilustramos los conceptos de pre y post-condiciones de una función y de varios temas de complejidad de algoritmos.
 
-4. Finalmente, en [este video](https://youtu.be/6cCJ0RmDXSY) hablamos sobre la importancia de documentar para poder compartir y reutilizar el código].
+4. Finalmente, en [este video](https://youtu.be/6cCJ0RmDXSY) hablamos sobre la importancia de documentar para poder compartir y reutilizar el código.
 
 
 [Contenidos](../Contenidos.md) \| [Próximo (2 Control de errores)](02_Excepciones.md)

@@ -300,12 +300,12 @@ def maximo(lista):
 
 En este caso, el invariante del ciclo es la siguiente afirmación: "max_elem contiene el valor máximo de la porción de lista analizada".
 
-**DEMOSTRACIÓN (aburrida) DE QUE SE MANTIENE VERDADERO ESTE INVARIANTE:** Veamos que este invariante se mantiene verdadero a lo largo de las iteraciones. Es evidente que es verdadera antes de entrar al ciclo ya que no se ha analizado ningún elemento por lo que se considera que la lista analizada es vacía y, como se dijo antes, por convención, el máximo es menos infinito.
+**Demostración (técnica) de que se mantiene verdadero este invariante:** Veamos que este invariante se mantiene verdadero a lo largo de las iteraciones. Es evidente que es verdadera antes de entrar al ciclo ya que no se ha analizado ningún elemento por lo que se considera que la lista analizada es vacía y, como se dijo antes, por convención, el máximo es menos infinito.
 
 Ahora procedemos por inducción en la cantidad de iteraciones: supongamos que para i iteraciones (`i>=0`) el invariante se ha mantenido verdadero y que entramos en la iteración `i+1`.  Entonces, la variable `max_elem` vale el máximo de la lista entre la posición `0` y la posición `i` (considerando el valor menos infinito si `i==0`). Luego analizamos si el (`i+1`)-ésimo elemento es mayor que `max_elem` y si así fuera redefinimos esta variable, haciendo que se mantenga verdadero el invariante pues, evidentemente, `max_elem` será el máximo entre los primeros `i+1` elementos de la lista analizada.
 
-Concluímos, por inducción, que el invariante se mantiene verdadero a lo largo de todas las iteraciones
-**FIN DE LA DEMO**
+Concluímos, por inducción, que el invariante se mantiene verdadero a lo largo de todas las iteraciones.
+**Fin de la demo**
 
 Este caso es relativamente sencillo, pero nos permite concluir que, al terminar las iteraciones la variable `max_elem` toma como valor el máximo de toda la lista (volver a leer el invariante, considerando el caso cuando se hace la última iteración), que es lo que afirma la postcondición. Es decir, nos permite demostrar matemáticamente que el algoritmo hace lo que decimos que hace.
 

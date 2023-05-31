@@ -27,8 +27,7 @@ def add(x, y):
 >>> add(3, '4')
 Traceback (most recent call last):
 ...
-TypeError: unsupported operand type(s) for +::
-'int' and 'str'
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
 >>>
 ```
 
@@ -36,7 +35,7 @@ Python acusa los errores en inglés. El error acusado acá puede traducirse como
 ```
 Recapitulando (llamada más reciente al final)
 ...
-Error de tipo (de datos): tipo de argumento no admitido para +: 'int' y 'str'.
+Error de tipo de datos: operandos de tipo incompatible para +: 'int' y 'str'.
 ```
 
 Es decir: la función intentó aplicar el operador + (suma) a dos argumentos de tipos distintos (entero y cadena) y no supo hacerlo. Por eso levantó una excepción. 
@@ -241,7 +240,7 @@ Sin embargo, por lo general es mejor atrapar errores específicos, y sólo aquel
 
 ### Re-lanzar una excepción
 
-Si necesitás hacer algo en respuesta a una excepción pero no querés atraparla, podés usar `raise` para volver a lanzar la misma excepción.
+Si necesitás hacer algo en respuesta a una excepción pero no querés administrarla, podés usar `raise` para volver a lanzar la misma excepción.
 
 ```python
 try:
@@ -271,7 +270,7 @@ finally:
     lock.release()  # esto SIEMPRE se ejecuta. Haya o no haya excepciones.
 ```
 
-Una estructura como ésa resulta en un manejo seguro de los recursos disponibles (seguros, archivos, hardware, etc.)
+Una estructura como ésa resulta en un manejo seguro de los recursos disponibles (archivos, hardware, etc.)
 
 ## Ejercicios
 
