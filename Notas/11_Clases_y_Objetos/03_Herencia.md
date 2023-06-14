@@ -575,7 +575,7 @@ Siempre que tu programa adhiera a la interfaz de objetos definida por tu clase, 
 
 Dicho esto, es cierto que diseñar un programa en el paradigma orientado a objetos puede resultar algo difícil. Si vas a encarar proyectos grandes con esta herramienta, consultá libros sobre patrones de diseño en POO. De todos modos, haber entendido lo que acabamos de hacer te permite llegar bastante lejos.
 
-Por último, y ante alguans consultas: lo de nombrar a los archivos `informe.py`, `informe_final.py`, `informe_final_final.py`, e `informe_final_finalPosta.py`. Es una forma irónica de mostrar una muy mala práctica a la hora de nombrar scripts. 
+Por último, y ante alguans consultas: lo de nombrar a los archivos `informe.py`, `informe_final.py`, `informe_final_final.py`, e `informe_final_finalPosta.py` es solo una forma irónica de mostrar una muy mala práctica a la hora de nombrar scripts. 
 
 [Contenidos](../Contenidos.md) \| [Anterior (2 Clases)](02_Clases.md) \| [Próximo (4 Métodos especiales)](04_Métodos_Especiales.md)
 
