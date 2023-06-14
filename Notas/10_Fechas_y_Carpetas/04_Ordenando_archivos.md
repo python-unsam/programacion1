@@ -33,7 +33,7 @@ Guardá el script resultante en un archivo `listar_imgs.py`.
 Probá el programa desde la terminal, pasándole distintos directorios como parámetro.
 
 
-### Ejercicio 10.6: Ordenar el árbol de archivos (optativo)
+### Ejercicio 10.6: Ordenar el árbol de archivos
 Escribí un programa que te permita ordenar las imágenes PNG de esta carpeta. Guardalo en un archivo `ordenar_imgs.py`.
 
 1. Creá un nuevo directorio `../Data/imgs_procesadas/`.
