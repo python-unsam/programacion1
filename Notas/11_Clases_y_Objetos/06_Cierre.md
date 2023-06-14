@@ -11,7 +11,7 @@ Otra forma muy interesante es definir clases base, abstractas, que van a ser imp
 La experiencia te va a permitir decidir (quizás tardíamente) cuándo es mas conveniente una arquitectura o la otra.
 
 * Para cerrar esta clase te pedimos que recopiles las soluciones de los siguientes ejercicios:
-    1. El archivo `informe_final.py` del [Ejercicio 11.8](../11_Clases_y_Objetos/03_Herencia.md#ejercicio-118-volvamos-a-armar-todo).
+    1. El archivo `informe_final_finalPosta.py` del [Ejercicio 11.8](../11_Clases_y_Objetos/03_Herencia.md#ejercicio-118-volvamos-a-armar-todo).
     2. El archivo `lote.py` del [Ejercicio 11.9](../11_Clases_y_Objetos/04_Métodos_Especiales.md#ejercicio-119-mejor-salida-para-objetos).
     3. El archivo `canguros_buenos.py` del [Ejercicio 11.11](../11_Clases_y_Objetos/05_Pilas_Colas.md#ejercicio-1111-canguros-buenos-y-canguros-malos).
     4. El archivo `torre_control.py` del [Ejercicio 11.12](../11_Clases_y_Objetos/05_Pilas_Colas.md#ejercicio-1112-torre-de-control).

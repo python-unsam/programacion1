@@ -4,7 +4,7 @@
 
 En esta sección vamos a integrar las últimas dos secciones con lo que veníamos viendo antes del parcial. La idea es que descomprimas [este archivo](./ordenar.zip) en tu carpeta `../Data` y escribas un script que trabaje con los archivos que contiene.
 
-Esta sección tiene un ejercicio para entregar y luego otro más complejo que es optativo.
+Esta sección tiene dos ejercicios.
 
 ### Ejercicio 10.5: Recorrer el árbol de archivos
 Definí una función llamada `archivos_png(directorio)` que arme una lista de todos los archivos .png que se encuentren en algún subdirectorio directorio dado.

@@ -222,7 +222,7 @@ La clase `Hijo` hereda características de ambos padres. Algunos detalles son un
 
 El concepto de herencia es especialmente útil cuando estás escribiendo código que va a ser extendido o adaptado, ya sea en bibliotecas o grandes sistemas configurables, pero también en pequeños paquetes de procesamiento de datos que pueden adquirir datos de diversas fuentes. Como ya dijimos antes, uno puede escribir las relaciones y comportamientos fundamentales y dejar los detalles de implementación de cada interfaz para cuando sean necesarios.
 
-Para verlo mejor volvamos a la función `imprimir_informe()` que figura en el programa `informe_final.py`. Tenía más o menos este aspecto:
+Para verlo mejor volvamos a la función `imprimir_informe()` que figura en el programa `informe_final_final.py`. Tenía más o menos este aspecto:
 
 ```python
 def imprimir_informe(data_informe):
@@ -239,7 +239,7 @@ def imprimir_informe(data_informe):
 Al ejecutar tu programa `informe_final.py` la salida es algo parecido a esto: 
 
 ```python
->>> import informe_final
+>>> import informe_final_final as informe_final
 >>> informe_final.informe_camion('../Data/camion.csv', '../Data/precios.csv')
     Nombre    Cajones     Precio     Cambio
  ---------- ---------- ---------- ----------
@@ -283,7 +283,7 @@ Por ahora la clase no hace nada, pero sirve como una especie de especificación 
 Ahora es necesario modificar la función `imprimir_informe()` para que acepte como fuente de datos un objeto `FormatoTabla` e invoque los métodos de este objeto para producir la tabla de salida. Algo así:
 
 ```python
-# informe_final.py
+# informe_final_final.py
 import formato_tabla
 
 ...
@@ -302,7 +302,7 @@ def imprimir_informe(data_informe, formateador):
 Como agregaste un argumento a `imprimir_informe()`, hay que modificar también `informe_camion()`. Cambialo para que cree un objeto `formateador` de este modo:
 
 ```python
-# informe_final.py
+# informe_final_final.py
 
 import formato_tabla
 
@@ -329,7 +329,7 @@ Ejecutá este código:
 
 ```python
 >>> ========================REINICIAR INTERPRETE========================
->>> import informe_final
+>>> import informe_final_final as informe_final
 >>> informe_final.informe_camion('../Data/camion.csv', '../Data/precios.csv')
 ... crashes ...
 ```
@@ -364,7 +364,7 @@ class FormatoTablaTXT(FormatoTabla):
 Modificá la función `informe_camion()` y probala: 
 
 ```python
-# informe_final.py
+# informe_final_final.py
 
 ...
 
@@ -388,7 +388,7 @@ Este código debería dar la misma salida que antes:
 
 ```python
 >>> ========================REINICIAR INTERPRETE========================
->>> import informe_final
+>>> import informe_final_final as informe_final
 >>> informe_final.informe_camion('../Data/camion.csv', '../Data/precios.csv')
     Nombre   Cantidad     Precio     Cambio 
 ---------- ---------- ---------- ---------- 
@@ -418,7 +418,7 @@ class FormatoTablaCSV(FormatoTabla):
         print(','.join(data_fila))
 ```
 
-Modificá tu programa `informe_final.py` de este modo:
+Modificá tu programa `informe_final_final.py` de este modo:
 
 ```python
 def informe_camion(archivo_camion, archivo_precios):
@@ -441,7 +441,7 @@ Ahora la salida debería tener este aspecto:
 
 ```python
 >>> ========================REINICIAR INTERPRETE========================
->>> import informe_final
+>>> import informe_final_final as informe_final
 >>> informe_final.informe_camion('../Data/camion.csv', '../Data/precios.csv')
 Nombre,Cantidad,Precio,Cambio
 Lima,100,32.20,8.02
@@ -531,7 +531,7 @@ def informe_camion(archivo_camion, archivo_precios, fmt = 'txt'):
 Acordate de testear todas las ramas posibles del código para asegurarte de que está funcionando. Llamalo y pedile crear salidas en todos los formatos (podés ver el HTML con tu browser).
 
 ### Ejercicio 11.8: Volvamos a armar todo
-Modificá tu programa `informe_final.py` de modo que la función `informe_camion()` acepte un parámetro opcional que especifique el formato de salida deseado. Por ejemplo:
+Modificá tu programa `informe_final_final.py` de modo que la función `informe_camion()` acepte un parámetro opcional que especifique el formato de salida deseado. A tu nueva versión llamala `informe_final_finalPosta.py`. Por ejemplo:
 
 ```python
 >>> informe_final.informe_camion('../Data/camion.csv', '../Data/precios.csv', fmt = 'txt')
@@ -550,7 +550,7 @@ Modificá tu programa `informe_final.py` de modo que la función `informe_camion
 Modificá el programa principal y usá `sys.argv()` para poder definir un formato particular directamente desde la línea de comandos. En el siguiente ejemplo se ve un caso de uso. Idealmente, ese parámetro debería ser opcional y, si no se lo pasás, debería andar como antes.
 
 ```bash
-bash $ python3 informe_final.py ../Data/camion.csv ../Data/precios.csv csv
+bash $ python3 informe_final_finalPosta.py ../Data/camion.csv ../Data/precios.csv csv
 Nombre,Cajones,Precio,Cambio
 Lima,100,32.20,8.02
 Naranja,50,91.10,15.18
@@ -562,7 +562,7 @@ Naranja,100,70.44,35.84
 
 ```
 
-Esta versión de `informe_final.py` preparala para entregarla.
+Esta versión de `informe_final_finalPosta.py` preparala para entregarla.
 
 ### Discusión
 
@@ -575,6 +575,7 @@ Siempre que tu programa adhiera a la interfaz de objetos definida por tu clase, 
 
 Dicho esto, es cierto que diseñar un programa en el paradigma orientado a objetos puede resultar algo difícil. Si vas a encarar proyectos grandes con esta herramienta, consultá libros sobre patrones de diseño en POO. De todos modos, haber entendido lo que acabamos de hacer te permite llegar bastante lejos.
 
+Por último, y ante alguans consultas: lo de nombrar a los archivos `informe.py`, `informe_final.py`, `informe_final_final.py`, e `informe_final_finalPosta.py`. Es una forma irónica de mostrar una muy mala práctica a la hora de nombrar scripts. 
 
 [Contenidos](../Contenidos.md) \| [Anterior (2 Clases)](02_Clases.md) \| [Próximo (4 Métodos especiales)](04_Métodos_Especiales.md)
 

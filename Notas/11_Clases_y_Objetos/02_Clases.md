@@ -263,10 +263,10 @@ Seguí estos pasos para crear una lista de las instancias de `Lote` (una lista d
 ```
 
 ### Ejercicio 11.4: Usá tu clase
-Copiá los archivos `informe_final.py` y `costo_camion.py` a la carpeta de ejercicios de la clase actual.
-Modificá la función `leer_camion()` en el programa `informe_final.py` de modo que lea un archivo con el contenido de un camion y devuelva una lista de instancias de `Lote` como mostramos recién en el [Ejercicio 11.3](../11_Clases_y_Objetos/02_Clases.md#ejercicio-113-lista-de-instancias).
+Copiá los archivos `informe_final.py` y `costo_camion.py` a la carpeta de ejercicios de la clase actual. Al nuevo archivo `informe_final.py`, llamalo `informe_final_final.py`
+Modificá la función `leer_camion()` en el programa `informe_final_final.py` de modo que lea un archivo con el contenido de un camion y devuelva una lista de instancias de `Lote` como mostramos recién en el [Ejercicio 11.3](../11_Clases_y_Objetos/02_Clases.md#ejercicio-113-lista-de-instancias).
 
-Cuando hayas hecho esto, cambiá un poco el código en `informe_final.py` y en  `costo_camion.py` de modo que funcionen con objetos `Lote` (instancias de la clase `Lote`) en lugar de diccionarios.
+Cuando hayas hecho esto, cambiá un poco el código en `informe_final_final.py` y en  `costo_camion.py` de modo que funcionen con objetos `Lote` (instancias de la clase `Lote`) en lugar de diccionarios.
 
 Ayuda: No deberían ser cambios importantes. Las referencias a diccionarios ahora tienen que hacer referencia a objetos (`c['cajones']` cambia a `c.cajones`).
 
@@ -276,7 +276,7 @@ Hecho esto, deberías poder ejecutar tus funciones como antes:
 >>> import costo_camion
 >>> costo_camion.costo_camion('../Data/camion.csv')
 47671.15
->>> import informe_final
+>>> import informe_final_final as informe_final
 >>> informe_final.informe_camion('../Data/camion.csv', '../Data/precios.csv')
    Nombre    Cajones     Precio     Cambio
  ---------- ---------- ---------- ----------
