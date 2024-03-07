@@ -4,7 +4,7 @@
 
 En esta clase trabajamos con la generación de números (pseudo)aleatorios, el uso de la biblioteca NumPy y algunos ejemplos de aplicación de estos conceptos. También aprendimos a hacer algunos gráficos elementales en Python.
 
-Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Recordá usar siempre la misma dirección de mail y poner como *subject* del correo **[Unidad 6]**. *Recordá:* Si cursás en el turno de los miércoles, mandá tus ejercicios a python@unsam.edu.ar, si cursás en el turno de los jueves mandalos a pythonunsam@gmail.com.
+Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Recordá usar siempre la misma dirección de mail y poner como *subject* del correo **[Unidad 6]**. *Recordá:* Mandá tus ejercicios a python@unsam.edu.ar.
 
 * Para cerrar esta clase te pedimos que recopiles las soluciones de los siguientes ejercicios:
     1. El archivo `generala.py` del [Ejercicio 6.2](../06_Aleatoriedad/02_Random.md#ejercicio-62-generala-no-necesariamente-servida).
