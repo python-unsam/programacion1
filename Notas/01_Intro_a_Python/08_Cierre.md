@@ -4,14 +4,13 @@
 
 En esta clase aprendimos a correr el intérprete de Python desde la línea de comandos para usarlo como una calculadora. Aprendimos a editar programas con un editor de texto y a correrlos en la terminal. Vimos diferentes tipos de datos: números enteros, números de punto flotante, cadenas y listas.
 
-Como todas las semanas, te vamos a pedir que envíes tus ejercicios resueltos por mail. Por favor, usá siempre la misma dirección de mail así podemos llevar registro de tus entregas. Si cambiás de mail, vamos a registrar mal tus entregas. Como *asunto/subject* del email deberás poner **[Unidad 1]** así, tal cual, con los corchetes y un solo espacio. La semana próxima será **[Unidad 2]** y así sucesivamente hasta fin de cuatrimestre.
+Como todas las semanas, te vamos a pedir que envíes tus ejercicios resueltos por mail. Por favor, usá siempre la dirección email que usaste para inscribirte a la materia al enviar resueltos, así podemos llevar registro de tus entregas. Si cambiás de mail, vamos a registrar mal tus entregas. Como *asunto/subject* del email deberás poner **[Unidad 1]** así, tal cual, con los corchetes y un solo espacio. La semana próxima será **[Unidad 2]** y así sucesivamente hasta fin de cuatrimestre.
 
-Si estás inscriptx en el turno de los miércoles, mandá tus ejercicios a python@unsam.edu.ar, si estás inscriptx en el turno de los jueves mandalos a pythonunsam@gmail.com.
-
+Mandá tus ejercicios resueltos a python@unsam.edu.ar.
 
 Podés enviar los ejercicios de cada unidad hasta el día anterior al de la siguiente clase. Intentá mandar un solo mail con todos tus ejercicios cada semana. Si corregiste algo y querés volver a entregar (dentro del plazo estipulado para esa unidad) volvé a entregar **todos** los ejercicios de la unidad: miraremos solo tu último correo de cada unidad.
 
-Por favor, las instrucciones de arriba son cruciales para que podamos registrar tus entregas adecuadamente. Asegurate de respetarlas y no dudes en consultar durante la próxima clase si te queda alguna duda.
+Por favor, las instrucciones de arriba son cruciales para que podamos registrar tus entregas adecuadamente. Asegurate de respetarlas y no dudes en consultar en clase si te queda alguna duda.
 
 Al enviar tus archivos entendemos que leíste y estás de acuerdo con el [código de honor](../Codigo.md) del curso en el que hablamos de las reglas que rigen en este curso para evitar el plagio así como otros aspectos importantes sobre qué se puede compartir y qué no. En caso contrario no envíes tus archivos y contactate con les docentes.
 
