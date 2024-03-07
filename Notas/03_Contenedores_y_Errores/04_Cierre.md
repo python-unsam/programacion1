@@ -2,7 +2,7 @@
 
 # 3.4 Cierre de la clase
 
-Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Recordá usar siempre la misma dirección de mail y poner como *subject* del correo **[Unidad 3]**. *Recordá:* Si cursás en el turno de los miércoles, mandá tus ejercicios a python@unsam.edu.ar, si cursás en el turno de los jueves mandalos a pythonunsam@gmail.com.
+Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Recordá usar siempre la misma dirección de mail y poner como *subject* del correo **[Unidad 3]**. *Recordá:* Mandá tus ejercicios resueltos a python@unsam.edu.ar.
 
 * Los ejercicios a enviar esta semana son:
     1. El archivo `informe.py` del [Ejercicio 3.4](../03_Contenedores_y_Errores/01_Contenedores.md#ejercicio-34-balances).
