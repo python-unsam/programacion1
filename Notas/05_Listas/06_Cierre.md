@@ -6,7 +6,7 @@ En esta clase vimos algo más sobre el debugger, el manejo de listas y la creaci
 
 Ya no es necesario que te recordemos el [código de honor](../Codigo.md) del curso (aunque lo acabamos de hacer).
 
-Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Recordá usar siempre la misma dirección de mail y poner como *subject* del correo **[Unidad 5]**. *Recordá:* Si cursás en el turno de los miércoles, mandá tus ejercicios a python@unsam.edu.ar, si cursás en el turno de los jueves mandalos a pythonunsam@gmail.com.
+Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Recordá usar siempre la misma dirección de mail y poner como *subject* del correo **[Unidad 5]**. Mandá tus ejercicios resueltos a python@unsam.edu.ar.
 
 
 * Para cerrar esta clase te pedimos que recopiles las soluciones de los siguientes ejercicios:
