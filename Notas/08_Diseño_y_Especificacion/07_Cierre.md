@@ -18,7 +18,7 @@ También estudiamos diversos estilos de gráficos, como obtener un vistazo rápi
     3. El archivo `documentacion.py` del [Ejercicio 8.11](../08_Diseño_y_Especificacion/05_Especificacion_y_Documentacion.md#ejercicio-811-funciones-y-documentacion).
     
 
-Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Recordá usar siempre la misma dirección de mail y poner como *subject* del correo **[Unidad 8]**. *Recordá:* Si cursás en el turno de los miércoles, mandá tus ejercicios a python@unsam.edu.ar, si cursás en el turno de los jueves mandalos a pythonunsam@gmail.com.
+Como todas las semanas, te vamos a pedir que envies tus ejercicios resueltos por mail. Recordá usar siempre la misma dirección de mail y poner como *subject* del correo **[Unidad 8]**. *Recordá:* Mandá tus ejercicios a python@unsam.edu.ar. 
 
 ¡Gracias! 
 
