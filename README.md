@@ -37,10 +37,5 @@ ejercicios de las guías semanales. Estimamos que esto te demandará alrededor d
 dedicación semanal (en algunos casos menos, en algunos casos más, dependiendo del estudiante). 
 
 
-## Docentes
-El curso está a cargo de dos profesores de la ECyT-UNSAM que son también 
-investigadores del CONICET: [Oscar Filevich](http://labning.com.ar/#nosotros) es Lic. en Biología, 
-Dr. en Química y trabaja en neurofisiología; [Rafael Grimson](http://investigadores.unsam.edu.ar/es/investigador/407/Grimson-Rafael) es Lic. en Matemática, Dr. en Computación y trabaja en temas ambientales. 
-
 ## Inscripción
 Para inscribirse en el curso es necesario ser alumnx de la Licencitura en Ciencia de Datos de la UNSAM. Para más información acercarse a la oficina de alumnos de la Escuela de Ciencia y Tecnología de la UNSAM, cita en campus Miguelete.
