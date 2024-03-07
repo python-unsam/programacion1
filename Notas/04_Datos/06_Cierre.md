@@ -6,7 +6,7 @@ Te recordamos que leas el [código de honor](../Codigo.md) del curso en el que h
 
 Tené en cuenta que quizás algunos ejercicios sean corregidos automáticamente: es importante que respetes los nombres de las funciones, el orden de los parámetros y lo que devuelven esas funciones de manera que al correrlas den _exactamente_ lo que pide el enunciado.
 
-* Para cerrar esta clase te pedimos que recopiles las soluciones de los siguientes ejercicios:
+* Para cerrar esta clase te pedimos que recopiles las soluciones de los siguientes ejercicios y las envíes a python@unsam.edu.ar:
     1. El archivo `costo_camion.py` del [Ejercicio 4.4](../04_Datos/02_Secuencias.md#ejercicio-44-la-funcion-zip).
     2. El archivo `tabla_informe.py` del [Ejercicio 4.11](../04_Datos/04_Formato.md#ejercicio-411-un-desafio-de-formato).
     3. El archivo `tablamult.py` del [Ejercicio 4.12](../04_Datos/04_Formato.md#ejercicio-412-tablas-de-multiplicar).
