@@ -8,7 +8,7 @@ En esta sección haremos algunos ejercicios que integran los conceptos aprendido
 
 ## Ejercicios
 
-Vamos a repasar las herramientas que vimos en esta clase aplicándolas a una base de datos sobre árboles en parques de la Ciudad de Buenos Aires. Para empezar, descargá el archivo CSV de "[Arbolado en espacios verdes](https://data.buenosaires.gob.ar/dataset/arbolado-espacios-verdes)" en tu carpeta `Data`. Vamos a estudiar esta base de datos y responder algunas preguntas. Guardá los ejercicios de esta sección en un archivo `arboles.py`.
+Vamos a repasar las herramientas que vimos en esta clase aplicándolas a una base de datos sobre árboles en parques de la Ciudad de Buenos Aires. Para empezar, descargá el archivo CSV de "[Arbolado en espacios verdes](https://data.buenosaires.gob.ar/dataset/arbolado-espacios-verdes)" en tu carpeta `Data`. Si no está disponible usá el backup de "[WayBack Machine](https://web.archive.org/web/20231212080535/data.buenosaires.gob.ar/dataset/arbolado-espacios-verdes)". Vamos a estudiar esta base de datos y responder algunas preguntas. Guardá los ejercicios de esta sección en un archivo `arboles.py`.
 
 ![Arbolado porteño](arboles.jpg)
 
